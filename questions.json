@@ -221,7 +221,7 @@
         "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
         "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
       ],
-      "answer": "c"
+      "answer": "b"
     },
     {
       "question": "Recompunerea relaţiei iniţiale fragmentată mixt, se realizează prin operatorul de:",
@@ -645,6 +645,542 @@
         "e. afişează numărul de ani începând din anul 1990 până la data curentă"
       ],
       "answer": "b"
+    },
+    {
+      "question": "Care din următoarele reguli ale fragmentării este încălcată parţial la fragmentarea verticală?",
+      "options": [
+        "a. Caracterul disjunct",
+        "b. Completitudinea",
+        "c. Contingentarea",
+        "d. Refacerea relaţiei iniţiale"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din următoarele nu este o categorie de baze de date NoSQL?",
+      "options": [
+        "a. Graf",
+        "b. Document databases",
+        "c. Column-Oriented databases",
+        "d. Key-/Value-stores",
+        "e. Row-Oriented databases"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Care din următoarele comenzi MongoDB afişează în format BSON documentele găsite?",
+      "options": [
+        "a. db.catedra.find().BSON()",
+        "b. db.catedra.pretty().find()",
+        "c. db.catedra.show().pretty()",
+        "d. db.catedra.find().pretty()",
+        "e. db.catedra.show().BSON()"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă un protocol de control al accesului concurent în medii distribuite?",
+      "options": [
+        "a. Protocolul 2PL centralizat",
+        "b. Protocolul de zăvorâre al majorităţii",
+        "c. Protocolul 2PL de copie primară",
+        "d. Protocolul 2PL distribuit",
+        "e. Protocolul 2PL sincron"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Ce este în PL/SQL o zonă de memorie gestionată automat de serverul Oracle alocată la execuţia unei instrucţiuni SQL de manipulare sau interogare ce returnează o linie?",
+      "options": [
+        "a. Un cursor implicit",
+        "b. O variabilă de tip înregistrare",
+        "c. Un package",
+        "d. Un cursor explicit",
+        "e. Un trigger"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "În MongoDB indecşii unici sunt cei care …",
+      "options": [
+        "a. Returnează un singur document",
+        "b. Se realizează pe baza unei singure chei",
+        "c. Au nume unic",
+        "d. Conţin în comanda de creare opţiunea {unique:true}"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "La proiectarea unei aplicaţii pe o bază de date MngoDB, care ar fi cea mai potrivită abordare în ceea ce priveşte design-ul bazei de date?",
+      "options": [
+        "a. mai multe colecţii, dar documentele dintr-o anumită colecţie ar trebui să aibă o structură similară, dar aceeaşi pentru fiecare versiune a aplicaţiei",
+        "b. MongoDB nu impune o schemă prestabilită, aşa că proiectantul bazei de date are libertate totală",
+        "c. toate tabelele normalizate să fie transpuse în cadrul unei singure colecţii, pentru eficientizarea accesului la nivel de document",
+        "d. transpunerea tabelelor dintr-o bază de date normalizată în colecţii, fără modificări de design"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din următoarele nu este un motor de stocare pentru o bază de date MongoDB?",
+      "options": [
+        "a. MMAPv1 Storage Engine",
+        "b. WiredFire Storage Engine",
+        "c. WiredTiger Storage Engine"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o motivaţie suficientă pentru apariţia bazelor de date NoSQL?",
+      "options": [
+        "a. Aplicaţii cu audienţă limitată ce nu putea fi distribuite ca servicii pe cale largă",
+        "b. Migrarea de la aplicaţiile cu baze de date monolit către arhitecturi descentralizate",
+        "c. Volume mari de date cu creştere dinamică, structurate, semistructurate, nestructurate şi polimorfice",
+        "d. Sistemele de baze de date relaţionale pu puneau accent pe consistenţa datelor, fiind un motiv suficient pentru înlocuirea lor",
+        "e. Finalul erei aplicaţiilor costisitoare ca timp, cu proiectare în cascadă, cu ciclu de dezvoltare de 1-1,5 ani, în detrimentul celor 'agile'"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care dintre următoarele elemente NU apare în convenţia numelor de obiecte în strategia abordată pentru gestiunea catalogului sistemului R*?",
+      "options": [
+        "a. – Identificatorul utilizatorului care a creat obiectul",
+        "b. – Denumirea locală a obiectului",
+        "c. – Identificatorul sitului în care a fost stocat iniţial obiectul",
+        "d. – Data de creare a obiectului",
+        "e. – Identificatorul sitului în care s-a făcut operaţia de creare"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei, disponibilitatea, securitatea şi fiabilitatea sunt maxime. Probleme - costul ridicat al echipamentelor de stocare, comunicaţia aglomerată în cazul actualizărilor. Soluţie: utilizarea instantaneelor, adică imagini ale bazei de date care se actualizează periodic. Nu întotdeauna oferă o situaţie actualizată, la actualizare se generează trafic mare pe reţea",
+      "options": [
+        "a. Baze de date replicate integral",
+        "b. Baze de date replicate parţial sau selectiv",
+        "c. Baze de date partiţionate, fragmentate sau nereplicate",
+        "d. Baze de date centralizate"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care este efectul comenzii db.colectie.insertMany([{'_id':'tt9eijdskd', ...}, { …} , … ]) în MongoDB?",
+      "options": [
+        "a. nu există comanda insertMany",
+        "b. va introduce toate documentele până la primul duplicat de _id",
+        "c. va introduce toate documentele, cu excepţia duplicatelor de _id"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „unu” în colecţia „mai mulţi” (ex. Categorii încuibărite în Produse), care din următoarele aserţiuni este adecvată?",
+      "options": [
+        "a. Actualizările implică şi operaţii specifice pe vectori (array)",
+        "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
+        "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "În MongoDB se realizează o operaţiune de actualizare, dar datorită unei erori de reţea nu se primeşte confirmarea efectuării operaţiunii în cauză. În ce condiţii reluarea actualizării nu afectează integritatea bazei de date?",
+      "options": [
+        "a. Atunci când actualizarea foloseşte operatorul $inc",
+        "b. Atunci când actualizarea e realizată prin intermediul unei ştergeri şi inserări",
+        "c. Atunci când actualizarea se face relativ la valori curente ale cheilor"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele afirmaţii nu este valabilă atunci când vorbim despre partiţionare în MongoDB?",
+      "options": [
+        "a. Poate exista un singur proces mongos.exe",
+        "b. Mongos.exe - gestionează shard-urile",
+        "c. Mongos.exe face legătura cu mai multe servere (mongod), dintre care unul deţine informaţii legate de celelalte servere",
+        "d. dacă s-a facut interogarea după cheia de partiţionare, atunci mongos va direcţiona cererea doar către acel nod care conţine partiţia aferentă"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „unu” în colecţia „mai mulţi” (ex. Categorii încuibărite în Produse), care din următoarele aserţiuni este adecvată?",
+      "options": [
+        "a. Actualizările implică şi operaţii specifice pe vectori (array)",
+        "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
+        "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o etapă a procesării interogărilor în cadrul sistemelor de baze de date distribuite?",
+      "options": [
+        "a. Localizarea datelor",
+        "b. Analiza cererii globale",
+        "c. Optimizarea cererilor locale",
+        "d. Optimizarea cererilor globale",
+        "e. Descompunerea interogărilor"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "„Procedeul de spargere a relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării partiţiilor rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin.” Aceasta este definiţia pentru:",
+      "options": [
+        "a. Persistenţă",
+        "b. Blocare",
+        "c. Fragmentare",
+        "d. Replicare"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele obiective ale MongoDB/bazelor de date NoSQL sunt obligatorii?",
+      "options": [
+        "a. scheme flexibile",
+        "b. eliminarea anomaliilor de actualizare",
+        "c. eliminarea redundanţei",
+        "d. schema bazei de date să fie în strânsă legătură cu logica de programare"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "În MongoDB sunt valabile următoarele afirmaţii despre indecşii multicheie, CU EXCEPŢIA:",
+      "options": [
+        "a. Nu se pot crea indecsi compusi daca avem mai mult de o cheie de tip array",
+        "b. Se folosesc atunci când una din valorile cheilor este de tip array",
+        "c. Se folosesc atunci când mai mult de una din valorile cheilor este de tip array",
+        "d. Dacă atunci când cream indexul, cheia sau cheile sunt doar valori scalare, atunci nu vom avea index multicheie, însă acesta se va transforma într-un astfel de index atunci când facem prima inserare/actualizare şi folosim un array în loc de valoare scalara la una dintre cheile de indexare"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele nu este o strategie de alocare a reaţiilor nefragmentate?",
+      "options": [
+        "a. Menţinerea lor în acele noduri unde se utilizează cel mai des",
+        "b. Replicarea acestora pe fiecare sit în parte",
+        "c. Nu se poate proiecta un sistem distribuit care să conţină chiar şi parţial relaţii nefragmentate"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({$or:[{an:{$ne 1990}},{autor:{$eq 'ion'}}]}).pretty() în MongoDB?",
+      "options": [
+        "a. afişează publicaţiile din 1990 ale autorului Ion",
+        "b. afişează atât publicaţiile autorului Ion, cât şi a celor care nu sunt din 1990",
+        "c. afişează publicaţiile autorului Ion, care nu sunt din 1990",
+        "d. afişează atât publicaţiile autorului Ion, cât şi a celor care sunt din 1990",
+        "e. afişează atât publicaţiile care nu sunt ale autorului Ion, cât şi a celor care nu sunt din 1990"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele comenzi MongoDB poate crea colecţia catedra?",
+      "options": [
+        "a. db.createCollection({“catedra”})",
+        "b. db.catedra.createCollection()",
+        "c. db.catedra.create()",
+        "d. db.catedra.insert({denumire:'Informatica Economica', anul_inf:'1991',localizare:'etaj 4'})"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "MongoDB poate folosi mai multe motoare de stocare? (True=DA, False=NU)",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o limitare a sistemelor de baze de date relaţionale?",
+      "options": [
+        "a. Spaţiul de memorie ocupat",
+        "b. Reprezentarea precară a entităţilor din lumea reală",
+        "c. Structură de date prea omogenă",
+        "d. Set redus de operaţii",
+        "e. Gestionarea greoaie a interogărilor recursive",
+        "f. Control insuficient al integrităţii şi mecanisme deficitare de gestionare a constrângerilor de întreprindere",
+        "g. Limitarea semantică"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "În PL/SQL operatorul de asociere “=>” nu se foloseşte în modul de pasare:",
+      "options": ["a. Poziţional", "b. Nominal", "c. Combinat/Mixt"],
+      "answer": "a"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă reguli de verificare a fragmentării?",
+      "options": [
+        "a. Alocarea fragmentării",
+        "b. Persistenţa fragmentării",
+        "c. Consistenţa fragmentării",
+        "d. Refacerea relaţiei iniţiale"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Legat de modelarea relaţiilor M:N în MongoDB prin imbricarea documentelor, care din următoarele aserţiuni NU este adecvată?",
+      "options": [
+        "a. Se realizează prin documente încuibărite, de preferinţă cele cu cardinalitate mai mică în cadrul celor cu cardinalitate mai mare (Ex. profesori în cadrul studenţilor)",
+        "b. Apar probleme cu duplicatele şi inconsistenţa",
+        "c. Se realizează prin documente încuibărite, de preferinţă cele cu cardinalitate mai mare în cadrul celor cu cardinalitate mai mică (Ex. studenţi în cadrul profesorilor)"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici? Costurile de comunicaţie şi de stocare sunt relativ reduse. Caracterul local al referinţei, securitatea, fiabilitatea şi disponibilitatea sunt apropiate de maxim.",
+      "options": [
+        "a. Baze de date centralizate",
+        "b. Baze de date replicate integral",
+        "c. Baze de date partiţionate, fragmentate sau nereplicate",
+        "d. Baze de date replicate parţial sau selectiv"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Câte tipuri de excepţii pot fi gestionate de către limbajul PL/SQL?",
+      "options": [],
+      "answer": "3"
+    },
+    {
+      "question": "“Procedeul de spargere al relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării aşa-numitelor fragmente rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin” reprezintă definiţia pentru:",
+      "options": [
+        "a. Fragmentare",
+        "b. Alocare",
+        "c. Proiectare",
+        "d. Replicare"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din următoarele NU este un avantaj al sistemelor de baze de date distribuite?",
+      "options": [
+        "a. Caracterul partajabil şi autonomia locală",
+        "b. Dezvoltare modulară",
+        "c. Gestiunea interogărilor",
+        "d. Structura organizaţională",
+        "e. Disponibilitate şi fiabilitate crescute",
+        "f. Performanţe îmbunătăţite"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Bazele de date NoSQL",
+      "options": [
+        "a. – stochează date relaţionale",
+        "b. – nu au probleme legate de consistenţa datelor",
+        "c. – nu posedă sistem de gestiune a versiunilor",
+        "d. – nu au schemă"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Metoda ROWA (Read-One-Write-All) este specifică următorului protocol:",
+      "options": [
+        "a. Protocolul de zăvorâre al majorităţii",
+        "b. Protocolul 2PL de copie primară",
+        "c. Protocolul 2PL sincron",
+        "d. Protocolul 2PL centralizat",
+        "e. Protocolul 2PL distribuit"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Fie următoarea structură:\nAngajat\n{\n\"_id\": ObjectId(\"100000000000000000000000\"),\nmarca: 1,\nnume: 'Pop',\nprenume: 'Ion',\nsalariu: 1500\n},…\nPotriviţi termenii de mai jos:\n“Pop” este",
+      "options": [
+        "Answer 1 Angajat este Answer 2 “nume” esteAnswer 3 Ceea ce avem între acolade reprezintăAnswer 'id' este Answer 5"
+      ],
+      "answer": "Pop este → valoare, Angajat este → colecţia, nume este → cheie, Ceea ce avem între acolade reprezintă → documentul, _id este → identificatorul de obiect"
+    },
+    {
+      "question": "„Pentru utilizator, sistemul distribuit trebuie să arate – şi să se comporte – la fel cu unul nedistribuit” este",
+      "options": [
+        "a. Principiul autonomiei locale",
+        "b. Regula de aur pentru sisteme de baze de date distribuite",
+        "c. Principiul transparenţei",
+        "d. Principiul distribuirii"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "In PL/SQL, care din următoarele afirmaţii legate de blocurile IF este adevărată?",
+      "options": [
+        "a. Poate să aibă mai multe ramuri ELSIF",
+        "b. Trebuie să aibă o ramură ELSE şi numai una",
+        "c. Trebuie să aibă neapărat mai multe ramuri ELSIF",
+        "d. Poate să aibă mai multe ramuri ELSE"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Comanda rs.slaveOk() din MongoDB are ca efect:",
+      "options": [
+        "a. permite efectuarea citirilor si de pe nodurile secundare",
+        "b. transformarea nodului curent în nod secundar",
+        "c. transformă nodul secundar în nod primar",
+        "d. permite utilizarea de noduri secundare în cadrul unui set de replici"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "În PL/SQL, o funcţie/procedură poate să aibă următorul privilegiu-obiect:",
+      "options": [
+        "a. CREATE",
+        "b. UPDATE",
+        "c. EXECUTION",
+        "d. ALTER",
+        "e. PROCEDURE",
+        "f. EXECUTE"
+      ],
+      "answer": "f"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o etapă a procesului de descompunere a interogărilor în cadrul sistemelor de baze de date distribuite?",
+      "options": [
+        "a. Analiza preliminară",
+        "b. Restructurarea interogărilor",
+        "c. Normalizarea",
+        "d. Analiza semantică",
+        "e. Optimizarea interogărilor",
+        "f. Simplificarea"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Care este rezultatul execuţiei următoarei comenzi MongoDB?\ndb.catedra.remove()",
+      "options": [
+        "a. Şterge ultimul document din colecţie intitulată „catedra”",
+        "b. Şterge întreaga colecţie intitulată „catedra”",
+        "c. Returnează eroare",
+        "d. Şterge documentul intitulat „catedra”",
+        "e. Şterge baza de date intitulată „catedra”",
+        "f. Şterge toate documentele din colecţia intitulată „catedra”"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care dintre următorii termeni nu este specific proiectării sistemelor de baze de date distribuite?",
+      "options": [
+        "a. INTEROGARE",
+        "b. REPLICARE",
+        "c. ALOCARE",
+        "d. PARTIŢIONARE"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei este cel mai scăzut; securitatea, fiabilitatea şi disponibilitatea sunt scăzute şi depind în cea mai mare măsură de nodul central. Costul comunicaţiei este ridicat.",
+      "options": [
+        "a. Baze de date replicate parţial sau selectiv",
+        "b. Baze de date partiţionate, fragmentate sau nereplicate",
+        "c. Baze de date replicate integral",
+        "d. Baze de date centralizate"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care din următoarele sunt dezavantaje legate de fragmentare?",
+      "options": [
+        "a. Securitatea",
+        "b. Paralelismul",
+        "c. Complexitatea proiectării",
+        "d. Uzanţa"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care dintre următoarele NU reprezintă operaţii în cadrul cubului de date?",
+      "options": [
+        "a. Pivotarea",
+        "b. Tranşarea (Slicing)",
+        "c. Consolidarea/Sumarizarea",
+        "d. Defrişarea/Tunderea (Pruning)",
+        "e. Mărunţirea (Dicing)",
+        "f. Detalierea"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Gestiunea partițiilor orizontale în MongoDB sunt gestionate de către serviciul:",
+      "options": [
+        "a. mongop.exe",
+        "b. mongod.exe",
+        "c. mongos.exe",
+        "d. mongo.exe"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "În PL/SQL, o funcţie cu numele ACTUALIZARE, se poate executa în felul următor:",
+      "options": [
+        "a. UPDATE pe tabela pentru care a fost creat",
+        "b. BEGIN\nACTUALIZARE;\nEND;",
+        "c. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Pe lângă componentele subsistemului tranzacţional al unui SGBD dintr-un sistem centralizat, în cel distribuit mai avem:",
+      "options": [
+        "a. Administratorul de tranzacţii",
+        "b. Planificatorul",
+        "c. Administratorul de tranzacţii global",
+        "d. Administratorul de buffere"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Refacerea relaţiei iniţiale din fragmente orizontale se face prin intermediul operatorului de",
+      "options": [
+        "a. Reuniune",
+        "b. Intersecţie",
+        "c. Proiecţie",
+        "d. Uniune",
+        "e. Selecţie",
+        "f. Produs cartezian"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({an:{$gt 1990, $lt 1995}},{titlu:1, _id:0} ).pretty() în MongoDB?",
+      "options": [
+        "a. afişează doar titlul pentru publicaţiile dintre anii 1991 şi 1994",
+        "b. afişează toate titlurile cu valoarea 1 şi id-ul 0 dintre anii 1990 şi 1995",
+        "c. afişează toate titlurile publicate înainte de 1995 sau după 1990",
+        "d. afişează doar titlul pentru publicaţiile dintre anii 1990 şi 1995",
+        "e. find nu permite decât o singură pereche de acolade",
+        "f. afişează toate titlurile cu valoarea 1 şi id-ul 0 dintre anii 1991 şi 1994"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din următoarele nu reprezintă un beneficiu al limbajul PL/SQL?",
+      "options": [
+        "a. Optimizarea blocurilor anonime",
+        "b. Sporirea performanţei în exploatare",
+        "c. Integrarea cu produsele Oracle",
+        "d. Portabilitate (SO, platforme diferite)",
+        "e. Integrarea construcţiilor procedurale cu limbajul SQL",
+        "f. Tratarea excepţiilor",
+        "g. Dezvoltarea programării modularizate (structuri bloc)"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Într-o interogare MongoDB, rolul operatorului $pullAll este de a …",
+      "options": [
+        "a. sterge toate valorile care se potrivesc dintr-o lista",
+        "b. adaugă un element unei liste",
+        "c. adaugă mai multe elemente unei liste",
+        "d. sterge primul sau ultimul element din listă"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care este efectul comenzii db.colectie.insertMany([{\"'_id' : 'tt9eijdskd' , ...}, { …} , … ], {'ordered':false}) în MongoDB?",
+      "options": [
+        "a. nu există comanda insertMany",
+        "b. va introduce toate documentele până la primul duplicat de _id",
+        "c. va introduce toate documentele, cu excepţia duplicatelor de _id"
+      ],
+      "answer": "c"
+    },    
+    {
+      "question": "C.J. Date a formulat un număr de reguli pentru sistemele de baze de date distribuite. Acestea sunt în număr de:",
+      "answer": "12"
     }
   ]
 }
