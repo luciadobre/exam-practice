@@ -1,0 +1,650 @@
+{
+  "questions": [
+    {
+      "question": "Interfaţa vizuală oficială pentru MongoDB este …",
+      "options": [
+        "a. MongoDB Cloud Manager",
+        "b. MongoDB Compass",
+        "c. MongoDB Ops Manager",
+        "d. MongoDB Enterprise Advanced",
+        "e. MongoDB Atlas",
+        "f. MongoDB Professional"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Motorul de stocare MMAP v1 din MongoDB are următoarele caracteristici, CU EXCEPŢIA:",
+      "options": [
+        "a. Asigură blocare la nivel de document",
+        "b. Permite actualizarea in memoria virtuală",
+        "c. Este motorul originar MongoDB",
+        "d. Asigură blocare la nivel de colecţie"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din proprietăţile de mai jos nu sunt specifice sistemelor de baze de date distribuite?",
+      "options": [
+        "a. Repartizarea fizică",
+        "b. Integrarea fizică",
+        "c. Integrarea logică"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă un nivel de replicare în cadrul bazelor de date distribuite?",
+      "options": [
+        "a. Baze de date partiţionate",
+        "b. Baze de date replicate integral",
+        "c. Baze de date modulare",
+        "d. Baze de date replicate parţial sau selectiv"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următorii operatorii nu există în cadrul framework-ului de agregare din MongoDB?",
+      "options": [
+        "a. $project",
+        "b. $match",
+        "c. $select",
+        "d. $group",
+        "e. $unwind",
+        "f. $sort",
+        "g. $out"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Ce este limbajul PL/SQL?",
+      "options": [
+        "a. O extensie neprocedurală 3GL Oracle a limbajului SQL (4GL)",
+        "b. O extensie procedurală 4GL Oracle a limbajului SQL (3GL)",
+        "c. O extensie procedurală 3GL Oracle a limbajului SQL (4GL)"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care dintre următorii termeni NU sunt specifici pentru bazele de date distribuite?",
+      "options": [
+        "a. Fragmentare",
+        "b. Alocare",
+        "c. Replicare",
+        "d. Redundanţă"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o caracteristică a sistemelor federative?",
+      "options": [
+        "a. Autonomia",
+        "b. Distribuirea",
+        "c. Heterogenitatea",
+        "d. Partajarea resurselor"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Sinteza, analiza şi consolidarea dinamică a unor volume vaste de date multidimensionale reprezintă:",
+      "options": [
+        "a. Prelucrarea analitică on-line",
+        "b. OLTP",
+        "c. Data mining",
+        "d. Big data"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({titlu:{$regex: /^Amintiri\\s*/}} ) în MongoDB?",
+      "options": [
+        "a. afişează publicaţiile ale căror prim cuvânt din titlu este 'Amintiri'",
+        "b. afişează publicaţiile ale căror titlu se termină cu cuvântul 'Amintiri'",
+        "c. afişează publicaţiile care conţin în titlu cuvântul 'Amintiri'",
+        "d. afişează publicaţiile care nu conţin în titlu cuvântul 'Amintiri'"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei, disponibilitatea, securitatea şi fiabilitatea sunt maxime.\nProbleme - costul ridicat al echipamentelor de stocare, comunicaţia aglomerată în cazul actualizărilor. Soluţie: utilizarea instantaneelor, adică imagini ale bazei de date care se actualizează periodic. Nu întotdeauna oferă o situaţie actualizată, la actualizare se generează trafic mare pe reţea",
+      "options": [
+        "a. Baze de date replicate integral",
+        "b. Baze de date replicate parţial sau selectiv",
+        "c. Baze de date partiţionate, fragmentate sau nereplicate",
+        "d. Baze de date centralizate"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Principiul operării continue în cadrul sistemelor de baze de date distribuite se bazează pe următoarele proprietăţi:",
+      "options": [
+        "a. Disponibilitate şi fiabilitate",
+        "b. Autonomie şi fiabilitate",
+        "c. Transparenţă şi fiabilitate",
+        "d. Disponibilitate, fiabilitate şi optimalitate",
+        "e. Disponibilitate şi durabilitate"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Implementarea unui sistem de baze de date pe modelul unei agenţii de turism este un exemplu clasic de utilizare a:",
+      "options": [
+        "a. Bazelor de date centralizate",
+        "b. Depozitelor de date",
+        "c. Sistemelor distribuite",
+        "d. Bazelor de date federative",
+        "e. Data mining-ului"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?\n„Această abordare sporeşte performanţele de prelucrare la distanţă ale fragmentării, însă încalcă într-o anumită măsură şi independenţa de situl central. Problema actualizării catalogului se rezumă – spre deosebire de replicarea totală – la doar două cataloage.”",
+      "options": [
+        "a. Replicare totală",
+        "b. Localizare centralizată şi fragmentare",
+        "c. Localizare centralizată"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "“O colecţie de date integrate logic, însă repartizate fizic pe nodurile unei reţele de calculatoare” este definiţia pentru:",
+      "options": [
+        "a. O bază de date distribuită",
+        "b. Un sistem cu prelucrare distribuită",
+        "c. O reţea de calculatoare"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "În PL/SQL, ce anume se defineşte de către utilizator, se alocă acelor interogări care returnează mai mult de o singură linie şi are un nume personalizat?",
+      "options": [
+        "a. Un package",
+        "b. Un cursor implicit",
+        "c. Un cursor explicit",
+        "d. O variabilă de tip înregistrare",
+        "e. Un trigger"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o metodă de proiectare a fragmentării verticale?",
+      "options": [
+        "a. Gruparea atributelor",
+        "b. Partiţionarea atributelor",
+        "c. Utilizarea predicatelor minterm"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele NU sunt motive în favoarea fragmentării?",
+      "options": [
+        "a. Controlul integrităţii",
+        "b. Uzanţa",
+        "c. Securitatea",
+        "d. Paralelismul"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({\"an\":1990}, {titlu:0, _id:0}).pretty() în MongoDB?",
+      "options": [
+        "a. afişează titlul şi id-ul pentru publicaţiile din 1990",
+        "b. find nu permite decât o singură pereche de acolade",
+        "c. afişează toate titlurile cu valoarea şi id-ul 0 pentru publicaţiile din 1990",
+        "d. afişează toate campurile, excluzând doar titlul şi id-ul, pentru publicaţiile din 1990"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "În cadrul unui set de replici din MongoDB, pot exista următoarele tipuri de noduri, dar nu şi …",
+      "options": [
+        "a. Nodul arbitru",
+        "b. Nodul întârziat/obişnuit",
+        "c. Nodul ascuns",
+        "d. Nodul obişnuit (regular)",
+        "e. Nodul progresiv"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "În PL/SQL acest obiect poate returna unul sau mai mulţi parametri",
+      "options": [
+        "a. Declanşatorul",
+        "b. Blocul anonim",
+        "c. Procedura",
+        "d. Funcţia"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „mai mulţi” în colecţia „unu” (ex. Produse încuibărite în Categorii), care din următoarele aserţiuni NU este adecvată?",
+      "options": [
+        "a. Actualizările implică şi operaţii specifice pe vectori (array)",
+        "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
+        "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Recompunerea relaţiei iniţiale fragmentată mixt, se realizează prin operatorul de:",
+      "options": [
+        "a. Reuniune şi restricţie",
+        "b. Uniune şi reuniune",
+        "c. Proiecţie şi uniune",
+        "d. Restricţie şi proiecţie"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "„Procedeul de spargere a relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării partiţiilor rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin.” Aceasta este definiţia pentru:",
+      "options": [
+        "a. Replicare",
+        "b. Persistenţă",
+        "c. Blocare",
+        "d. Fragmentare"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Serviciul de replicare în MongoDB este controlat de …",
+      "options": [
+        "a. mongos",
+        "b. mongod",
+        "c. mongop",
+        "d. mongo",
+        "e. mongom",
+        "f. mongor"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Legat de modelarea relaţiilor arborescente în MongoDB, care din următoarele NU reprezintă un design-pattern cunoscut?",
+      "options": [
+        "a. Modelarea arborelui prin referenţierea părintelui",
+        "b. Modelarea prin liste de ancestori",
+        "c. Modelarea arborelui prin clasificarea zecimală a nodurilor",
+        "d. Modelarea arborelui prin căi materializate",
+        "e. Modelarea arborelui prin referenţierea copilului",
+        "f. Modelarea arborelui prin submulţimi de coordonate",
+        "g. Modelarea arborelui prin referenţierea nodurilor-frunză"
+      ],
+      "answer": "g"
+    },
+    {
+      "question": "Următoarele interogări sunt echivalente? (TRUE=DA, FALSE=NU)\nSELECT Student, Examen, Nota FROM Student S, Examen E, Nota N\nWHERE S.Matricol = N.Matricol AND\nE.CodMat = N.CodMat AND\nNota > 8 AND\nCodMat BETWEEN 50 AND 59;\nSELECT Student, Examen, Nota FROM (Student S INNER JOIN Nota N ON\nS.Matricol = N.Matricol) INNER JOIN Examen E ON E.CodMat = N.CodMat\nWHERE Nota > 8 AND\nCodMat BETWEEN 50 AND 59;\nSELECT Student, Examen, Nota FROM (Examen E INNER JOIN Nota N ON E.CodMat\n= N.CodMat) OUTER JOIN Student S ON S.Matricol = N.Matricol\nWHERE Nota > 8 AND\nCodMat BETWEEN 50 AND 59;",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "În prelucrarea distribuită a interogărilor, problema este tratată",
+      "options": [
+        "a. Atât la nivel local, cât şi la nivel de server",
+        "b. Doar la nivel global",
+        "c. Atât la nivel global, cât şi local",
+        "d. Doar la nivel local"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "În MongoDB, următoarele aserţiuni sunt adevărate, CU EXCEPŢIA:",
+      "options": [
+        "a. La procesul „electoral” participă majoritatea nodurilor iniţiale",
+        "b. Dacă după cădere îşi revine, vechea replică primară va deveni replică secundară",
+        "c. Un nod este replica primară, iar aplicaţia se conectează doar la acest nod",
+        "d. În cazul în care replica primară cade, dintre cele rămase se alege altul ca fiind primar, celelalte fiind secundare",
+        "e. Dacă după cădere îşi revine, vechea replică primară o înlocuieşte pe cea actuală, cea din urmă devenind secundară",
+        "f. Numărul minim de replici e 3"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?\n„Catalogul global reprezintă o reuniune a cataloagelor locale. Chiar dacă pentru principiul autonomiei şi cel al independenţei faţă de un nod central este o abordare acceptabilă, pentru conţinutul redundant, dar mai ales pentru prelucrarea telecerilor reprezintă o variantă inacceptabilă”",
+      "options": [
+        "a. Replicare totală",
+        "b. Localizare centralizată",
+        "c. Fragmentare"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei este cel mai scăzut; securitatea, fiabilitatea şi disponibilitatea sunt scăzute şi depind în cea mai mare măsură de nodul central. Costul comunicaţiei este ridicat.",
+      "options": [
+        "a. Baze de date partiţionate, fragmentate sau nereplicate",
+        "b. Baze de date replicate parţial sau selectiv",
+        "c. Baze de date centralizate",
+        "d. Baze de date replicate integral"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele instrucţiuni SQL nu sunt admise în PL/SQL în mod direct?",
+      "options": [
+        "a. SELECT",
+        "b. Instrucţiuni DML: INSERT, UPDATE şi DELETE + MERGE",
+        "c. Instrucţiuni de control al tranzacţiilor: COMMIT, ROLLBACK, sau SAVEPOINT",
+        "d. Instrucţiuni DDL: CREATE TABLE, ALTER TABLE, DROP TABLE"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Conceptul de Big Data are la bază caracteristicile cunoscute sub acronimul",
+      "options": ["a. 4V", "b. BDB", "c. 4B", "d. 5V", "e. 4D"],
+      "answer": "a"
+    },
+    {
+      "question": "Dezvoltarea de sisteme SGBDOO NU se poate realiza prin următoarea metodă:",
+      "options": [
+        "a. Încapsularea construcţiilor specifice unui limbaj obiectual într-un SGBDR",
+        "b. Extinderea unui limbaj de date convenţional cu facilităţi obiectuale",
+        "c. Crearea unei extensii spre baze de date pentru un limbaj de programare OO",
+        "d. Punerea la dispoziţie a unor biblioteci pentru gestiunea bazelor de date",
+        "e. Proiectarea din temelii a unui limbaj de gestiune a bazelor de date",
+        "f. Încapsularea construcţiilor specifice bazelor de date obiectuale într-un limbaj gazdă"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "„Extragerea datelor reprezintă descoperirea automată a unor tipare netriviale, anterior necunoscute şi potenţial folositoare, bine înrădăcinate în bazele de date.” este definiţia pentru:",
+      "options": [
+        "a. Baze de date distribuite",
+        "b. OLAP",
+        "c. Baze de date centralizate",
+        "d. Baze de date federative",
+        "e. Data mining",
+        "f. Cubul de date"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "În cazul în care avem n predicate simple, câte predicate minterm diferite putem constitui?",
+      "options": ["a. 2n", "b. 3n", "c. n2", "d. 2n"],
+      "answer": "d"
+    },
+    {
+      "question": "Care din următoarele sunt dezavantaje legate de fragmentare?",
+      "options": [
+        "a. Uzanţa",
+        "b. Controlul integrităţii",
+        "c. Paralelismul",
+        "d. Securitatea"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele sunt motive în favoarea fragmentării?",
+      "options": [
+        "a. Controlul integrităţii",
+        "b. Paralelismul",
+        "c. Complexitatea proiectării",
+        "d. Performanţa"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({'an':1990}, {titlu:1, _id:0}).pretty() în MongoDB?",
+      "options": [
+        "a. find nu permite decât o singură pereche de acolade",
+        "b. afişează toate titlurile cu valoarea 1 şi id-ul 0 pentru publicaţiile din 1990",
+        "c. afişează doar titlul, chiar şi id-ul este exclus, pentru publicaţiile din 1990",
+        "d. afişează titlul şi id-ul pentru publicaţiile din 1990"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele comenzi deschide serverul de baze de date, pe baza de date din directorul D:\\MongoData?",
+      "options": [
+        "a. D:\\MongoDB\\bin\\mongos.exe --dbpath D:\\MongoData",
+        "b. D:\\MongoDB\\bin\\mongo.exe --dbpath D:\\MongoData",
+        "c. D:\\MongoDB\\bin\\mongod.exe --dbpath D:\\MongoData"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele anomalii este mai specifică sistemelor de baze de date distribuite?",
+      "options": [
+        "a. actualizarea pierdută",
+        "b. dependenţa nefinalizată",
+        "c. incoerenţei copiilor multiple",
+        "d. analiza inconsistentă"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Ce înseamnă în PL/SQL următoarea reprezentare?\n<<parinte>>",
+      "options": [
+        "a. Se foloseşte pentru comentarii",
+        "b. S-a etichetat un bloc, cu numele „parinte”",
+        "c. Nu există o astfel de construcţie",
+        "d. Se folosşeşte în atribuiri, expresii de tip text, în cadrul cărora există deja caracterele apostrof (’) şi ghilimele (”)"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele sunt nume valide de identificatori PL/SQL?",
+      "options": [
+        "a. Procent%",
+        "b. Variabila_ce_contine_numarul_de_ani",
+        "c. 1_Aparitie",
+        "d. Nume si Prenume",
+        "e. Nu_Stiu",
+        "f. Nume-Prenume"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?\n„Dezavantaj: necesită un trafic şi un control al integrităţii suplimentar; afectează şi autonomia siturilor prin această nevoie continuă de propagare a actualizărilor în fiecare sit”",
+      "options": [
+        "a. Replicare totală",
+        "b. Fragmentare",
+        "c. Localizare centralizată"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Implementarea unui sistem de baze de date pe modelul unei agenţii de turism este un exemplu clasic de utilizare a:",
+      "options": [
+        "a. Depozitelor de date",
+        "b. Sistemelor distribuite",
+        "c. Bazelor de date federative",
+        "d. Bazelor de date centralizate",
+        "e. Data mining-ului"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o caracteristică a sistemelor federative?",
+      "options": [
+        "a. Heterogenitatea",
+        "b. Distribuirea",
+        "c. Partajarea resurselor",
+        "d. Autonomia"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Motorul de stocare MMAP v1 din MongoDB are următoarele caracteristici, CU EXCEPŢIA:",
+      "options": [
+        "a. Asigură blocare la nivel de colecţie",
+        "b. Asigură blocare la nivel de document",
+        "c. Permite actualizarea in memoria virtuală",
+        "d. Este motorul originar MongoDB"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "În MongoDB, consistenţa la scriere este caracterizată de următoarele, dar nu şi de …",
+      "options": [
+        "a. Aplicaţia scrie concomitent pe nodul primar, dar şi pe cele secundare",
+        "b. Citirile se pot efectua fie de pe acesta, fie de pe cele secundare",
+        "c. Replicarea e asincronă",
+        "d. Aplicaţia scrie întotdeauna pe nodul primar",
+        "e. Poţi efectua citirile de pe alte noduri, însă nu ai garanţia că ai citit valoarea actualizată"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o caracteristică pentru bazele de date NoSQL?",
+      "options": [
+        "a. Caching Integrat",
+        "b. Alocarea",
+        "c. Replicarea",
+        "d. Scheme dinamice",
+        "e. Partiţionarea automată"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({'an':1990}, {titlu:1, _id:0}).pretty() în MongoDB?",
+      "options": [
+        "a. afişează publicaţiile din 1990 ale autorului Ion",
+        "b. afişează atât publicaţiile autorului Ion, cât şi a celor care nu sunt din 1990",
+        "c. afişează atât publicaţiile care nu sunt ale autorului Ion, cât şi a celor care nu sunt din 1990",
+        "d. afişează publicaţiile autorului Ion, care nu sunt din 1990",
+        "e. afişează atât publicaţiile autorului Ion, cât şi a celor care sunt din 1990"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Care dintre următoarele NU reprezintă un principiu a lui C.J. Date referitor la sistemele distribuite?",
+      "options": [
+        "a. Gestionarea distribuită a tranzacţiilor",
+        "b. Independenţa de hardware",
+        "c. Independenţa de software",
+        "d. Prelucrarea distribuită a interogărilor"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Caracteristica bazelor de date distribuite potrivit căreia utilizatorul trebuie să o perceapă ca făcând parte dintr-o singură bază de date globală – la fel ca și în cazul bazelor de date locale sau centralizate – poartă numele de:",
+      "options": [
+        "a. Fragmentare",
+        "b. Alocare",
+        "c. Integrarea fizică",
+        "d. Integrarea logică"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Pieţele de date (Data Marts) sunt:",
+      "options": [
+        "a. locul de întâlnire al cererii cu oferta de date",
+        "b. componente de bază ale unui system distribuit",
+        "c. submulţimi ale depozitelor de date, particularizate în vederea îndeplinirii nevoilor unui departament sau care acoperă un subiect",
+        "d. supramulţimi ale depozitelor de date, specializate în vederea îndeplinirii nevoilor unei organizaţii sau care acoperă un subiect"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Fragmentarea verticală are la bază operatorul de:",
+      "options": [
+        "a. Proiecţie",
+        "b. Restricţie",
+        "c. Conjuncţie",
+        "d. Disjuncţie",
+        "e. Discreţie",
+        "f. Negaţie"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({'an':{$ne 1990}}).count() în MongoDB?",
+      "options": [
+        "a. afişează numărul total de publicaţii din anul 1990",
+        "b. afişează numărul total de publicaţii, cu excepţia celor din 1990",
+        "c. find nu permite utilizarea împreună cu count",
+        "d. afişează numărul de ani scurşi până în anul 1990",
+        "e. afişează numărul total de publicaţii, cu excepţia celor din 1990"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "În PL/SQL, o procedură cu numele ACTUALIZARE, se poate executa în felul următor:",
+      "options": [
+        "a. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)",
+        "b. BEGIN ACTUALIZARE; END;",
+        "c. X:= ACTUALIZARE",
+        "d. UPDATE pe tabela pentru care a fost creat"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Predicatele minterm sunt ...",
+      "options": [
+        "a. disjuncţii de predicate simple sau negaţii ale acestora",
+        "b. conjuncţii de predicate simple sau negaţii ale acestora",
+        "c. conjuncţia dintre un predicat simplu şi negaţia acestuia"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "În PL/SQL acest obiect poate returna unul sau mai mulţi parametri",
+      "options": [
+        "a. Declanşatorul",
+        "b. Funcţia",
+        "c. Blocul anonim",
+        "d. Procedura"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici? „Nu este o soluţie prea agreată pe motivul că încalcă principiul autonomiei şi cel al independenţei faţă de un sit central. Fiabilitatea şi disponibilitatea sunt puse sub semnul întrebării”",
+      "options": [
+        "a. Replicare totală",
+        "b. Fragmentare",
+        "c. Localizare centralizată"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care dintre următoarele NU reprezintă un principiu a lui C.J. Date referitor la sistemele distribuite?",
+      "options": [
+        "a. Gestionarea distribuită a tranzacţiilor",
+        "b. Independenţa de hardware",
+        "c. Independenţa de software",
+        "d. Prelucrarea distribuită a interogărilor"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Caracteristica bazelor de date distribuite potrivit căreia utilizatorul trebuie s-o perceapă ca făcând parte dintr-o singură bază de date globală – la fel ca şi în cazul bazelor de date locale sau centralizate – poartă numele de:",
+      "options": [
+        "a. Fragmentare",
+        "b. Alocare",
+        "c. Integrarea fizică",
+        "d. Integrarea logică"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Pieţele de date (Data Marts) sunt:",
+      "options": [
+        "a. locul de întâlnire al cererii cu oferta de date",
+        "b. componente de bază ale unui system distribuit",
+        "c. submulţimi ale depozitelor de date, particularizate în vederea îndeplinirii nevoilor unui departament sau care acoperă un subiect",
+        "d. supramulţimi ale depozitelor de date, specializate în vederea îndeplinirii nevoilor unei organizaţii sau care acoperă un subiect"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Fragmentarea verticală are la bază operatorul de:",
+      "options": [
+        "a. Proiecţie",
+        "b. Restricţie",
+        "c. Conjuncţie",
+        "d. Disjuncţie",
+        "e. Discreţie",
+        "f. Negaţie"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care va fi efectul comenzii db.colectie.find({an:{$ne 1990}}).count() în MongoDB?",
+      "options": [
+        "a. afişează numărul total de publicaţii din anul 1990",
+        "b. afişează numărul total de publicaţii, cu excepţia celor din 1990",
+        "c. find nu permite utilizarea împreună cu count",
+        "d. afişează numărul de ani scurşi până în anul 1990",
+        "e. afişează numărul de ani începând din anul 1990 până la data curentă"
+      ],
+      "answer": "b"
+    }
+  ]
+}
