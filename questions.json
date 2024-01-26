@@ -955,7 +955,7 @@
         "e. Disponibilitate şi fiabilitate crescute",
         "f. Performanţe îmbunătăţite"
       ],
-      "answer": "c"
+      "answer": "b"
     },
     {
       "question": "Bazele de date NoSQL",
@@ -1177,10 +1177,95 @@
         "c. va introduce toate documentele, cu excepţia duplicatelor de _id"
       ],
       "answer": "c"
-    },    
+    },
     {
       "question": "C.J. Date a formulat un număr de reguli pentru sistemele de baze de date distribuite. Acestea sunt în număr de:",
       "answer": "12"
+    },
+    {
+      "question": "Ce face comanda db.catedra.drop() în MongoDB?",
+      "options": [
+        "a. Şterge baza de date intitulată „catedra”",
+        "b. Şterge toate documentele din colecţia intitulată „catedra”",
+        "c. Şterge documentul intitulat „catedra”",
+        "d. Şterge ultimul document din colecţie intitulată „catedra”",
+        "e. Şterge întreaga colecţie intitulată „catedra”"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Făcând o comparaţie între modelul de date relaţional şi cel obiectual, termenul corespondent pentru tuplu este:",
+      "options": [
+        "a. Relaţia",
+        "b. Atributul",
+        "c. Obiectul",
+        "d. Clasa",
+        "e. Identificatorul de obiect"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "În PL/SQL acest obiect trebuie să returneze un parametru şi numai unul:",
+      "options": [
+        "a. Funcţia",
+        "b. Procedura",
+        "c. Blocul anonim",
+        "d. Cursorul implicit",
+        "e. Declanşatorul"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Predicatele minterm stau la baza proiectării:",
+      "options": [
+        "a. Acestea sunt folosite pentru alocare",
+        "b. Fragmentării Orizontale",
+        "c. Fragmentării Verticale",
+        "d. Acestea sunt folosite pentru replicare"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Care din următoarele NU reprezintă o etapă a procesului de descompunere a interogărilor în cadrul sistemelor de baze de date distribuite?",
+      "options": [
+        "a. Normalizarea",
+        "b. Restructurarea interogărilor",
+        "c. Analiza preliminară",
+        "d. Simplificarea",
+        "e. Analiza semantică",
+        "f. Optimizarea interogărilor"
+      ],
+      "answer": "f"
+    },
+    {
+      "question": "Care din următoarele comenzi MongoDB NU va insera un document cu exact 2 perechi cheie-valoare?",
+      "options": [
+        "a. db.catedra.insert({denumire:'Informatica Economica', _id:100})",
+        "b. db.catedra.insert({_id:100, denumire:'Informatica Economica'})",
+        "c. db.catedra.insert({id:100, denumire:'Informatica Economica'})",
+        "d. db.catedra.insert({denumire:'Informatica Economica'})"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Wrapper-ul este un termen care se leagă în principal de …",
+      "options": [
+        "a. Independenţa de sistemul de operare",
+        "b. Independenţa de sistemul SGBD",
+        "c. Independenţa de hardware",
+        "d. Independenţa de reţea"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "În PL/SQL, un declanşator cu numele ACTUALIZARE, se poate executa în felul următor:",
+      "options": [
+        "a. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)",
+        "b. BEGIN ACTUALIZARE; END;",
+        "c. X:= ACTUALIZARE",
+        "d. UPDATE pe tabela pentru care a fost creat"
+      ],
+      "answer": "d"
     }
   ]
 }

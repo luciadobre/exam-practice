@@ -2,15 +2,40 @@
 <html>
   <head>
     <title>Hard-coded JSON Example</title>
-    <script
-      type="text/javascript"
-      src="https://tiiny.host/ad-script.js"
-    ></script>
-    <script
-      defer=""
-      data-domain="white-margi-51.tiiny.site"
-      src="https://analytics.tiiny.site/js/plausible.js"
-    ></script>
+    <style>
+      body {
+        background-color: #121212;
+        color: #c9c9c9;
+        font-family: Arial, sans-serif;
+      }
+      h2 {
+        color: #c9c8c8;
+      }
+      #button-container button,
+      .show-answer {
+        background-color: #333333;
+        color: #999999;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #button-container button:hover,
+      .show-answer:hover {
+        background-color: #555555;
+      }
+      ul {
+        list-style-type: none;
+      }
+      ul li {
+        margin: 5px 0;
+        padding: 5px;
+        background-color: #222222;
+        color: #cccccc;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
     <div id="question-container">
@@ -95,10 +120,16 @@
                   correctAnswersCount++;
                   remainingQuestionsCount--;
                   questions.splice(currentQuestionIndex, 1);
+                  if (currentQuestionIndex >= questions.length) {
+                    currentQuestionIndex = questions.length - 1;
+                  }
                   nextQuestion();
                 });
 
                 noButton.addEventListener("click", () => {
+                  remainingQuestionsCount--;
+                  currentQuestionIndex =
+                    (currentQuestionIndex + 1) % questions.length;
                   nextQuestion();
                 });
 
@@ -112,11 +143,10 @@
             }
 
             function nextQuestion() {
-              currentQuestionIndex++;
               if (currentQuestionIndex < questions.length) {
                 loadQuestion();
               } else {
-                // Aici poti adauga cod pentru a gestiona finalizarea quiz-ului
+                // Add code here to handle the end of the quiz
               }
               remainingQuestionsCountElement.textContent =
                 remainingQuestionsCount;
