@@ -121,15 +121,16 @@
                   remainingQuestionsCount--;
                   questions.splice(currentQuestionIndex, 1);
                   if (currentQuestionIndex >= questions.length) {
-                    currentQuestionIndex = questions.length - 1;
+                    currentQuestionIndex = 0;
                   }
                   nextQuestion();
                 });
 
                 noButton.addEventListener("click", () => {
-                  remainingQuestionsCount--;
-                  currentQuestionIndex =
-                    (currentQuestionIndex + 1) % questions.length;
+                  currentQuestionIndex++;
+                  if (currentQuestionIndex >= questions.length) {
+                    currentQuestionIndex = 0;
+                  }
                   nextQuestion();
                 });
 
@@ -143,7 +144,7 @@
             }
 
             function nextQuestion() {
-              if (currentQuestionIndex < questions.length) {
+              if (remainingQuestionsCount > 0) {
                 loadQuestion();
               } else {
                 // Add code here to handle the end of the quiz
