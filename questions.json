@@ -1,1272 +1,1276 @@
 {
   "questions": [
     {
-      "question": "Interfaţa vizuală oficială pentru MongoDB este …",
+      "question": "Informațiile din sesiuni",
       "options": [
-        "a. MongoDB Cloud Manager",
-        "b. MongoDB Compass",
-        "c. MongoDB Ops Manager",
-        "d. MongoDB Enterprise Advanced",
-        "e. MongoDB Atlas",
-        "f. MongoDB Professional"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Motorul de stocare MMAP v1 din MongoDB are următoarele caracteristici, CU EXCEPŢIA:",
-      "options": [
-        "a. Asigură blocare la nivel de document",
-        "b. Permite actualizarea in memoria virtuală",
-        "c. Este motorul originar MongoDB",
-        "d. Asigură blocare la nivel de colecţie"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care din proprietăţile de mai jos nu sunt specifice sistemelor de baze de date distribuite?",
-      "options": [
-        "a. Repartizarea fizică",
-        "b. Integrarea fizică",
-        "c. Integrarea logică"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă un nivel de replicare în cadrul bazelor de date distribuite?",
-      "options": [
-        "a. Baze de date partiţionate",
-        "b. Baze de date replicate integral",
-        "c. Baze de date modulare",
-        "d. Baze de date replicate parţial sau selectiv"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care din următorii operatorii nu există în cadrul framework-ului de agregare din MongoDB?",
-      "options": [
-        "a. $project",
-        "b. $match",
-        "c. $select",
-        "d. $group",
-        "e. $unwind",
-        "f. $sort",
-        "g. $out"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Ce este limbajul PL/SQL?",
-      "options": [
-        "a. O extensie neprocedurală 3GL Oracle a limbajului SQL (4GL)",
-        "b. O extensie procedurală 4GL Oracle a limbajului SQL (3GL)",
-        "c. O extensie procedurală 3GL Oracle a limbajului SQL (4GL)"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care dintre următorii termeni NU sunt specifici pentru bazele de date distribuite?",
-      "options": [
-        "a. Fragmentare",
-        "b. Alocare",
-        "c. Replicare",
-        "d. Redundanţă"
+        "a. Sunt păstrate pe client în directorul pentru fișiere temporare sau pot fi memorate într-un bd",
+        "b. Sunt păstrate pe server în directorul pt fișiere …. Dar se interzice memorarea datelor din ele într-o bd",
+        "c. Sunt păstrate strici într-o bd existent pe sv",
+        "d. Sunt păstrate pe sv în directorul pt fișiere temporare sau pot fi memorate și într-o bd"
       ],
       "answer": "d"
     },
     {
-      "question": "Care din următoarele NU reprezintă o caracteristică a sistemelor federative?",
+      "question": "Functia isset() din php are rolul:",
       "options": [
-        "a. Autonomia",
-        "b. Distribuirea",
-        "c. Heterogenitatea",
-        "d. Partajarea resurselor"
+        "a. De a verifica dacă o variabila a fost memorata in … superglobal $_SeSSion",
+        "b. De a verifica daca o var a fost declarata",
+        "c. De a verifica cate date se afla memorate in tabloul superglobal $_SESSION",
+        "d. De a verifica dacă date memorate într-un tablou superglobal sunt de tip Boolean"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Blocurile cookie sunt utilizate",
+      "options": [
+        "a. Pentru a securiza info. Referitoare la contul utilizatorului",
+        "b. Pt a realiza operatii cu character collaborator",
+        "c. Pt a crea sesiuni",
+        "d. Pt a instrui serverul sa transmita o versiune personalizată a paginii web cerute"
       ],
       "answer": "d"
     },
     {
-      "question": "Sinteza, analiza şi consolidarea dinamică a unor volume vaste de date multidimensionale reprezintă:",
+      "question": "Un fișier php poate sa creeze un form care sa transmita/ trimită info chiar către fișierul php care-l contine:",
       "options": [
-        "a. Prelucrarea analitică on-line",
-        "b. OLTP",
-        "c. Data mining",
-        "d. Big data"
+        "a. Numai dacă folosește fct array();",
+        "b. Numai dacă se creaza o sesiune care va reține informația.",
+        "c. Numai dacă se folosește comanda isset();",
+        "d. Numai dacă fișierul e conectat la o pag web;"
       ],
-      "answer": "a"
+      "answer": "b"
     },
     {
-      "question": "Care va fi efectul comenzii db.colectie.find({titlu:{$regex: /^Amintiri\\s*/}} ) în MongoDB?",
+      "question": "Datele din formularul html pot fi transmise serverului:",
       "options": [
-        "a. afişează publicaţiile ale căror prim cuvânt din titlu este 'Amintiri'",
-        "b. afişează publicaţiile ale căror titlu se termină cu cuvântul 'Amintiri'",
-        "c. afişează publicaţiile care conţin în titlu cuvântul 'Amintiri'",
-        "d. afişează publicaţiile care nu conţin în titlu cuvântul 'Amintiri'"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei, disponibilitatea, securitatea şi fiabilitatea sunt maxime.\nProbleme - costul ridicat al echipamentelor de stocare, comunicaţia aglomerată în cazul actualizărilor. Soluţie: utilizarea instantaneelor, adică imagini ale bazei de date care se actualizează periodic. Nu întotdeauna oferă o situaţie actualizată, la actualizare se generează trafic mare pe reţea",
-      "options": [
-        "a. Baze de date replicate integral",
-        "b. Baze de date replicate parţial sau selectiv",
-        "c. Baze de date partiţionate, fragmentate sau nereplicate",
-        "d. Baze de date centralizate"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Principiul operării continue în cadrul sistemelor de baze de date distribuite se bazează pe următoarele proprietăţi:",
-      "options": [
-        "a. Disponibilitate şi fiabilitate",
-        "b. Autonomie şi fiabilitate",
-        "c. Transparenţă şi fiabilitate",
-        "d. Disponibilitate, fiabilitate şi optimalitate",
-        "e. Disponibilitate şi durabilitate"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Implementarea unui sistem de baze de date pe modelul unei agenţii de turism este un exemplu clasic de utilizare a:",
-      "options": [
-        "a. Bazelor de date centralizate",
-        "b. Depozitelor de date",
-        "c. Sistemelor distribuite",
-        "d. Bazelor de date federative",
-        "e. Data mining-ului"
+        "a. Numai cu GET",
+        "b. Numai prin metode scriptice",
+        "c. Folosind butonul submit iar la propr method se precizează numele paginii",
+        "d. Folosind fie metoda GET, fie POST"
       ],
       "answer": "d"
     },
     {
-      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?\n„Această abordare sporeşte performanţele de prelucrare la distanţă ale fragmentării, însă încalcă într-o anumită măsură şi independenţa de situl central. Problema actualizării catalogului se rezumă – spre deosebire de replicarea totală – la doar două cataloage.”",
+      "question": "Conectarea la BD din cadrul unui script php:",
       "options": [
-        "a. Replicare totală",
-        "b. Localizare centralizată şi fragmentare",
-        "c. Localizare centralizată"
+        "a. Se face folosind GET/POST",
+        "b. Se face folosind sesiuni/ cookies",
+        "c. Se datoreaza bibliotecii de constant incluse în php care furniz interfața cu sistemul MySQl",
+        "d. Se datoreaza bibliotecii de funcții incluse în php care furnizeaza o interfata cu sistemul Mysql"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Rolul butonului Submit din formular:",
+      "options": [
+        "a. Este acela de a face conexiunea la o bd pe care utilizatorul o alege",
+        "b. este acela de a transmite server-ului info pe care utilizează. Le introduce în campurile formularului",
+        "c. de a nu transmite serverului info pe care utilizează. Le introduce în campurile formularului",
+        "d. de a transmite serverului info despre sesiunile create cu formularul"
       ],
       "answer": "b"
     },
     {
-      "question": "“O colecţie de date integrate logic, însă repartizate fizic pe nodurile unei reţele de calculatoare” este definiţia pentru:",
+      "question": "Serverul prelucrează și transmite datele primite din formular",
       "options": [
-        "a. O bază de date distribuită",
-        "b. Un sistem cu prelucrare distribuită",
-        "c. O reţea de calculatoare"
+        "a. Numai dacă acestea sunt transmise prin folosirea FTP",
+        "b. Unei pagini web dinamice care le memoreaza într-o …. sau baza de date;",
+        "c. Le trimite prin email la sv de baza de date",
+        "d. Numai unui formular existent intr-o pagina web static"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Functia mysql_connect() se invoca pentru:",
+      "options": [
+        "a. Conectarea la un server MySql",
+        "b. Conectarea la un sv web",
+        "c. Specificarea numelui bd dorite",
+        "d. Conectarea la un sv in pag web care au legatura la date MySql"
       ],
       "answer": "a"
     },
     {
-      "question": "În PL/SQL, ce anume se defineşte de către utilizator, se alocă acelor interogări care returnează mai mult de o singură linie şi are un nume personalizat?",
+      "question": "Functia EXIT are rolul de a:",
       "options": [
-        "a. Un package",
-        "b. Un cursor implicit",
-        "c. Un cursor explicit",
-        "d. O variabilă de tip înregistrare",
-        "e. Un trigger"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă o metodă de proiectare a fragmentării verticale?",
-      "options": [
-        "a. Gruparea atributelor",
-        "b. Partiţionarea atributelor",
-        "c. Utilizarea predicatelor minterm"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care din următoarele NU sunt motive în favoarea fragmentării?",
-      "options": [
-        "a. Controlul integrităţii",
-        "b. Uzanţa",
-        "c. Securitatea",
-        "d. Paralelismul"
+        "a. Opri execuția întregului script php",
+        "b. Reveni dr-o functie",
+        "c. Returna valoarea unei variabile citite de la tastatura",
+        "d. De a opri sv web"
       ],
       "answer": "a"
     },
     {
-      "question": "Care va fi efectul comenzii db.colectie.find({\"an\":1990}, {titlu:0, _id:0}).pretty() în MongoDB?",
+      "question": "Adevarat ca in Php:",
       "options": [
-        "a. afişează titlul şi id-ul pentru publicaţiile din 1990",
-        "b. find nu permite decât o singură pereche de acolade",
-        "c. afişează toate titlurile cu valoarea şi id-ul 0 pentru publicaţiile din 1990",
-        "d. afişează toate campurile, excluzând doar titlul şi id-ul, pentru publicaţiile din 1990"
+        "a. Se pot crea tablouri numai unidimensionale",
+        "b. Nu se pot transmite date intre 2 pag web",
+        "c. Se pot crea sesiuni pentru a transmite date de la o pag web la alta",
+        "d. Nu se folosesc cicluri"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Ce afișează pe ecran: $x=array(10,12, 30, 10, 89, 90); Foreach($x as $y) Echo “Valoarea curenta este $y”;",
+      "options": [
+        "a. Prima valoare a tabloului",
+        "b. Indicii tabloului și valorile lor",
+        "c. Nu afișează nimic",
+        "d. Afișează elementele tabloului"
       ],
       "answer": "d"
     },
     {
-      "question": "În cadrul unui set de replici din MongoDB, pot exista următoarele tipuri de noduri, dar nu şi …",
+      "question": "Efectul comenzii FOREACH ($element_vector as $cheie => $valoare) este:",
       "options": [
-        "a. Nodul arbitru",
-        "b. Nodul întârziat/obişnuit",
-        "c. Nodul ascuns",
-        "d. Nodul obişnuit (regular)",
-        "e. Nodul progresiv"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "În PL/SQL acest obiect poate returna unul sau mai mulţi parametri",
-      "options": [
-        "a. Declanşatorul",
-        "b. Blocul anonim",
-        "c. Procedura",
-        "d. Funcţia"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „mai mulţi” în colecţia „unu” (ex. Produse încuibărite în Categorii), care din următoarele aserţiuni NU este adecvată?",
-      "options": [
-        "a. Actualizările implică şi operaţii specifice pe vectori (array)",
-        "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
-        "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Recompunerea relaţiei iniţiale fragmentată mixt, se realizează prin operatorul de:",
-      "options": [
-        "a. Reuniune şi restricţie",
-        "b. Uniune şi reuniune",
-        "c. Proiecţie şi uniune",
-        "d. Restricţie şi proiecţie"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "„Procedeul de spargere a relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării partiţiilor rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin.” Aceasta este definiţia pentru:",
-      "options": [
-        "a. Replicare",
-        "b. Persistenţă",
-        "c. Blocare",
-        "d. Fragmentare"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Serviciul de replicare în MongoDB este controlat de …",
-      "options": [
-        "a. mongos",
-        "b. mongod",
-        "c. mongop",
-        "d. mongo",
-        "e. mongom",
-        "f. mongor"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Legat de modelarea relaţiilor arborescente în MongoDB, care din următoarele NU reprezintă un design-pattern cunoscut?",
-      "options": [
-        "a. Modelarea arborelui prin referenţierea părintelui",
-        "b. Modelarea prin liste de ancestori",
-        "c. Modelarea arborelui prin clasificarea zecimală a nodurilor",
-        "d. Modelarea arborelui prin căi materializate",
-        "e. Modelarea arborelui prin referenţierea copilului",
-        "f. Modelarea arborelui prin submulţimi de coordonate",
-        "g. Modelarea arborelui prin referenţierea nodurilor-frunză"
-      ],
-      "answer": "g"
-    },
-    {
-      "question": "Următoarele interogări sunt echivalente? (TRUE=DA, FALSE=NU)\nSELECT Student, Examen, Nota FROM Student S, Examen E, Nota N\nWHERE S.Matricol = N.Matricol AND\nE.CodMat = N.CodMat AND\nNota > 8 AND\nCodMat BETWEEN 50 AND 59;\nSELECT Student, Examen, Nota FROM (Student S INNER JOIN Nota N ON\nS.Matricol = N.Matricol) INNER JOIN Examen E ON E.CodMat = N.CodMat\nWHERE Nota > 8 AND\nCodMat BETWEEN 50 AND 59;\nSELECT Student, Examen, Nota FROM (Examen E INNER JOIN Nota N ON E.CodMat\n= N.CodMat) OUTER JOIN Student S ON S.Matricol = N.Matricol\nWHERE Nota > 8 AND\nCodMat BETWEEN 50 AND 59;",
-      "options": ["True", "False"],
-      "answer": "False"
-    },
-    {
-      "question": "În prelucrarea distribuită a interogărilor, problema este tratată",
-      "options": [
-        "a. Atât la nivel local, cât şi la nivel de server",
-        "b. Doar la nivel global",
-        "c. Atât la nivel global, cât şi local",
-        "d. Doar la nivel local"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "În MongoDB, următoarele aserţiuni sunt adevărate, CU EXCEPŢIA:",
-      "options": [
-        "a. La procesul „electoral” participă majoritatea nodurilor iniţiale",
-        "b. Dacă după cădere îşi revine, vechea replică primară va deveni replică secundară",
-        "c. Un nod este replica primară, iar aplicaţia se conectează doar la acest nod",
-        "d. În cazul în care replica primară cade, dintre cele rămase se alege altul ca fiind primar, celelalte fiind secundare",
-        "e. Dacă după cădere îşi revine, vechea replică primară o înlocuieşte pe cea actuală, cea din urmă devenind secundară",
-        "f. Numărul minim de replici e 3"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?\n„Catalogul global reprezintă o reuniune a cataloagelor locale. Chiar dacă pentru principiul autonomiei şi cel al independenţei faţă de un nod central este o abordare acceptabilă, pentru conţinutul redundant, dar mai ales pentru prelucrarea telecerilor reprezintă o variantă inacceptabilă”",
-      "options": [
-        "a. Replicare totală",
-        "b. Localizare centralizată",
-        "c. Fragmentare"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei este cel mai scăzut; securitatea, fiabilitatea şi disponibilitatea sunt scăzute şi depind în cea mai mare măsură de nodul central. Costul comunicaţiei este ridicat.",
-      "options": [
-        "a. Baze de date partiţionate, fragmentate sau nereplicate",
-        "b. Baze de date replicate parţial sau selectiv",
-        "c. Baze de date centralizate",
-        "d. Baze de date replicate integral"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care din următoarele instrucţiuni SQL nu sunt admise în PL/SQL în mod direct?",
-      "options": [
-        "a. SELECT",
-        "b. Instrucţiuni DML: INSERT, UPDATE şi DELETE + MERGE",
-        "c. Instrucţiuni de control al tranzacţiilor: COMMIT, ROLLBACK, sau SAVEPOINT",
-        "d. Instrucţiuni DDL: CREATE TABLE, ALTER TABLE, DROP TABLE"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Conceptul de Big Data are la bază caracteristicile cunoscute sub acronimul",
-      "options": ["a. 4V", "b. BDB", "c. 4B", "d. 5V", "e. 4D"],
-      "answer": "a"
-    },
-    {
-      "question": "Dezvoltarea de sisteme SGBDOO NU se poate realiza prin următoarea metodă:",
-      "options": [
-        "a. Încapsularea construcţiilor specifice unui limbaj obiectual într-un SGBDR",
-        "b. Extinderea unui limbaj de date convenţional cu facilităţi obiectuale",
-        "c. Crearea unei extensii spre baze de date pentru un limbaj de programare OO",
-        "d. Punerea la dispoziţie a unor biblioteci pentru gestiunea bazelor de date",
-        "e. Proiectarea din temelii a unui limbaj de gestiune a bazelor de date",
-        "f. Încapsularea construcţiilor specifice bazelor de date obiectuale într-un limbaj gazdă"
+        "a. Variabilei $valoare I se atribuie valoarea variabilei $cheie care reprezinta o valoare asociata elementelor din vector care nu coincide cu poziția acestora în vector.",
+        "b. Variabilei $cheie I se atribuie valoarea variabilei $valoare care reprezinta o cheie asociata elementului din vector care nu coincide cu valoarea acestora în vector",
+        "c. Variabilei $variabila nu I se atribuie valoarea variabilei $cheie care reprezinta o valoare asociata elem. Din vector care coincide cu poziția acestora în vector",
+        "d. Variabila $variabila I se atribuie valoarea variabilei $cheie care nu reprezinta o valoare asociata elementelor din vector care nu coincide cu poziția acestora în vector"
       ],
       "answer": "a"
     },
     {
-      "question": "„Extragerea datelor reprezintă descoperirea automată a unor tipare netriviale, anterior necunoscute şi potenţial folositoare, bine înrădăcinate în bazele de date.” este definiţia pentru:",
+      "question": "Instrucțiunea RETURN",
       "options": [
-        "a. Baze de date distribuite",
-        "b. OLAP",
-        "c. Baze de date centralizate",
-        "d. Baze de date federative",
-        "e. Data mining",
-        "f. Cubul de date"
+        "a. De a opri execuția întregului script php",
+        "b. De a reveni dintr-o funcție",
+        "c. De a returna valoarea unei variabile citite de la tastatura",
+        "d. De oprire forțată a unui ciclu;"
       ],
-      "answer": "e"
+      "answer": "b"
     },
     {
-      "question": "În cazul în care avem n predicate simple, câte predicate minterm diferite putem constitui?",
-      "options": ["a. 2n", "b. 3n", "c. n2", "d. 2n"],
+      "question": "Instructiunea for in php",
+      "options": [
+        "a. Se poate folosi pt… de erori",
+        "b. În cazul în care este nevoie de o instrucțiuni de ciclare conditionata anterior",
+        "c. Se folosește pentru a realiza o iterație printer toate elementele unui tablou din cadrul unei baza de date create in mysql",
+        "d. ..."
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Modificarea datelor unei înregistrări de o tabela a unei baze de date se face cu:",
+      "options": ["a. Insert", "b. Update", "c. Select", "d. Delete"],
+      "answer": "b"
+    },
+    {
+      "question": "Functiile mysql_connect() si mysql_select_db() trebuie:",
+      "options": [
+        "a. Apelate întotdeauna cand terminam lucrul cu baza de date",
+        "b. Apelate cand se transmit datele dintr-o pagina php intr-o alta pagina php",
+        "c. Apelate întotdeauna cand se începe lucrul cu BD",
+        "d. Apelate întotdeauna cand se incepe crearea tabelelor html"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Ce face următorul script php? <? $x=10; $rez=1; For($i=1; $i<=$x; $i++;) {$rez=$rez*$i; } Echo “rezultatul este: $rez”;",
+      "options": [
+        "a. Numara de cate ori se intra în ciclu și afișează produsul;",
+        "b. Calculeaza produsul a 10 numere de la tastatura",
+        "c. Afișează pe $rez de $i ori",
+        "d. Calculeaza factorialul și afișează rezultatul"
+      ],
       "answer": "d"
     },
     {
-      "question": "Care din următoarele sunt dezavantaje legate de fragmentare?",
+      "question": "Accesul la o baza de date din cadrul unei pagini php presupune urmatorii pasi:",
       "options": [
-        "a. Uzanţa",
-        "b. Controlul integrităţii",
-        "c. Paralelismul",
-        "d. Securitatea"
+        "a. Selectarea și identificarea bazei de date și apoi efectuarea conexiunii la server MySql",
+        "b. Deschiderea unei conexiuni cu server MySQL , conectarea la baza de date",
+        "c. Închiderea conexiunii anterioare cu server mySql, deschiderea unei noi și selectarea bazei de date",
+        "d. Deschiderea conexiunii apache, pornirea scriptului php și apoi conectare la MySqli select area bazei de date"
       ],
       "answer": "b"
     },
     {
-      "question": "Care din următoarele sunt motive în favoarea fragmentării?",
+      "question": "In php",
       "options": [
-        "a. Controlul integrităţii",
-        "b. Paralelismul",
-        "c. Complexitatea proiectării",
-        "d. Performanţa"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care va fi efectul comenzii db.colectie.find({'an':1990}, {titlu:1, _id:0}).pretty() în MongoDB?",
-      "options": [
-        "a. find nu permite decât o singură pereche de acolade",
-        "b. afişează toate titlurile cu valoarea 1 şi id-ul 0 pentru publicaţiile din 1990",
-        "c. afişează doar titlul, chiar şi id-ul este exclus, pentru publicaţiile din 1990",
-        "d. afişează titlul şi id-ul pentru publicaţiile din 1990"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care din următoarele comenzi deschide serverul de baze de date, pe baza de date din directorul D:\\MongoData?",
-      "options": [
-        "a. D:\\MongoDB\\bin\\mongos.exe --dbpath D:\\MongoData",
-        "b. D:\\MongoDB\\bin\\mongo.exe --dbpath D:\\MongoData",
-        "c. D:\\MongoDB\\bin\\mongod.exe --dbpath D:\\MongoData"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care din următoarele anomalii este mai specifică sistemelor de baze de date distribuite?",
-      "options": [
-        "a. actualizarea pierdută",
-        "b. dependenţa nefinalizată",
-        "c. incoerenţei copiilor multiple",
-        "d. analiza inconsistentă"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Ce înseamnă în PL/SQL următoarea reprezentare?\n<<parinte>>",
-      "options": [
-        "a. Se foloseşte pentru comentarii",
-        "b. S-a etichetat un bloc, cu numele „parinte”",
-        "c. Nu există o astfel de construcţie",
-        "d. Se folosşeşte în atribuiri, expresii de tip text, în cadrul cărora există deja caracterele apostrof (’) şi ghilimele (”)"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care din următoarele sunt nume valide de identificatori PL/SQL?",
-      "options": [
-        "a. Procent%",
-        "b. Variabila_ce_contine_numarul_de_ani",
-        "c. 1_Aparitie",
-        "d. Nume si Prenume",
-        "e. Nu_Stiu",
-        "f. Nume-Prenume"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?\n„Dezavantaj: necesită un trafic şi un control al integrităţii suplimentar; afectează şi autonomia siturilor prin această nevoie continuă de propagare a actualizărilor în fiecare sit”",
-      "options": [
-        "a. Replicare totală",
-        "b. Fragmentare",
-        "c. Localizare centralizată"
+        "a. Un fisier html static contine un formular care trimite valorile sale catre un fisier php",
+        "b. Este exclus ca un fișier php să poată sa creeze un form care sa trimita informația către un fisier php care contine formularul",
+        "c. Un fișier php poate sa creeze un form care e obligat sa trimita info chiar catre el insusi",
+        "d. Un fișier php nu poate trimite date spre alte fisier php"
       ],
       "answer": "a"
     },
     {
-      "question": "Implementarea unui sistem de baze de date pe modelul unei agenţii de turism este un exemplu clasic de utilizare a:",
+      "question": "Functia htmlSpecialchars() are rolul de a:",
       "options": [
-        "a. Depozitelor de date",
-        "b. Sistemelor distribuite",
-        "c. Bazelor de date federative",
-        "d. Bazelor de date centralizate",
-        "e. Data mining-ului"
+        "a. De a nu împiedica datele sa fie interpretate de browser ca și caractere speciale HTML, fiind afișate aproximativ la fel cum s-au introduce in formular sau in baza de date de catre individ.",
+        "b. De a împiedica datele sa nu fie interpretate de server ca și caractere orientale HTML, fiind afișate exact cum s-au introdus în formular sau in baza de date de catre individ.",
+        "c. De a împiedica datele sa nu fie interpretate de browser ca și caractere ocazionale HTML, fiind afișate exact cum s-au introdus în formular sau in baza de date de catre individ.",
+        "d. De a împiedica datele sa fie interpretate de browser ca și caractere speciale HTML, fiind afișate exact cum s-au introdus în formular sau in baza de date de catre individ."
       ],
-      "answer": "c"
+      "answer": "d"
     },
     {
-      "question": "Care din următoarele NU reprezintă o caracteristică a sistemelor federative?",
+      "question": "Accesul la o baza de date din cadrul unei pagini PHP presupune urmatorii pasi:",
       "options": [
-        "a. Heterogenitatea",
-        "b. Distribuirea",
-        "c. Partajarea resurselor",
-        "d. Autonomia"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Motorul de stocare MMAP v1 din MongoDB are următoarele caracteristici, CU EXCEPŢIA:",
-      "options": [
-        "a. Asigură blocare la nivel de colecţie",
-        "b. Asigură blocare la nivel de document",
-        "c. Permite actualizarea in memoria virtuală",
-        "d. Este motorul originar MongoDB"
+        "a. Selectarea și identificarea bazei de date și apoi efectuarea conexiunii cu serverul MySQL.",
+        "b. Deschiderea unei conexiuni cu serverul MySQL, conectarea la baza de date dorita.",
+        "c. Inchiderea conexiunii anterioare cu serverul MySQL deschiderea uneia noi si apoi conectarea bazei de date dorita.",
+        "d. Deschiderea conexiunii Apache apoi pornirea serverului PHP și apoi conectarea la MySQL și apoi alegerea bazei de date."
       ],
       "answer": "b"
     },
     {
-      "question": "În MongoDB, consistenţa la scriere este caracterizată de următoarele, dar nu şi de …",
+      "question": "Structura repetitiva conditionata anterior care se realizeaza în PHP, cu ajutorul:",
       "options": [
-        "a. Aplicaţia scrie concomitent pe nodul primar, dar şi pe cele secundare",
-        "b. Citirile se pot efectua fie de pe acesta, fie de pe cele secundare",
-        "c. Replicarea e asincronă",
-        "d. Aplicaţia scrie întotdeauna pe nodul primar",
-        "e. Poţi efectua citirile de pe alte noduri, însă nu ai garanţia că ai citit valoarea actualizată"
+        "a. Instructiunilor WHILE, DO-WHILE si FOREACH.",
+        "b. Instrucțiunilor FOR, DO-WHILE si BREAK.",
+        "c. Instructiunilor WHILE, FOR si CONTINUE",
+        "d. Instructiunilor WHILE, FOR si FOREACH"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Functia mysql_fetch_array(), se foloseste:",
+      "options": [
+        "a. Pentru a returna conținutul unui câmp de pe o anumita linie.",
+        "b. Pentru a prelucram informatiile dintr-un table impune accesarea fiecărei coloane și linii a acestuia.",
+        "c. Pentru a returna conținutul unei celule de pe o anumita coloana.",
+        "d. Pentru a afișa conținutul doar a anumitor campuri din tabela."
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Pentru stocarea datelor în sistemul utilizatorului cu Php se folosesc:",
+      "options": [
+        "a. Cookie sau sesiuni",
+        "b. Fisiere html generate de server-ul web",
+        "c. Sesiuni deoarece serverul Apache interzice cookie",
+        "d. Cookie deoarece php interzice crearea sesiunilor"
       ],
       "answer": "a"
     },
     {
-      "question": "Care din următoarele NU reprezintă o caracteristică pentru bazele de date NoSQL?",
+      "question": "Functia mysql_num_rows() se foloseste:",
       "options": [
-        "a. Caching Integrat",
-        "b. Alocarea",
-        "c. Replicarea",
-        "d. Scheme dinamice",
-        "e. Partiţionarea automată"
+        "a. Pentru a afișa conținutul doar a anumitor campuri din tabela",
+        "b. Pentru a determina numărul de rânduri returnate în urma interogarii unei tabele",
+        "c. Pentru a determina numărul de coloane returnate în urma interogarii unei tabele",
+        "d. Pentru a prelucram informatiile dintr-un tabel prin accesarea fiecărei coloane și linii a acesteia."
       ],
       "answer": "b"
     },
     {
-      "question": "Care va fi efectul comenzii db.colectie.find({'an':1990}, {titlu:1, _id:0}).pretty() în MongoDB?",
+      "question": "Comanda LIKE:",
       "options": [
-        "a. afişează publicaţiile din 1990 ale autorului Ion",
-        "b. afişează atât publicaţiile autorului Ion, cât şi a celor care nu sunt din 1990",
-        "c. afişează atât publicaţiile care nu sunt ale autorului Ion, cât şi a celor care nu sunt din 1990",
-        "d. afişează publicaţiile autorului Ion, care nu sunt din 1990",
-        "e. afişează atât publicaţiile autorului Ion, cât şi a celor care sunt din 1990"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "Care dintre următoarele NU reprezintă un principiu a lui C.J. Date referitor la sistemele distribuite?",
-      "options": [
-        "a. Gestionarea distribuită a tranzacţiilor",
-        "b. Independenţa de hardware",
-        "c. Independenţa de software",
-        "d. Prelucrarea distribuită a interogărilor"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Caracteristica bazelor de date distribuite potrivit căreia utilizatorul trebuie să o perceapă ca făcând parte dintr-o singură bază de date globală – la fel ca și în cazul bazelor de date locale sau centralizate – poartă numele de:",
-      "options": [
-        "a. Fragmentare",
-        "b. Alocare",
-        "c. Integrarea fizică",
-        "d. Integrarea logică"
+        "a. Nu se folosește numai în cazul în care se dorește sa se caute și să se șteargă o valoare dintr-un tabel",
+        "b. Nu se poate folosi cu comanda SELECT",
+        "c. Se folosește pentru a găsi date într-un tablou unidimensional",
+        "d. Are rolul de a căuta o valoare prin compararea acesteia cu un model."
       ],
       "answer": "d"
     },
     {
-      "question": "Pieţele de date (Data Marts) sunt:",
+      "question": "Identificatorul de sesiune se stochează:",
       "options": [
-        "a. locul de întâlnire al cererii cu oferta de date",
-        "b. componente de bază ale unui system distribuit",
-        "c. submulţimi ale depozitelor de date, particularizate în vederea îndeplinirii nevoilor unui departament sau care acoperă un subiect",
-        "d. supramulţimi ale depozitelor de date, specializate în vederea îndeplinirii nevoilor unei organizaţii sau care acoperă un subiect"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Fragmentarea verticală are la bază operatorul de:",
-      "options": [
-        "a. Proiecţie",
-        "b. Restricţie",
-        "c. Conjuncţie",
-        "d. Disjuncţie",
-        "e. Discreţie",
-        "f. Negaţie"
+        "a. Pe calculatorul utilizatorului într-un bloc cookie",
+        "b. Pe server",
+        "c. Pe server sau poate fi transferat în baza de date prin URL pe tot parcursul sesiunii",
+        "d. Pe parcursul unei sesiuni într-o bază de date, iar la închiderea sesiunii se șterge"
       ],
       "answer": "a"
     },
     {
-      "question": "Care va fi efectul comenzii db.colectie.find({'an':{$ne 1990}}).count() în MongoDB?",
+      "question": "HTML5 include elemente noi pentru a realiza:",
       "options": [
-        "a. afişează numărul total de publicaţii din anul 1990",
-        "b. afişează numărul total de publicaţii, cu excepţia celor din 1990",
-        "c. find nu permite utilizarea împreună cu count",
-        "d. afişează numărul de ani scurşi până în anul 1990",
-        "e. afişează numărul total de publicaţii, cu excepţia celor din 1990"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "În PL/SQL, o procedură cu numele ACTUALIZARE, se poate executa în felul următor:",
-      "options": [
-        "a. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)",
-        "b. BEGIN ACTUALIZARE; END;",
-        "c. X:= ACTUALIZARE",
-        "d. UPDATE pe tabela pentru care a fost creat"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Predicatele minterm sunt ...",
-      "options": [
-        "a. disjuncţii de predicate simple sau negaţii ale acestora",
-        "b. conjuncţii de predicate simple sau negaţii ale acestora",
-        "c. conjuncţia dintre un predicat simplu şi negaţia acestuia"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "În PL/SQL acest obiect poate returna unul sau mai mulţi parametri",
-      "options": [
-        "a. Declanşatorul",
-        "b. Funcţia",
-        "c. Blocul anonim",
-        "d. Procedura"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "În legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici? „Nu este o soluţie prea agreată pe motivul că încalcă principiul autonomiei şi cel al independenţei faţă de un sit central. Fiabilitatea şi disponibilitatea sunt puse sub semnul întrebării”",
-      "options": [
-        "a. Replicare totală",
-        "b. Fragmentare",
-        "c. Localizare centralizată"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care dintre următoarele NU reprezintă un principiu a lui C.J. Date referitor la sistemele distribuite?",
-      "options": [
-        "a. Gestionarea distribuită a tranzacţiilor",
-        "b. Independenţa de hardware",
-        "c. Independenţa de software",
-        "d. Prelucrarea distribuită a interogărilor"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Caracteristica bazelor de date distribuite potrivit căreia utilizatorul trebuie s-o perceapă ca făcând parte dintr-o singură bază de date globală – la fel ca şi în cazul bazelor de date locale sau centralizate – poartă numele de:",
-      "options": [
-        "a. Fragmentare",
-        "b. Alocare",
-        "c. Integrarea fizică",
-        "d. Integrarea logică"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Pieţele de date (Data Marts) sunt:",
-      "options": [
-        "a. locul de întâlnire al cererii cu oferta de date",
-        "b. componente de bază ale unui system distribuit",
-        "c. submulţimi ale depozitelor de date, particularizate în vederea îndeplinirii nevoilor unui departament sau care acoperă un subiect",
-        "d. supramulţimi ale depozitelor de date, specializate în vederea îndeplinirii nevoilor unei organizaţii sau care acoperă un subiect"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Fragmentarea verticală are la bază operatorul de:",
-      "options": [
-        "a. Proiecţie",
-        "b. Restricţie",
-        "c. Conjuncţie",
-        "d. Disjuncţie",
-        "e. Discreţie",
-        "f. Negaţie"
+        "a. Obiecte pentru desen mai performante",
+        "b. Imposibilitatea de a adăuga conținut media",
+        "c. Un handling mai slab pentru formulare",
+        "d. Structurarea mai slabă a documentelor."
       ],
       "answer": "a"
     },
     {
-      "question": "Care va fi efectul comenzii db.colectie.find({an:{$ne 1990}}).count() în MongoDB?",
+      "question": "Atributul LocalStorage se folosește pentru:",
       "options": [
-        "a. afişează numărul total de publicaţii din anul 1990",
-        "b. afişează numărul total de publicaţii, cu excepţia celor din 1990",
-        "c. find nu permite utilizarea împreună cu count",
-        "d. afişează numărul de ani scurşi până în anul 1990",
-        "e. afişează numărul de ani începând din anul 1990 până la data curentă"
+        "a. Memorarea datelor cu limita de timp",
+        "b. A salva datele atât timp cât o filă sau fereastra a browser-ului rămâne deschisă",
+        "c. Memorarea datelor fără limita de timp",
+        "d. A modifica datele atât timp cât o filă sau fereastra a browser-ului rămâne deschisă."
       ],
       "answer": "b"
     },
     {
-      "question": "Care din următoarele reguli ale fragmentării este încălcată parţial la fragmentarea verticală?",
+      "question": "O funcție în php este:",
       "options": [
-        "a. Caracterul disjunct",
-        "b. Completitudinea",
-        "c. Contingentarea",
-        "d. Refacerea relaţiei iniţiale"
+        "a. Un bloc de cod separat care poate fi apelat de către diverse scripturi",
+        "b. Este un text scris între cele doua tag-uri păstrând formatarea efectuată în editorul de documente HTML",
+        "c. Este o comandă scrisă între doua tag-uri care nu păstrează formalitățile efectuate în editorul de documente HTML",
+        "d. Este o instrucțiune php scrisă între tag-urile X"
       ],
       "answer": "a"
     },
     {
-      "question": "Care din următoarele nu este o categorie de baze de date NoSQL?",
+      "question": "Categoriile (categories) sunt:",
       "options": [
-        "a. Graf",
-        "b. Document databases",
-        "c. Column-Oriented databases",
-        "d. Key-/Value-stores",
-        "e. Row-Oriented databases"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "Care din următoarele comenzi MongoDB afişează în format BSON documentele găsite?",
-      "options": [
-        "a. db.catedra.find().BSON()",
-        "b. db.catedra.pretty().find()",
-        "c. db.catedra.show().pretty()",
-        "d. db.catedra.find().pretty()",
-        "e. db.catedra.show().BSON()"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă un protocol de control al accesului concurent în medii distribuite?",
-      "options": [
-        "a. Protocolul 2PL centralizat",
-        "b. Protocolul de zăvorâre al majorităţii",
-        "c. Protocolul 2PL de copie primară",
-        "d. Protocolul 2PL distribuit",
-        "e. Protocolul 2PL sincron"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "Ce este în PL/SQL o zonă de memorie gestionată automat de serverul Oracle alocată la execuţia unei instrucţiuni SQL de manipulare sau interogare ce returnează o linie?",
-      "options": [
-        "a. Un cursor implicit",
-        "b. O variabilă de tip înregistrare",
-        "c. Un package",
-        "d. Un cursor explicit",
-        "e. Un trigger"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "În MongoDB indecşii unici sunt cei care …",
-      "options": [
-        "a. Returnează un singur document",
-        "b. Se realizează pe baza unei singure chei",
-        "c. Au nume unic",
-        "d. Conţin în comanda de creare opţiunea {unique:true}"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "La proiectarea unei aplicaţii pe o bază de date MngoDB, care ar fi cea mai potrivită abordare în ceea ce priveşte design-ul bazei de date?",
-      "options": [
-        "a. mai multe colecţii, dar documentele dintr-o anumită colecţie ar trebui să aibă o structură similară, dar aceeaşi pentru fiecare versiune a aplicaţiei",
-        "b. MongoDB nu impune o schemă prestabilită, aşa că proiectantul bazei de date are libertate totală",
-        "c. toate tabelele normalizate să fie transpuse în cadrul unei singure colecţii, pentru eficientizarea accesului la nivel de document",
-        "d. transpunerea tabelelor dintr-o bază de date normalizată în colecţii, fără modificări de design"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care din următoarele nu este un motor de stocare pentru o bază de date MongoDB?",
-      "options": [
-        "a. MMAPv1 Storage Engine",
-        "b. WiredFire Storage Engine",
-        "c. WiredTiger Storage Engine"
+        "a. O modalitate ierarhică de a nu organiza postările din site",
+        "b. O metodă ierarhică de a organiza postările din site",
+        "c. Sunt tipul principal de conținut din majoritatea site-urilor WordPress",
+        "d. Sunt tipul principal de media din majoritatea site-urilor WordPress"
       ],
       "answer": "b"
     },
     {
-      "question": "Care din următoarele NU reprezintă o motivaţie suficientă pentru apariţia bazelor de date NoSQL?",
+      "question": "Un program OOP este alcătuit:",
       "options": [
-        "a. Aplicaţii cu audienţă limitată ce nu putea fi distribuite ca servicii pe cale largă",
-        "b. Migrarea de la aplicaţiile cu baze de date monolit către arhitecturi descentralizate",
-        "c. Volume mari de date cu creştere dinamică, structurate, semistructurate, nestructurate şi polimorfice",
-        "d. Sistemele de baze de date relaţionale pu puneau accent pe consistenţa datelor, fiind un motiv suficient pentru înlocuirea lor",
-        "e. Finalul erei aplicaţiilor costisitoare ca timp, cu proiectare în cascadă, cu ciclu de dezvoltare de 1-1,5 ani, în detrimentul celor 'agile'"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Care dintre următoarele elemente NU apare în convenţia numelor de obiecte în strategia abordată pentru gestiunea catalogului sistemului R*?",
-      "options": [
-        "a. – Identificatorul utilizatorului care a creat obiectul",
-        "b. – Denumirea locală a obiectului",
-        "c. – Identificatorul sitului în care a fost stocat iniţial obiectul",
-        "d. – Data de creare a obiectului",
-        "e. – Identificatorul sitului în care s-a făcut operaţia de creare"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei, disponibilitatea, securitatea şi fiabilitatea sunt maxime. Probleme - costul ridicat al echipamentelor de stocare, comunicaţia aglomerată în cazul actualizărilor. Soluţie: utilizarea instantaneelor, adică imagini ale bazei de date care se actualizează periodic. Nu întotdeauna oferă o situaţie actualizată, la actualizare se generează trafic mare pe reţea",
-      "options": [
-        "a. Baze de date replicate integral",
-        "b. Baze de date replicate parţial sau selectiv",
-        "c. Baze de date partiţionate, fragmentate sau nereplicate",
-        "d. Baze de date centralizate"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care este efectul comenzii db.colectie.insertMany([{'_id':'tt9eijdskd', ...}, { …} , … ]) în MongoDB?",
-      "options": [
-        "a. nu există comanda insertMany",
-        "b. va introduce toate documentele până la primul duplicat de _id",
-        "c. va introduce toate documentele, cu excepţia duplicatelor de _id"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „unu” în colecţia „mai mulţi” (ex. Categorii încuibărite în Produse), care din următoarele aserţiuni este adecvată?",
-      "options": [
-        "a. Actualizările implică şi operaţii specifice pe vectori (array)",
-        "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
-        "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "În MongoDB se realizează o operaţiune de actualizare, dar datorită unei erori de reţea nu se primeşte confirmarea efectuării operaţiunii în cauză. În ce condiţii reluarea actualizării nu afectează integritatea bazei de date?",
-      "options": [
-        "a. Atunci când actualizarea foloseşte operatorul $inc",
-        "b. Atunci când actualizarea e realizată prin intermediul unei ştergeri şi inserări",
-        "c. Atunci când actualizarea se face relativ la valori curente ale cheilor"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care din următoarele afirmaţii nu este valabilă atunci când vorbim despre partiţionare în MongoDB?",
-      "options": [
-        "a. Poate exista un singur proces mongos.exe",
-        "b. Mongos.exe - gestionează shard-urile",
-        "c. Mongos.exe face legătura cu mai multe servere (mongod), dintre care unul deţine informaţii legate de celelalte servere",
-        "d. dacă s-a facut interogarea după cheia de partiţionare, atunci mongos va direcţiona cererea doar către acel nod care conţine partiţia aferentă"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „unu” în colecţia „mai mulţi” (ex. Categorii încuibărite în Produse), care din următoarele aserţiuni este adecvată?",
-      "options": [
-        "a. Actualizările implică şi operaţii specifice pe vectori (array)",
-        "b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil",
-        "c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă o etapă a procesării interogărilor în cadrul sistemelor de baze de date distribuite?",
-      "options": [
-        "a. Localizarea datelor",
-        "b. Analiza cererii globale",
-        "c. Optimizarea cererilor locale",
-        "d. Optimizarea cererilor globale",
-        "e. Descompunerea interogărilor"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "„Procedeul de spargere a relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării partiţiilor rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin.” Aceasta este definiţia pentru:",
-      "options": [
-        "a. Persistenţă",
-        "b. Blocare",
-        "c. Fragmentare",
-        "d. Replicare"
+        "a. Că un set de funcții și un set de variabile globale utilizate de acele funcții",
+        "b. Un set de coloane ale unui tabel definit într-o bază de date",
+        "c. Dintr-o combinație de funcții și variabile conexe într-o unitate numită clasă."
       ],
       "answer": "c"
     },
     {
-      "question": "Care din următoarele obiective ale MongoDB/bazelor de date NoSQL sunt obligatorii?",
+      "question": "PHP permite scrierea de coduri sursa cu rolul:",
       "options": [
-        "a. scheme flexibile",
-        "b. eliminarea anomaliilor de actualizare",
-        "c. eliminarea redundanţei",
-        "d. schema bazei de date să fie în strânsă legătură cu logica de programare"
+        "a. De a trimite de la browser spre server-ul web atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului",
+        "b. De trimite de la serverul WEB spre browser atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului",
+        "c. De a nu trimite de la browser spre serverul WEB atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului",
+        "d. De a trimite de la browser spre serverul WEB atât a informațiilor standard conținute în antetul SMTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului"
       ],
-      "answer": "d"
+      "answer": "a"
     },
     {
-      "question": "În MongoDB sunt valabile următoarele afirmaţii despre indecşii multicheie, CU EXCEPŢIA:",
+      "question": "Trăsăturile HTML5 sunt:",
       "options": [
-        "a. Nu se pot crea indecsi compusi daca avem mai mult de o cheie de tip array",
-        "b. Se folosesc atunci când una din valorile cheilor este de tip array",
-        "c. Se folosesc atunci când mai mult de una din valorile cheilor este de tip array",
-        "d. Dacă atunci când cream indexul, cheia sau cheile sunt doar valori scalare, atunci nu vom avea index multicheie, însă acesta se va transforma într-un astfel de index atunci când facem prima inserare/actualizare şi folosim un array în loc de valoare scalara la una dintre cheile de indexare"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care din următoarele nu este o strategie de alocare a reaţiilor nefragmentate?",
-      "options": [
-        "a. Menţinerea lor în acele noduri unde se utilizează cel mai des",
-        "b. Replicarea acestora pe fiecare sit în parte",
-        "c. Nu se poate proiecta un sistem distribuit care să conţină chiar şi parţial relaţii nefragmentate"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care va fi efectul comenzii db.colectie.find({$or:[{an:{$ne 1990}},{autor:{$eq 'ion'}}]}).pretty() în MongoDB?",
-      "options": [
-        "a. afişează publicaţiile din 1990 ale autorului Ion",
-        "b. afişează atât publicaţiile autorului Ion, cât şi a celor care nu sunt din 1990",
-        "c. afişează publicaţiile autorului Ion, care nu sunt din 1990",
-        "d. afişează atât publicaţiile autorului Ion, cât şi a celor care sunt din 1990",
-        "e. afişează atât publicaţiile care nu sunt ale autorului Ion, cât şi a celor care nu sunt din 1990"
+        "a. Se bazează pe HTML, PHP, ROM și JAVASCRIPT",
+        "b. Reduce nevoia de plugin-uri externe (Flash)",
+        "c. Nu oferă o mai bună tehnică de manipulare a erorilor",
+        "d. Nu oferă Markup pentru înlocuirea scripting",
+        "e. Dependentă de dispozitiv"
       ],
       "answer": "b"
     },
     {
-      "question": "Care din următoarele comenzi MongoDB poate crea colecţia catedra?",
+      "question": "O clasă în PHP este:",
       "options": [
-        "a. db.createCollection({“catedra”})",
-        "b. db.catedra.createCollection()",
-        "c. db.catedra.create()",
-        "d. db.catedra.insert({denumire:'Informatica Economica', anul_inf:'1991',localizare:'etaj 4'})"
+        "a. O structură care conține proprietăți și metode",
+        "b. O funcție care conține proprietăți și metode",
+        "c. Un array care conține proprietăți și metode",
+        "d. Un obiect care conține proprietăți și metode."
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Structura unui CMS implică folosirea:",
+      "options": [
+        "a. Unei soluții intermediare scrisă într-un limbaj de programare și care nu gestionează accesul la informațiile stocate în baza de date, doar generează paginile HTML pe care le înțelege browser-ul vizitatorului",
+        "b. Unui limbaj de programare destinat implementării de pagini web",
+        "c. Un sistem de gestionare a bazelor de date",
+        "d. Unei soluții intermediare scrisă într-un limbaj de programare care interpretează, gestionează accesul la informațiile stocate în baza de date și generează paginile HTML pe care le înțelege browser-ul vizitatorului."
       ],
       "answer": "d"
     },
     {
-      "question": "MongoDB poate folosi mai multe motoare de stocare? (True=DA, False=NU)",
-      "options": ["True", "False"],
+      "question": "În Joomla, blocul principal de conținut poate fi:",
+      "options": [
+        "a. Este o imagine cu …",
+        "b. Este zona esențială a paginii în care este găzduit conținutul care trebuie distribuit în internet",
+        "c. Piesele ce se adaugă în jurul blocului principal de conținut cu scopul de a adăuga noi funcționalități esențiale în site",
+        "d. Este un … sau poate fi o galerie de imagini"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Prototipul unei funcții PHP:",
+      "options": [
+        "a. Este un tag predefinit",
+        "b. Descrie funcția",
+        "c. Descrie… de inserare în baza de date"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Ce returnează următorul cod?\n‘$valoare’)?",
+      "options": [
+        "a. Mere pere",
+        "b. 0->mere 1->pere",
+        "c. Mere->1 pere->0",
+        "d. 0->mere 0->pere"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Crearea variabilelor de sesiune se realizează:",
+      "options": [
+        "a. Folosind fie $http_session_vars fie $_SESSION",
+        "b. Folosind mai întâi $http_session_vars apoi $_SESSION",
+        "c. Exclusiv cu variabilele superglobale $http_session_vars",
+        "d. Prin alte metode"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Ce face următorul cod PHP?\n<?php if(isset($_SESSION['var_sesiune'])) echo 'true'; else echo 'false'; ?>",
+      "options": [
+        "a. Se tipărește true dacă var_sesiune sesiune a fost ștearsă",
+        "b. Se atribuie o valoare lui var_sesiune",
+        "c. Se afișează valoarea lui var_sesiune",
+        "d. Se verifică dacă var_sesiune a fost declarată în $_SESSION"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Variabila superglobală $_POST:",
+      "options": [
+        "a. Se folosește pentru a transmite datele din cadrul formularului serverului prin adăugarea lor la URL sub forma unui șir alcătuit din perechile nume_camp=valoare",
+        "b. Este indicat să se folosească pentru a transmite date dintr-un formular PHP spre un fișier PHP sau spre un alt formular",
+        "c. Se folosește pentru a transmite datele din cadrul formularului... de web sub forma unui șir din perechea nume_camp=valoare",
+        "d. Este indicat să nu se folosească pentru a transmite date dintr-un formular PHP spre un fișier... sau spre un alt..."
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Funcția mysql_select_db() se invocă dacă se dorește să se realizeze:",
+      "options": [
+        "a. Specificarea numelui bazei de date care se va deschide",
+        "b. Conectarea la un server de pagini web care au...",
+        "c. Specificarea numelui tabloului unidimensional sau bidimensional care se memorează într-o bază de date",
+        "d. Specificarea conținutului... care se va insera în baza de date cu care se va lucra"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Este adevărat că în PHP:",
+      "options": [
+        "a. Se pot crea tablouri numai unidimensionale",
+        "b. Nu se pot transmite date între două pagini web",
+        "c. Afișarea pe display se realizează prin echo sau print",
+        "d. Nu se folosesc cicluri"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Într-un script PHP căutarea într-o tabelă a unei baze de date se face:",
+      "options": [
+        "a. Cu comenzi non SQL",
+        "b. Cu comenzi SQL și fără un model de căutare",
+        "c. Cu comenzi SQL și cu un model de căutare",
+        "d. Nu se poate realiza o astfel de acțiune"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Sintaxa corectă a unei comenzi DELETE:",
+      "options": [
+        "a. DELETE nume_camp FROM nume_tabel WHERE conditie",
+        "b. DELETE * FROM nume_tabel WHERE conditie",
+        "c. DELETE FROM nume_tabel WHERE conditie",
+        "d. DELETE SELECT nume_tabel WHERE conditie"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "În PHP, un tablou multidimensional:",
+      "options": [
+        "a. Este o reuniune de tablouri unidimensionale",
+        "b. Este o instrucțiune de elemente de tip șir de caractere",
+        "c. Este o instrucțiune de elemente de tip numeric",
+        "d. Este o intersecție de tablouri unidimensionale"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Funcția array_merge() returnează:",
+      "options": [
+        "a. Un tablou care este alcătuit din elementele primului tablou primit ca parametru care nu există în niciunul dintre celelalte tablouri primite ca parametru",
+        "b. Un tablou folosit valorile din tabelul primit ca parametru",
+        "c. Un nou tablou alcătuit din reuniunea elementelor din tablourile primite ca parametru",
+        "d. Un tablou multidimensional obținut din sortarea a mai multe tablouri primite ca parametru."
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Dacă într-o pagină PHP aveți secvența de cod ... legătură de transmitere a informației spre o a doua pagină numită rezultat2.php:",
+      "options": [
+        "a. Datele din pagina rezultat2.php se vor prelua în mod obligatoriu cu variabila superglobală $_POST",
+        "b. Datele din pagina rezultat2.php se vor prelua în mod automat cu variabila superglobală $_POST",
+        "c. Datele din pagina rezultat2.php se vor prelua fie cu variabila superglobală $_GET fie cu $_POST",
+        "d. Datele din pagina rezultat2.php se vor prelua în mod obligatoriu cu variabila superglobală $_SERVER ($_GET)"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Accesul la o bază de date din cadrul unei pagini PHP presupune următorii pași:",
+      "options": [
+        "a. Se specifică baza de date la care se dorește accesul, se deschide conexiunea MySQL și apoi cea Apache",
+        "b. Deschiderea conexiunii Apache și apoi a conexiunii MySQL",
+        "c. Selectarea bazei de date, închiderea conexiunii MySQL anterioare și deschiderea uneia noi",
+        "d. Deschiderea unei conexiuni cu serverul MySQL, conectarea la baza de date dorită"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Ce face următorul script PHP?\n<?php\n$n=10;\n$i=1;\n$rez=1;\ndo {\n  $rez=$rez*$i;\n  $i++;\n} while($i<=$n);\n\necho 'rezultatul este: $rez';\n?>",
+      "options": [
+        "a. Numără de câte ori intră în ciclu și afișează un produs",
+        "b. Calculează produsul dintre 1 și valorile lui $i",
+        "c. Calculează factorialul și afișează rezultatul",
+        "d. Calculează numărul primelor $i numere"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Funcția mysql_query()",
+      "options": [
+        "a. Se execută fără să se atribuie unei variabile PHP",
+        "b. Se atribuie unei variabile în care se depune valoarea returnată și aceasta se numește identificator de resurse",
+        "c. Întoarce false dacă interogarea a fost efectuată cu succes și true în caz contrar",
+        "d. Se execută numai în cazul în care nu primește niciun parametru"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Adăugarea de noi înregistrări într-o tabelă a unei baze de date se face cu comanda:",
+      "options": ["a. Update", "b. Select", "c. Insert", "d. Delete"],
+      "answer": "c"
+    },
+    {
+      "question": "Instrucțiunile folosite în cadrul ciclurilor care oferă flexibilitatea mare în ... PHP sunt:",
+      "options": [
+        "a. For, while, foreach",
+        "b. While, break, return",
+        "c. Continue, break, return",
+        "d. Switch, if, break"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Accesul la baze de date relaționale din pagini PHP se face:",
+      "options": [
+        "a. Se deschide o conexiune cu serverul MySQL, se specifică serverul web folosit",
+        "b. Se deschide o conexiune cu serverul MySQL, se specifică baza de date care se va accesa",
+        "c. Se specifică baza de date care se va accesa și se execută instrucțiunea select",
+        "d. Se deschide o conexiune cu serverul web și apoi se folosește comanda insert"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Conectarea cu succes la baza de date permite:",
+      "options": [
+        "a. Realizarea de interogări SQL prin care se pot introduce date într-un formular sau afișa date dintr-o bază de date și apoi se execută operații NoSQL",
+        "b. Realizarea de interogări SQL, urmate de obținerea accesului la rezultatele interogărilor și apoi se execută operații NoSQL",
+        "c. Crearea strict de obiecte HTML și lucrul cu sesiuni",
+        "d. Executarea comenzilor NoSQL, cum ar fi SELECT, INSERT, UPDATE, DELETE"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Utilizarea unui website de către un utilizator presupune:",
+      "options": [
+        "a. Realizarea unor activități juridice reale care nu trebuie memorate folosind numai protocolul HTTP",
+        "b. Realizarea unor acțiuni care nu trebuie memorate pentru a oferi acestuia informațiile de care are nevoie, fapt ce protocolul HTTPS nu oferă.",
+        "c. Realizarea unor acțiuni succesive care trebuie memorate pentru a oferi acestuia informațiile de care are nevoie, fapt ce protocolul HTTP le oferă",
+        "d. Realizarea unor acțiuni succesive care trebuie să ofere acestuia informația de care are nevoie, fapt ce protocolul HTTP nu oferă."
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Tehnologia Ajax permite:",
+      "options": [
+        "a. Încărcarea asincronă a sesiunilor, tablourilor și ciclurilor",
+        "b. Încărcarea și modificarea doar a anumitor părți dintr-o pagină, preluate și generate de server",
+        "c. Crearea paginilor web sincrone"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Comunicarea asincronă client-server se face:",
+      "options": [
+        "a. Exclusiv prin cadre invizibile",
+        "b. Exclusiv prin XML.HttpRequest",
+        "c. Prin XMLHttpRequest și cadre invizibile",
+        "d. Prin XMLHttpRequest sau cadre invizibile"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Scopul sesiunilor este:",
+      "options": [
+        "a. De a reține informațiile care trebuie transmise de la o pagină la alta într-o aplicație PHP",
+        "b. De a reține informațiile care nu trebuie transmise de la o pagină la alta într-o aplicație PHP",
+        "c. De a reține date de tip șir de caractere care trebuie transmise de la o pagină la alta într-o aplicație PHP",
+        "d. De a deschide conexiunea la o bază de date"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Funcția empty() din PHP are rolul:",
+      "options": [
+        "a. De a verifica dacă o variabilă are tipul precizat",
+        "b. De a verifica câte date se află memorate într-un tablou superglobal $_SESSION",
+        "c. De a verifica dacă o variabilă este vidă sau nu"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Un fișier PHP poate să conțină un formular care să transmită informația chiar către fișierul PHP care-l conține:",
+      "options": [
+        "a. Numai dacă folosește funcția array()",
+        "b. Numai dacă creează o sesiune care va reține informația",
+        "c. Numai dacă folosește comanda isset()",
+        "d. Numai dacă fișierul este conectat la o altă pagină web"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Scenariul modificării înregistrărilor din baza de date din cod PHP:",
+      "options": [
+        "a. Se selectează înregistrarea cu UPDATE, se încarcă cu INSERT într-un formular, se efectuează modificările și se acționează DELETE",
+        "b. Se selectează înregistrarea cu INSERT, se încarcă cu UPDATE într-un formular, se efectuează modificările și se acționează SUBMIT",
+        "c. Se selectează înregistrarea cu SELECT, se încarcă înregistrarea într-un formular, se efectuează modificările și se acționează UPDATE",
+        "d. Folosind fie metoda GET, fie metoda POST"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Funcția mysql_query() se invocă dacă se dorește să se realizeze:",
+      "options": [
+        "a. Specificarea numelui bazei de date cu care se va lucra",
+        "b. Conectarea la un server de pagină web care are legături la baza de date MySQL",
+        "c. Executarea comenzilor SELECT, INSERT, RESULT, ALTER TABLE",
+        "d. Executarea comenzilor SELECT, INSERT, UPDATE, DELETE"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Trăsăturile limbajului XML Schema sunt:",
+      "options": [
+        "a. Permite limitarea constantelor și expresiilor premise într-un document; nu suportă definirea de constrângeri prin expresii regulate;",
+        "b. Hypertext, Independența de platformă, Structurarea riguroasă a documentelor",
+        "c. Este el însuși un limbaj XML, deci nu poate fi procesat ca arbore DOM, la fel ca orice document XML.",
+        "d. Permite limitarea tipurilor și intervalelor de date permise într-un document; permite constrângere prin expresii regulate"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Ce tip de acțiune se setează prin: variabila=new Draggable(…..variabila.destroy()?",
+      "options": [
+        "a. Dezactivare comportament",
+        "b. Imprimare comportament",
+        "c. Activare comportament",
+        "d. Echilibrare comportament"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Comportamentul Ajax.InPlaceEditor(marcator,url,optiuni) permite:",
+      "options": [
+        "a. Permite ca sugestiile afișate sub textbox să fie preluate local, dintr-un vector(ex. Din cookie), fără a mai implica serverul",
+        "b. Nu reduce nevoia de plugin-uri externe",
+        "c. Permite editarea în browser a unor porțiuni de pagina",
+        "d. Nu oferă Markup pentru inlocuirea scripting dependentă de dispozitiv"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Comanda Xpath:self:node()[not(denumire) and not(@denumire)] are ca efect:",
+      "options": [
+        "a. Returnează valoarea nodului curent cu condiția ca aceasta să nu aibă un fiu denumire și nici un atribut denumire",
+        "b. Imposibilitatea de a adăuga nodului curent care are fiu denumire un alt atribut",
+        "c. Un handling mai bun pentru nodurile fișierului",
+        "d. Structura mai slabă a nodurilor"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "O variabilă PHP:",
+      "options": [
+        "a. Inițializată nu mai poate fi reinitializată",
+        "b. Se definește o singura data",
+        "c. Se definește prin valoare care indica tipul ei",
+        "d. Se declara tipul, apoi se inițializează și se definește"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Transferul datelor prin XML.Http.Request folosind Get:",
+      "options": [
+        "a. Metoda send are doar rolul de a deschide conexiunea, datele fiind deja atașate la adresa scriptului server și impune utilizarea unui parametru diferit de null",
+        "b. Delimitarea Unei porțiuni HTML, de tip inline(conținutul din fața și de după obiectul va fi afișat pe acelasi rand cu porțiunea obiectului)",
+        "c. Metoda send are doar rolul de a deschide conexiunea, datele fiind deja atașate la adresa scriptului server"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Model View Controller presupune:",
+      "options": [
+        "a. Controller-ul este acea entitate care preia datele de la model, eventual face anumite prelucrări asupra lor și le trimite View-ului",
+        "b. Controllerul nu poate trimite date la View numai in situatii exceptionale",
+        "c. View este acea entitate care prelucrează datele",
+        "d. Modelul primește datele de la Controller și le afișează"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Obiectul XML.HttpRequest:",
+      "options": [
+        "a. Permite lui JavaScript sa formulize cereri HTML; sa le trimit la server, dând astfel posibilitatea comunicării cu serverul și afișarea datelor primate fara a fi necesara reincărcarea paginii",
+        "b. Pentru a reprezenta structure complexe transferate între client și server, ca alternativa la Ajax",
+        "c. Framework-urile folosesc frecvent XHR pentru a reprezenta funcții argument pentru funcții"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "În programarea PHP, formularele HTML au rolul:",
+      "options": [
+        "a. De a nu prelua date de la utilizatorul unui web site care vor fi preluate de browser si transmise la server printr-un program PHP care procesează datele din formular",
+        "b. De a prelucra date de la utilizatorul unui web site care vor fi preluate server și transmise la browser printr-un program PHP care nu procesează datele din formular",
+        "c. De a prelua date de la utilizatorul unui web site care vor fi preluate de browser și transmise la server printr-un program PHP care procesează datele din formular"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Proprietate, onreadystatechange are rolul:",
+      "options": {
+        "a": "De a determina care eveniment va fi apelat la schimbarea stării “readystate”",
+        "b": "De a număr care eveniment va fi apelat la schimbarea stării “readyState”",
+        "c": "De a bloca evenimentul apelat la schimbarea stării “readyState”"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "In PHP:",
+      "options": {
+        "a": "Un fișier php poate contine mai multe formulare care trimite valorile între ele în același fișier php",
+        "b": "Este exclus ca un fișier .php poate sa creeze un formular care sa trimita informația chiar către fișierul php care contine formularul",
+        "c": "Un fișier .php poate sa creeze un formular care este obligat sa trimita informația chiar catre el insusi",
+        "d": "Un fisier .php primeste date spre un alt fisier php cu $_REQUEST"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Ce face următorul script PHP:",
+      "options": {
+        "a": "Produsul numerelor între 1 și 100",
+        "b": "Calculeaza produsul a 10 numere introduce de la tastatura",
+        "c": "Afișează $rez de $i ori",
+        "d": "Calculeaza factorialul și afișează rezultatul"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Functiile mysql_connect(); si mysql_select_dih(); trebuie:",
+      "options": {
+        "a": "Apelate întotdeauna cand se termina lucrul cu bazele de date",
+        "b": "Apelate întotdeauna cand se transmit datele dintr-o pagina php intr-o alta pagina php",
+        "c": "Apelate întotdeauna cand se începe lucrul cu bazele de date",
+        "d": "Apelate întotdeauna cand se incepe crearea tabelelor html"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Proprietatea onreadystatechange a obiectului XMLHttpRequest:",
+      "options": {
+        "a": "Nu determina care eveniment va fi apelat la schimbarea stării “readyState”",
+        "b": "Determina care eveniment va fi apelat la schimbarea stării “readyState”",
+        "c": "Returnează răspunsul primit de la server în format XML"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Web 3.0 se caracterizeaza prin:",
+      "options": {
+        "a": "Citire-scriere-executare",
+        "b": "Faptul ca permite sa se realizeze iterație printer toate elementele unui tablou din cadrul unei pagini web",
+        "c": "Conectat, deschis si intelligent, fara tehnologie semantic web, baze de date distribuite, procesarea limbajului natural, machine learning, machine reasoning and autonomous agents",
+        "d": "Exploatarea bazelor de date și comunicari sincrone între server și client"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Tehnologiile folosite de Web 2.0:",
+      "options": {
+        "a": "Sunt cele ADO, DAO, JavaScript, Dotecom, XML",
+        "b": "Sunt Application Program Interfaces; Asynchronous JavaScript and XML, Content syndication",
+        "c": "Sunt cele specific dotcom-urilor",
+        "d": "Sunt cele specific programării orientate obiect"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Ce afișează pe ecran următoarea secvența de cod:\n\n<?php echo \"<table border=\\\"1\\\">; for($i=1;$i<=5;$i++) {echo \"<tr>\"; For($j=1;$j<=5;$j++) {echo \"<ul>\"; Echo($i+$j); Echo \"</td>\";} Echo \"</tr>\";} Echo \"</table>\";?>",
+      "options": {
+        "a": "Prima valoare a tabelului și a 5,25, etc",
+        "b": "Afișează valori în ordine crescătoare pe prima linie si coloana cu valori din 1 în 1, linia 2 și coloanal 2 cu valori din 1 in 1 etc",
+        "c": "Afișează un tabel pe prima linie si coloana cu valori din 1 in 1 linia 2 și coloanal 2 cu valori din 2 în 2 etc",
+        "d": "Afișează elementele unui tablou"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Modelul bazat pe elemente vide cu atribute (recomandat in documente data-heavy)",
+      "options": {
+        "a": "<Produs ID=\"PI\">Ipod<Pret>300 RON</Pret></Produs>",
+        "b": "<Produs ID=\"PI\" Pret=\"300 RON\" Denumire=\"Ipod\"/>",
+        "c": "<Produs>PI+Ipod+300 RON</Produs>",
+        "d": "<Produs><Denumire>Ipod</Denumire?<Identificator> PI</Identificator><Pret>300 RON</Preț></Produs>"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Codul sursa următor are rolul",
+      "options": {
+        "a": "De a opri execuția întregului script PHP",
+        "b": "De a transmite la server o valoare selectata",
+        "c": "De a transmite un sir de valori selectate",
+        "d": "De a verifica ce date se transmit sub forma de sir la serve-ul web"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Următoarea linie de cod:",
+      "options": {
+        "a": "Se transmit datele de un formular la server",
+        "b": "Se transmit datele între doua pagini web",
+        "c": "Se pot crea sesiuni pentru a transmite date de la o pagina web la alta",
+        "d": "Se transmit datele spre aceeași pagina"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "Cum putem accesa datele trimise prin URL cu metoda POST?",
+      "options": {
+        "a": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $POST. un camp de formular numit „, var\" in formular la clic pe link-ul din pagina, se poate accesa valoarea astfel: $GET[\"var1\")",
+        "b": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $GET atașat unui link",
+        "c": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $POST. un camp de formular numit „var\" in formular la clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $POST[\"var\"];"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Care va fi rezultatul acestui script?\n\n$a ='1';\n$b = &$a;\n$b=\"2$b\";\necho $a.\",\".$b;",
+      "options": {
+        "a": "20; 21",
+        "b": "1; 2",
+        "c": "21; 21",
+        "d": "21; 0"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Care este diferenta dintre mysqli_fetch_object() si mysqli_fetch_array()?",
+      "options": {
+        "a": "Nu exista diferente intre mysqli_fetch_object() si mysqli_fetch_array()",
+        "b": "Functia mysqli_fetch_object() colectează înregistrare care se potriveste in timp ce mysqli_fetch_array() colectează toate înregistrările care nu se potrivesc dintr-un tabel intr-un array.",
+        "c": "Functia mysqli_fetch_object() colectează prima înregistrare care se potriveste; mysqli_fetch_array() colectează toate înregistrările din tabel care se potrivesc intr-un array",
+        "d": "Returnează numărul de rânduri dintr-un set de rezultate"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce este seed in Laravel?",
+      "options": {
+        "a": "Laravel oferă un instrument pentru a include automat controller, in baza de date a controller.",
+        "b": "Laravel oferă un instrument pentru a include automat formulare, in bazele de formulare.",
+        "c": "Un generator de rapoarte in Laravel foarte controversat",
+        "d": "Laravel oferă un instrument pentru a include automat dummy data, in baza de date."
+      },
+      "answer": "d"
+    },
+    {
+      "question": "In PHP, obiectele sunt trecute prin valoare sau prin referinta?",
+      "options": {
+        "a": "prin formular",
+        "b": "prin valoare",
+        "c": "prin link",
+        "d": "prin referinta"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "In PHP, obiectele sunt transmise prin valoare sau prin referinta?",
+      "options": {
+        "a": "prin formular",
+        "b": "prin valoare",
+        "c": "prin link",
+        "d": "prin referinta"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Care este definiția unei sesiuni?",
+      "options": {
+        "a": "O sesiune este un obiect logic care ne permite să păstrăm temporar datele colectate de pe mai multe pagini PHP",
+        "b": "O sesiune este o procedura stocată care ne permite să păstrăm temporare datele colectate pe mai multe pagini PHP",
+        "c": "O sesiune este un obiect logic care ne permite să păstrăm permanent datele colectate de pe mai multe pagini PHP",
+        "d": "O sesiune este un obiect logic care ne permite să păstrăm în tabelul coș a bazei de date datele colectate de pe mai multe pagini PHP"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Ce este Ajax in PHP?",
+      "options": {
+        "a": "Este un constructor de interogari de baze de date care oferă o interfață convenabila și mai rapidă pentru a crea si rula interogari de baze de date.",
+        "b": "Ajax înseamnă JavaScript sincron și XML este o tehnica de dezvoltare web care este utilizata pentru a crea aplicații web sincrone.",
+        "c": "Ajax înseamnă JavaScript asincron și XML este o tehnica de dezvoltare web care este utilizata pentru a crea aplicații web asincrone.",
+        "d": "Este folosit pentru a încărca mai multe fișiere de vizualizare sablon; utilizatorul poate încărca, de asemenea, mai multe fișiere într-o singura vizualizare."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Cum se cunoaște numărul de rânduri returnate în setul de rezultate?",
+      "options": {
+        "a": "Functia mysqli_fetch_object() (sau $result -> fetch_object())) returnează numărul de rânduri dintr-un set de rezultate.",
+        "b": "Functia mysqli_fetch_assoc() (sau $mysqli_result -> fetch_assoc() )returnează numărul de rânduri dintr-un set de rezultate.",
+        "c": "Functia mysqli_num_rows() returnează numărul de rânduri dintr-un set de rezultate"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Cum se poate trimite un antet HTTP către client, in PHP?",
+      "options": {
+        "a": "Functia header() este utilizata pentru a include un fișier în fișierul curent",
+        "b": "Functia header() este utilizata pentru a facilita comunicarea dintre session si cookie",
+        "c": "Functia header() este utilizata pentru a trimite antetul HTTP brut către un client înainte ca orice ieșire sa fie trimisa",
+        "d": "Functia header() este utilizata pentru a trimite antetul HTTP brut către un client indiferent de momentul de trimitere"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Cum putem accesa datele trimise prin URL cu metoda GET?",
+      "options": {
+        "a": "Printr-un formular ce este conectat la baza de date din MySql",
+        "b": "Pentru a accesa datele trimise în acest fel, se utilizeaza array $ _POST.",
+        "c": "Ne conectam la MySql prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];",
+        "d": "Pentru a accesa datele trimise prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_ GET[\"var\"]; CORECTA"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce înseamnă domeniul variabilelor?",
+      "options": {
+        "a": "$_ENV este o matrice asociativă de variabile trimise către scriptul PHP curent prin metoda mediului",
+        "b": "Domeniul unei variabile este contextul în care nu este definite. In cea mai mare parte, toate variabilele PHP au un număr mare de domenii de aplicare. Acest scop unic se întinde pe fișiere include is required.",
+        "c": "Domeniul unei variabile este contextul în care este definită. In cea mai mare parte, toate variabilele PHP au un singur domeniu de aplicare. Acest scop unic se întinde pe fișiere include is required.",
+        "d": "$_SERVER este o matrice care include informatii create de serverul web, cum ar fi cai, anteturi și locații de script."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce se intelege, in Laravel prin Route?",
+      "options": {
+        "a": "Este un manager de pachete la nivel de aplicație pentru PHP. Oferă un format standard pentru gestionarea dependențelor și bibliotecilor de software PHP.",
+        "b": "O ruta este practic un punct final specificat de un URI (Uniform Resource Identifier); Acționează ca un indicator în aplicația Laravel. Cel mai frecvent, o ruta indică pur și simplu o metoda pe un controler și dictează, de asemenea, ce metode HTTP sunt capabile să atingă acel URI.",
+        "c": "Este un instrument de linie de comanda al Laravel. Oferă comenzi care ajuta sa se construiasca aplicația Laravel fără probleme.",
+        "d": "Este o interfata grafica prietenoasa."
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Care este diferenta dintre bucla For si Foreach in limbajul de scripting php?",
+      "options": {
+        "a": "Foreach nu exista prin limbajul de scripting php",
+        "b": "Bucla For si bucla Foreach este utilizata pentru citirea elementelor matrice sau a setului de rezultate MySQL unde num arul de iteratii poate fi necunoscut.",
+        "c": "Bucla For si bucla Foreach este utilizata pentru iterarea unui număr predefinit de ori.",
+        "d": "Bucla For este utilizata în principal pentru iterarea unui număr predefinit de ori și bucla Foreach este utilizata pentru citirea elementelor matrice sau a setului de rezultate MySQL unde numarul de iteratii poate fi necunoscut."
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Cum pot interactiona PHP si HTML?",
+      "options": {
+        "a": "HTML Si PHP sunt doua limbaje diferite",
+        "b": "Se poate genera cod HTML din scripturi PHP si sa se transmita informatii de la HTML la PHP.",
+        "c": "Nu se pot transmite informații de la HTML la PHP dar se poate genera cod HTML din script PHP",
+        "d": "Nu se poate genera cod HTML din scripturi PHP"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Cum putem accesa datele trimise prin URL cu metoda POST?",
+      "options": {
+        "a": "Pentru a accesa datele trimise în acest fel, se utilizeaza cu array $ _POST. un camp de formular numit “var\" in formular la clic pe link-ul din pagina, se poate accesa valoarea astfel: $_GET [\"var1\"];",
+        "b": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $_GET atașat unui link",
+        "c": "Nu se poate utiliza pentru a transmite mesaje",
+        "d": "Pentru a accesa datele trimise în acest fel, se utilizeaza cu array $_POST. un camp de formular numit „var\" in formular la clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $_POST [\"var\"];"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Ce este PDO?",
+      "options": {
+        "a": "PHP Data Objects este o extensie JS care utilizează o interfata de consistentă pentru accesarea bazei de date.Folosind PDO, un dezvoltator poate accesa doar MySql",
+        "b": "PHP Data Objects este o extensie PHP care se utilizează ca un formular ce permite la click pe submit să acceseze baza de date atasata.",
+        "c": "PHP Data Objects este o extensie Laravel care utilizează o interfata de consistent pentru accesarea bazei de date.Folosind PDO, un dezvoltator nu poate trece cu usurinta de la un server de baze de date la altul",
+        "d": "PHP Data Objects este o extensie PHP care utilizează o interfata de consistentă pentru accesarea bazei de date.Folosind PDO, un dezvoltator poate trece cu usurinta de la un server de baze de date la altul"
+      },
+      "answer": "d"
+    },
+    {
+      "question": "Cum functioneaza PHP?",
+      "options": {
+        "a": "PHP funcționează cu un client de web care livreaza pagini in cod curat php",
+        "b": "PHP este asincron și permite încărcarea doar a bucăți de cod care suporta modificarea la un moment de timp",
+        "c": "PHP funcționează cu un server web, este software-ul care livrează pagini web către lume. Solicitarea unui fișier php îl determina pe serverul web sa ruleze PHP și să trimită înapoi la browser cod curat HTML",
+        "d": "PHP nu știe sa interacționeze cu serverul MySql"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce efect are comanda PHP artisan make:controller ex --resource?",
+      "options": {
+        "a": "Aceasta comanda va genera un Model la resource /view ex.blade.php, modelul va contine o metoda pentru fiecare dintre operațiunile de resurse disponibile; se poate înregistra o ruta a resurselor care indica controlerul",
+        "b": "Route::resource(‘ex', ex::class);",
+        "c": "Aceasta comanda va genera un controler la app / Http / Controllers / ex.php. controlerul va contine o metoda pentru fiecare dintre operațiunile de resurse disponibile; se înregistra o ruta la resursele care indica controlerul",
+        "d": "Route::resource('ex', ex::class);",
+        "e": "Nu are nici un efect",
+        "f": "Aceasta comanda va genera un View la resource /view ex.blade.php, view-ul va contine o metoda pentru fiecare dintre operațiunile de resurse disponibile. Se poate înregistra o ruta a resurselor care indica controlerul",
+        "g": "Route::resource('ex', ex::class)"
+      },
+      "answer": "c, d"
+    },
+    {
+      "question": "Ce este un \"array\"?",
+      "options": {
+        "a": "este o structura de date care contine un grup de elemente de tipuri diferite",
+        "b": "este o variabila ce reține o singura valoare la un moment dat și păstrează o singura valoare la un moment dat",
+        "c": "este o structura de date care contine un grup de elemente. In general, aceste elemente sunt toate de același tip de date, cum ar fi un număr întreg sau un șir.",
+        "d": "este un fisier ce contine date temporare"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Cum verific daca o anumita variabila este goala?",
+      "options": {
+        "a": "cu functia empty() se verifica dacă o variabila are sau nu o valoare",
+        "b": "cu functia isset() este o matrice care include informații create de serverul web, cum ar fi cai, anteturi și locații de script.",
+        "c": "se verifica cu functia isset() dacă valoarea primită ca parametru este un antet",
+        "d": "functia empty() este o matrice care include informații create de serverul web, cum ar fi cai, anteturi și locații de script."
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Ce înseamnă $_SERVER?",
+      "options": {
+        "a": "$_SERVER este o matrice asociativă a variabilelor trimise scriptului curent utilizand cookieurile HTTP.",
+        "b": "$_SERVER este o matrice asociativa care include referinte la toate variabilele care sunt definite în prezent în domeniul global al scriptului",
+        "c": "$_SERVER este o matrice care include informatii create de serverul web, cum ar fi cai, anteturi și locații de script.",
+        "d": "$_SERVER este o matrice asociativa compusa din element trimise catre scriptul curent prin metoda HTTP POST"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce este MVC?",
+      "options": {
+        "a": "reprezinta un sablon de proiectare a aplicatiilor care nu pot interactiona cu o baza de date",
+        "b": "reprezinta un sablon de proiectare a aplicatiilor, ce implica reunirea fizica a codului sursa.",
+        "c": "o aplicație compusă din bucăți mai mici care sunt reutilizabile, centralizate, accesibile, și se potrivesc împreuna cu blocuri expune un API abstract care le leaga. Cu totul organizat, ordonat în obiecte cu responsabilități specifice, costul de schimbare este în mod normal redus semnificativ, ceea ce este de fapt idea de la care s-a plecat.Nu se scrie codul de la zero ci se reutilizeaza și se adaugă cel de care este nevoie.",
+        "d": "aplicatie simpla creata dintr-o singura clasa organizata, ordonanța în obiecte cu responsabilități specifice, costul de schimbare este în mod normal ridicat semnificativ, ceea ce este de fapt idea de la care s-a plecat. Se scrie codul de la zero ci se reutilizeaza și se adaugă cel de care este nevoie."
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce se intelege prin Prepared Statements?",
+      "options": {
+        "a": "Au rol important în preluarea datelor obtinute de la utilizatorul unui website",
+        "b": "Instrucțiune necompilata a unei declarații SQL care poate fi executată de mai multe ori doar prin transmiterea datelor la server",
+        "c": "Este o precompilare a unei declarații SQL care poate fi executată de mai multe ori doar prin trimiterea datelor la server",
+        "d": "Nu se pot executa cu instrucțiuni SQL ci numai cu ORM"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Ce rol are $conn->query în codul sursa următor?\n$sql = \"INSERT INTO tabel(camp1, camp2, camp3) VALUES ('v1', 'v2', 'v3')\";\nif ($conn->query($sql) === TRUE){\n    echo \"Mesaj1\";\n} else {\n    echo \"Mesaj2 \" . $sql . \"<br>\" . $conn->error; }\n$conn-> close(); ?>",
+      "options": {
+        "a": "Are rol de a executa instrucțiunea sql CORECTA",
+        "b": "Are rol de a se conecta la MySql",
+        "c": "Are rol de a afișa pe ecran un mesaj",
+        "d": "Are rol de a afișa un table pe ecran"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Ce este varchar in MySql?",
+      "options": {
+        "a": "Valorile din coloanele VARCHAR sunt șiruri de lungime variabila. Lungimea poate fi specificata ca valoare de la 0 la 65.535. Lungimea maxima efectiva a unui VARCHAR este conditionata de dimensiunea maxima a randului (65.535 octeti, care este partajată între toate coloanele) și de setul de caractere utilizat.",
+        "b": "Valorile din coloanele VARCHAR sunt șiruri de lungime fixă. Lungimea nu poate fi specificata ca valoare de la 0 la 65.535. Lungimea maxima efectiva a unui VARCHAR nu este conditionata de dimensiunea maxima a randului (65.535 octeti, care este partajată între toate coloanele) și de setul de caractere utilizat.",
+        "c": "Ne returnează valoarea variabilei primite ca parametru",
+        "d": "Ne returnează un mesaj de eroare în PHP când codul sursa nu se poate conecta la baza de date"
+      },
+      "answer": "b"
+    },
+    {
+      "question": "Ce este Eloquent?",
+      "options": {
+        "a": "funcționează ca o interfață între Model și View",
+        "b": "defineste interfata grafica pentru înregistrările active",
+        "c": "este un ORM utilizat in Laravel; oferă implementarea simpla a inregistrarilor active, care lucrează cu baza de date; fiecare tabel de baze de date are modelul sau care interacționează cu tabelul",
+        "d": "motor de gestiune a rutelor"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Explicați ce face următorul cod sursa\n<?php\n$servername = \"localhost\",\n$username = \"username\";\n$password = \"password\";\n$dbname = \"numeDB\";\nconn= mysqli_connect($servername, $username, $password,$dbname)\nmysqli _select_ db($database, \"DATABASE_NAME\") ;",
+      "options": {
+        "a": "Crearea conexiunii la PHP și selectarea tabelei",
+        "b": "Crearea conexiunii permanentă și selectarea indecsilor unei tabele",
+        "c": "Crearea conexiunii la MySql si selectarea bazei de date",
+        "d": "Selectarea inregistrarilor din tabelele bazei de date"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "După ce codul de mai jos este executat\n<?php\nfor($row=1;$row<=8;$row++){\n    for($s=1;$s<=$row;$s++)\n    {\n        echo \"*\";\n    }\n    Echo \" <br>\";\n}\n?>",
+      "options": {
+        "a": "Eroare",
+        "b": "Afișează 8 linii cu 2 stelute pe fiecare linie",
+        "c": "Afișează 8 linii: pe prima linie 1 steluta; pe a 2a linie 2 stelute, pe a 3a linie 3 stelute, ...., pe a 8a linie 8 stelute",
+        "d": "Afișează 8 linii cu o steluta pe fiecare linie"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "Explicați rolul lui @yield din codul următor:",
+      "options": {
+        "a": "Directiva @yield este utilizata pentru a afișa conținutul unei secțiuni date",
+        "b": "nu are niciun rol",
+        "c": "directive @yield, după cum sugerează și numele, defineste o secțiune de conținut",
+        "d": "directive @yield are acelasi rol cu directive @if"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Functia array() permite:",
+      "options": [],
+      "answer": "Functia array() permite omiterea parametrului opțional numit indice, existent în sintaxa acestuia."
+    },
+    {
+      "question": "Rolul sesiunilor este:",
+      "options": [],
+      "answer": "Rolul sesiunilor este de a reține informațiile care trebuie transmise de la o pagină la alta într-o aplicație PHP."
+    },
+    {
+      "question": "Model ViewController:",
+      "options": [],
+      "answer": "Model ViewController: Controller-ul este aceea entitate care preia datele de la model, eventual face anumite prelucrări asupra lor și le trimite View-ului."
+    },
+    {
+      "question": "Caracteristicile CMS sunt:",
+      "options": {
+        "a": "Instrument software instalat pe un server compus dintr-o serie de instrucțiuni scrise într-un limbaj de programare conectate la o baza de date … și care permite extragerea de informații din baza de date și prezentarea ei sub forma de conținut",
+        "b": "Limbaj de programare destinat implementării de pagini web; System de gestiune a bazelor de date;",
+        "c": "Instrument software instalat pe un client compus dintr-o serie de baze de date într-un limbaj de programare conectate la o baza de date … și care permite extragerea de informații din baza de date și prezentarea ei sub forma de conținut"
+      },
+      "answer": "a"
+    },
+    {
+      "question": "Care dintre următoarele afirmații este corectă despre constante vs variabile în PHP?",
+      "options": {
+        "a": "Odată ce constantele au fost setate, este posibil să nu fie redefinite sau nedefinite.",
+        "b": "Constantele pot fi definite și accesate oriunde fără a ține cont de regulile de acoperire a variabilelor.",
+        "c": "Niciuna dintre cele de mai sus.",
+        "d": "Ambele cele de mai sus."
+      },
+      "answer": "d"
+    },
+    {
+      "question": "Fragmentarea care NU are la baza operatorul de proiecție este fragmentare [EABD?]",
+      "options": {
+        "a": "Orizontală partiționată vertical",
+        "b": "Vertical partiționată orizontal",
+        "c": "Orizontala",
+        "d": "Derivata"
+      },
+      "answer": "c"
+    },
+    {
+      "question": "PHP $_REQUEST",
+      "options": [],
+      "answer": "Poate fi folosită pentru a obține valorile din mai multe formulare."
+    },
+    {
+      "question": "Care este rolul următoarei instrucțiuni?\n$db->query( \"SELECT * FROM table_name WHERE field = value\" ) -> first ()",
+      "options": [],
+      "answer": "Efectuarea interogărilor SELECT obține primul rând și returnează obiectul."
+    },
+    {
+      "question": "Serverul web are rolul de a servi fișiere stocate în rădăcina lui",
+      "options": [],
+      "answer": "Corect"
+    },
+    {
+      "question": "Ce afișează codul sursă următor:\n<?php\n$favcolor = \"red\";\nswitch ($favcolor) {\ncase \"rosu\":\necho \"Culoarea preferată este roșu!\";\nbreak;\ncase \"albastru\":\necho \"Culoarea preferată este albastru!\";\nbreak;\ncase \"verde\":\necho \"Culoarea preferată este verde!\";\nbreak;\ndefault: echo \"Culoarea preferată este alta!\";\n}?>",
+      "options": [],
+      "answer": "Culoarea preferată este alta"
+    },
+    {
+      "question": "Care este modul corect de a adăuga 1 la variabila $count?",
+      "options": [],
+      "answer": "$count += 1;"
+    },
+    {
+      "question": "Care este modul corect de a termina o instrucțiune PHP?",
+      "options": [],
+      "answer": ";"
+    },
+    {
+      "question": "Care este un mod corect de a adăuga un comentariu în PHP?",
+      "options": [],
+      "answer": "/*...*/"
+    },
+    {
+      "question": "Ce metodă este responsabilă pentru trimiterea întrebării la baza de date din MySQL?",
+      "options": [],
+      "answer": "query()"
+    },
+    {
+      "question": "Ce variabilă super globală conține informații despre anteturi, căi și locații script?",
+      "options": [],
+      "answer": "$_SERVER"
+    },
+    {
+      "question": "Cum creați un cookie în PHP?",
+      "options": [],
+      "answer": "setcookie();"
+    },
+    {
+      "question": "Cum obțineți informații dintr-un formular care este trimis utilizând metoda:",
+      "options": [],
+      "answer": "$_GET;"
+    },
+    {
+      "question": "În PHP puteți utiliza atât apostrof cât și ghilimele duble pentru șiruri:",
+      "options": [],
       "answer": "True"
     },
     {
-      "question": "Care din următoarele NU reprezintă o limitare a sistemelor de baze de date relaţionale?",
-      "options": [
-        "a. Spaţiul de memorie ocupat",
-        "b. Reprezentarea precară a entităţilor din lumea reală",
-        "c. Structură de date prea omogenă",
-        "d. Set redus de operaţii",
-        "e. Gestionarea greoaie a interogărilor recursive",
-        "f. Control insuficient al integrităţii şi mecanisme deficitare de gestionare a constrângerilor de întreprindere",
-        "g. Limitarea semantică"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "În PL/SQL operatorul de asociere “=>” nu se foloseşte în modul de pasare:",
-      "options": ["a. Poziţional", "b. Nominal", "c. Combinat/Mixt"],
-      "answer": "a"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă reguli de verificare a fragmentării?",
-      "options": [
-        "a. Alocarea fragmentării",
-        "b. Persistenţa fragmentării",
-        "c. Consistenţa fragmentării",
-        "d. Refacerea relaţiei iniţiale"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Legat de modelarea relaţiilor M:N în MongoDB prin imbricarea documentelor, care din următoarele aserţiuni NU este adecvată?",
-      "options": [
-        "a. Se realizează prin documente încuibărite, de preferinţă cele cu cardinalitate mai mică în cadrul celor cu cardinalitate mai mare (Ex. profesori în cadrul studenţilor)",
-        "b. Apar probleme cu duplicatele şi inconsistenţa",
-        "c. Se realizează prin documente încuibărite, de preferinţă cele cu cardinalitate mai mare în cadrul celor cu cardinalitate mai mică (Ex. studenţi în cadrul profesorilor)"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici? Costurile de comunicaţie şi de stocare sunt relativ reduse. Caracterul local al referinţei, securitatea, fiabilitatea şi disponibilitatea sunt apropiate de maxim.",
-      "options": [
-        "a. Baze de date centralizate",
-        "b. Baze de date replicate integral",
-        "c. Baze de date partiţionate, fragmentate sau nereplicate",
-        "d. Baze de date replicate parţial sau selectiv"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Câte tipuri de excepţii pot fi gestionate de către limbajul PL/SQL?",
+      "question": "Funcțiile die() și exit() au același rol în cadrul unui script?",
       "options": [],
-      "answer": "3"
+      "answer": "Da"
     },
     {
-      "question": "“Procedeul de spargere al relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării aşa-numitelor fragmente rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin” reprezintă definiţia pentru:",
-      "options": [
-        "a. Fragmentare",
-        "b. Alocare",
-        "c. Proiectare",
-        "d. Replicare"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care din următoarele NU este un avantaj al sistemelor de baze de date distribuite?",
-      "options": [
-        "a. Caracterul partajabil şi autonomia locală",
-        "b. Dezvoltare modulară",
-        "c. Gestiunea interogărilor",
-        "d. Structura organizaţională",
-        "e. Disponibilitate şi fiabilitate crescute",
-        "f. Performanţe îmbunătăţite"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Bazele de date NoSQL",
-      "options": [
-        "a. – stochează date relaţionale",
-        "b. – nu au probleme legate de consistenţa datelor",
-        "c. – nu posedă sistem de gestiune a versiunilor",
-        "d. – nu au schemă"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Metoda ROWA (Read-One-Write-All) este specifică următorului protocol:",
-      "options": [
-        "a. Protocolul de zăvorâre al majorităţii",
-        "b. Protocolul 2PL de copie primară",
-        "c. Protocolul 2PL sincron",
-        "d. Protocolul 2PL centralizat",
-        "e. Protocolul 2PL distribuit"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "Fie următoarea structură:\nAngajat\n{\n\"_id\": ObjectId(\"100000000000000000000000\"),\nmarca: 1,\nnume: 'Pop',\nprenume: 'Ion',\nsalariu: 1500\n},…\nPotriviţi termenii de mai jos:\n“Pop” este",
-      "options": [
-        "Answer 1 Angajat este Answer 2 “nume” esteAnswer 3 Ceea ce avem între acolade reprezintăAnswer 'id' este Answer 5"
-      ],
-      "answer": "Pop este → valoare, Angajat este → colecţia, nume este → cheie, Ceea ce avem între acolade reprezintă → documentul, _id este → identificatorul de obiect"
-    },
-    {
-      "question": "„Pentru utilizator, sistemul distribuit trebuie să arate – şi să se comporte – la fel cu unul nedistribuit” este",
-      "options": [
-        "a. Principiul autonomiei locale",
-        "b. Regula de aur pentru sisteme de baze de date distribuite",
-        "c. Principiul transparenţei",
-        "d. Principiul distribuirii"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "In PL/SQL, care din următoarele afirmaţii legate de blocurile IF este adevărată?",
-      "options": [
-        "a. Poate să aibă mai multe ramuri ELSIF",
-        "b. Trebuie să aibă o ramură ELSE şi numai una",
-        "c. Trebuie să aibă neapărat mai multe ramuri ELSIF",
-        "d. Poate să aibă mai multe ramuri ELSE"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Comanda rs.slaveOk() din MongoDB are ca efect:",
-      "options": [
-        "a. permite efectuarea citirilor si de pe nodurile secundare",
-        "b. transformarea nodului curent în nod secundar",
-        "c. transformă nodul secundar în nod primar",
-        "d. permite utilizarea de noduri secundare în cadrul unui set de replici"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "În PL/SQL, o funcţie/procedură poate să aibă următorul privilegiu-obiect:",
-      "options": [
-        "a. CREATE",
-        "b. UPDATE",
-        "c. EXECUTION",
-        "d. ALTER",
-        "e. PROCEDURE",
-        "f. EXECUTE"
-      ],
-      "answer": "f"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă o etapă a procesului de descompunere a interogărilor în cadrul sistemelor de baze de date distribuite?",
-      "options": [
-        "a. Analiza preliminară",
-        "b. Restructurarea interogărilor",
-        "c. Normalizarea",
-        "d. Analiza semantică",
-        "e. Optimizarea interogărilor",
-        "f. Simplificarea"
-      ],
-      "answer": "e"
-    },
-    {
-      "question": "Care este rezultatul execuţiei următoarei comenzi MongoDB?\ndb.catedra.remove()",
-      "options": [
-        "a. Şterge ultimul document din colecţie intitulată „catedra”",
-        "b. Şterge întreaga colecţie intitulată „catedra”",
-        "c. Returnează eroare",
-        "d. Şterge documentul intitulat „catedra”",
-        "e. Şterge baza de date intitulată „catedra”",
-        "f. Şterge toate documentele din colecţia intitulată „catedra”"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care dintre următorii termeni nu este specific proiectării sistemelor de baze de date distribuite?",
-      "options": [
-        "a. INTEROGARE",
-        "b. REPLICARE",
-        "c. ALOCARE",
-        "d. PARTIŢIONARE"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care este nivelul de replicare în cadrul unui sistem de baze de date distribuite ce are următoarele caracteristici?\nCaracterul local al referinţei este cel mai scăzut; securitatea, fiabilitatea şi disponibilitatea sunt scăzute şi depind în cea mai mare măsură de nodul central. Costul comunicaţiei este ridicat.",
-      "options": [
-        "a. Baze de date replicate parţial sau selectiv",
-        "b. Baze de date partiţionate, fragmentate sau nereplicate",
-        "c. Baze de date replicate integral",
-        "d. Baze de date centralizate"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Care din următoarele sunt dezavantaje legate de fragmentare?",
-      "options": [
-        "a. Securitatea",
-        "b. Paralelismul",
-        "c. Complexitatea proiectării",
-        "d. Uzanţa"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Care dintre următoarele NU reprezintă operaţii în cadrul cubului de date?",
-      "options": [
-        "a. Pivotarea",
-        "b. Tranşarea (Slicing)",
-        "c. Consolidarea/Sumarizarea",
-        "d. Defrişarea/Tunderea (Pruning)",
-        "e. Mărunţirea (Dicing)",
-        "f. Detalierea"
-      ],
-      "answer": "d"
-    },
-    {
-      "question": "Gestiunea partițiilor orizontale în MongoDB sunt gestionate de către serviciul:",
-      "options": [
-        "a. mongop.exe",
-        "b. mongod.exe",
-        "c. mongos.exe",
-        "d. mongo.exe"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "În PL/SQL, o funcţie cu numele ACTUALIZARE, se poate executa în felul următor:",
-      "options": [
-        "a. UPDATE pe tabela pentru care a fost creat",
-        "b. BEGIN\nACTUALIZARE;\nEND;",
-        "c. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Pe lângă componentele subsistemului tranzacţional al unui SGBD dintr-un sistem centralizat, în cel distribuit mai avem:",
-      "options": [
-        "a. Administratorul de tranzacţii",
-        "b. Planificatorul",
-        "c. Administratorul de tranzacţii global",
-        "d. Administratorul de buffere"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Refacerea relaţiei iniţiale din fragmente orizontale se face prin intermediul operatorului de",
-      "options": [
-        "a. Reuniune",
-        "b. Intersecţie",
-        "c. Proiecţie",
-        "d. Uniune",
-        "e. Selecţie",
-        "f. Produs cartezian"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care va fi efectul comenzii db.colectie.find({an:{$gt 1990, $lt 1995}},{titlu:1, _id:0} ).pretty() în MongoDB?",
-      "options": [
-        "a. afişează doar titlul pentru publicaţiile dintre anii 1991 şi 1994",
-        "b. afişează toate titlurile cu valoarea 1 şi id-ul 0 dintre anii 1990 şi 1995",
-        "c. afişează toate titlurile publicate înainte de 1995 sau după 1990",
-        "d. afişează doar titlul pentru publicaţiile dintre anii 1990 şi 1995",
-        "e. find nu permite decât o singură pereche de acolade",
-        "f. afişează toate titlurile cu valoarea 1 şi id-ul 0 dintre anii 1991 şi 1994"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care din următoarele nu reprezintă un beneficiu al limbajul PL/SQL?",
-      "options": [
-        "a. Optimizarea blocurilor anonime",
-        "b. Sporirea performanţei în exploatare",
-        "c. Integrarea cu produsele Oracle",
-        "d. Portabilitate (SO, platforme diferite)",
-        "e. Integrarea construcţiilor procedurale cu limbajul SQL",
-        "f. Tratarea excepţiilor",
-        "g. Dezvoltarea programării modularizate (structuri bloc)"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Într-o interogare MongoDB, rolul operatorului $pullAll este de a …",
-      "options": [
-        "a. sterge toate valorile care se potrivesc dintr-o lista",
-        "b. adaugă un element unei liste",
-        "c. adaugă mai multe elemente unei liste",
-        "d. sterge primul sau ultimul element din listă"
-      ],
-      "answer": "a"
-    },
-    {
-      "question": "Care este efectul comenzii db.colectie.insertMany([{\"'_id' : 'tt9eijdskd' , ...}, { …} , … ], {'ordered':false}) în MongoDB?",
-      "options": [
-        "a. nu există comanda insertMany",
-        "b. va introduce toate documentele până la primul duplicat de _id",
-        "c. va introduce toate documentele, cu excepţia duplicatelor de _id"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "C.J. Date a formulat un număr de reguli pentru sistemele de baze de date distribuite. Acestea sunt în număr de:",
+      "question": "Care dintre aceste variabile are un nume ilegal?",
       "options": [],
-      "answer": "12"
+      "answer": "$var-max"
     },
     {
-      "question": "Ce face comanda db.catedra.drop() în MongoDB?",
-      "options": [
-        "a. Şterge baza de date intitulată „catedra”",
-        "b. Şterge toate documentele din colecţia intitulată „catedra”",
-        "c. Şterge documentul intitulat „catedra”",
-        "d. Şterge ultimul document din colecţie intitulată „catedra”",
-        "e. Şterge întreaga colecţie intitulată „catedra”"
-      ],
-      "answer": "e"
+      "question": "Cum se scrie \"Salut lume!\" în PHP:",
+      "options": [],
+      "answer": "echo \"Salut lume\";"
     },
     {
-      "question": "Făcând o comparaţie între modelul de date relaţional şi cel obiectual, termenul corespondent pentru tuplu este:",
-      "options": [
-        "a. Relaţia",
-        "b. Atributul",
-        "c. Obiectul",
-        "d. Clasa",
-        "e. Identificatorul de obiect"
-      ],
-      "answer": "c"
+      "question": "Cum creați un șir în PHP?",
+      "options": [],
+      "answer": "$masini=array(\"Dacia\",\"Aro\",\"Trabant\");"
     },
     {
-      "question": "În PL/SQL acest obiect trebuie să returneze un parametru şi numai unul:",
-      "options": [
-        "a. Funcţia",
-        "b. Procedura",
-        "c. Blocul anonim",
-        "d. Cursorul implicit",
-        "e. Declanşatorul"
-      ],
+      "question": "Ce valoare afișează următorul script:\n$nume='123';\n$$nume='456';\necho $nume.\" <br/> \";\necho ${'123'},\" <br/>",
+      "options": [],
+      "answer": "Afișează 123 456"
+    },
+    {
+      "question": "118. Cod sursa:\n\n<?php\n$username='localhost',\n$username='username',\n$password='password'\n.\n. R:creare conexiune si verificarea ei afisand mesaje corespunzatoare\nExplicati rolul lui @yield din codul urmator\n<html>\n<head>\n<title>App Name - @yield(‘title’)</title>\n</head>\n<body>\n@section(‘sidebar’)\nThis is the master sidebar.\n@show\n<div class=”container”>\n@yield(‘content’)\n</div>\n</body>\n</html>",
+      "options": {
+        "a": "Directiva @yield este utilizata pentru a afisa continutul unei sectiuni date",
+        "b": "nu are niciun rol",
+        "c": "directive @yield, dupa cum sugereaza si numele, defineste o sectiune de continut",
+        "d": "directive @yield are acelasi rol cu directive @if"
+      },
       "answer": "a"
-    },
-    {
-      "question": "Predicatele minterm stau la baza proiectării:",
-      "options": [
-        "a. Acestea sunt folosite pentru alocare",
-        "b. Fragmentării Orizontale",
-        "c. Fragmentării Verticale",
-        "d. Acestea sunt folosite pentru replicare"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "Care din următoarele NU reprezintă o etapă a procesului de descompunere a interogărilor în cadrul sistemelor de baze de date distribuite?",
-      "options": [
-        "a. Normalizarea",
-        "b. Restructurarea interogărilor",
-        "c. Analiza preliminară",
-        "d. Simplificarea",
-        "e. Analiza semantică",
-        "f. Optimizarea interogărilor"
-      ],
-      "answer": "f"
-    },
-    {
-      "question": "Care din următoarele comenzi MongoDB NU va insera un document cu exact 2 perechi cheie-valoare?",
-      "options": [
-        "a. db.catedra.insert({denumire:'Informatica Economica', _id:100})",
-        "b. db.catedra.insert({_id:100, denumire:'Informatica Economica'})",
-        "c. db.catedra.insert({id:100, denumire:'Informatica Economica'})",
-        "d. db.catedra.insert({denumire:'Informatica Economica'})"
-      ],
-      "answer": "c"
-    },
-    {
-      "question": "Wrapper-ul este un termen care se leagă în principal de …",
-      "options": [
-        "a. Independenţa de sistemul de operare",
-        "b. Independenţa de sistemul SGBD",
-        "c. Independenţa de hardware",
-        "d. Independenţa de reţea"
-      ],
-      "answer": "b"
-    },
-    {
-      "question": "În PL/SQL, un declanşator cu numele ACTUALIZARE, se poate executa în felul următor:",
-      "options": [
-        "a. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)",
-        "b. BEGIN ACTUALIZARE; END;",
-        "c. X:= ACTUALIZARE",
-        "d. UPDATE pe tabela pentru care a fost creat"
-      ],
-      "answer": "d"
     }
   ]
 }
