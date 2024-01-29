@@ -318,7 +318,7 @@
     {
       "question": "Un program OOP este alcătuit:",
       "options": [
-        "a. Că un set de funcții și un set de variabile globale utilizate de acele funcții",
+        "a. Ca un set de funcții și un set de variabile globale utilizate de acele funcții",
         "b. Un set de coloane ale unui tabel definit într-o bază de date",
         "c. Dintr-o combinație de funcții și variabile conexe într-o unitate numită clasă."
       ],
@@ -373,7 +373,7 @@
         "c. Piesele ce se adaugă în jurul blocului principal de conținut cu scopul de a adăuga noi funcționalități esențiale în site",
         "d. Este un … sau poate fi o galerie de imagini"
       ],
-      "answer": "b"
+      "answer": "a"
     },
     {
       "question": "Prototipul unei funcții PHP:",
