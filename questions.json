@@ -726,551 +726,416 @@
     },
     {
       "question": "Proprietate, onreadystatechange are rolul:",
-      "options": {
-        "a": "De a determina care eveniment va fi apelat la schimbarea stării “readystate”",
-        "b": "De a număr care eveniment va fi apelat la schimbarea stării “readyState”",
-        "c": "De a bloca evenimentul apelat la schimbarea stării “readyState”"
-      },
+      "options": [
+        "a. De a determina care eveniment va fi apelat la schimbarea stării “readystate”",
+        "b. De a număr care eveniment va fi apelat la schimbarea stării “readyState”",
+        "c. De a bloca evenimentul apelat la schimbarea stării “readyState”"
+      ],
       "answer": "a"
     },
     {
       "question": "In PHP:",
-      "options": {
-        "a": "Un fișier php poate contine mai multe formulare care trimite valorile între ele în același fișier php",
-        "b": "Este exclus ca un fișier .php poate sa creeze un formular care sa trimita informația chiar către fișierul php care contine formularul",
-        "c": "Un fișier .php poate sa creeze un formular care este obligat sa trimita informația chiar catre el insusi",
-        "d": "Un fisier .php primeste date spre un alt fisier php cu $_REQUEST"
-      },
+      "options": [
+        "a. Un fișier php poate contine mai multe formulare care trimite valorile între ele în același fișier php",
+        "b. Este exclus ca un fișier .php poate sa creeze un formular care sa trimita informația chiar către fișierul php care contine formularul",
+        "c. Un fișier .php poate sa creeze un formular care este obligat sa trimita informația chiar catre el insusi",
+        "d. Un fisier .php primeste date spre un alt fisier php cu $_REQUEST"
+      ],
       "answer": "a"
     },
     {
       "question": "Ce face urmatorul script PHP:<?php\\n$n = 100;\\n$rez = 1;\\n\\nfor ($i = 1; $i <= $n; $i++) {\\n    if ($i % 2 == 0) {\\n        $rez = $rez * $i;\\n    }\\n}\\n\\necho \"Rezultatul este: $rez\";\\n?>",
-      "options": {
-        "a": "Produsul numerelor între 1 și 100",
-        "b": "Calculeaza produsul a 10 numere introduce de la tastatura",
-        "c": "Afișează $rez de $i ori",
-        "d": "Calculeaza factorialul și afișează rezultatul"
-      },
+      "options": [
+        "a. Produsul numerelor între 1 și 100",
+        "b. Calculeaza produsul a 10 numere introduce de la tastatura",
+        "c. Afișează $rez de $i ori",
+        "d. Calculeaza factorialul și afișează rezultatul"
+      ],
       "answer": "a"
     },
     {
       "question": "Functiile mysql_connect(); si mysql_select_dih(); trebuie:",
-      "options": {
-        "a": "Apelate întotdeauna cand se termina lucrul cu bazele de date",
-        "b": "Apelate întotdeauna cand se transmit datele dintr-o pagina php intr-o alta pagina php",
-        "c": "Apelate întotdeauna cand se începe lucrul cu bazele de date",
-        "d": "Apelate întotdeauna cand se incepe crearea tabelelor html"
-      },
+      "options": [
+        "a. Apelate întotdeauna cand se termina lucrul cu bazele de date",
+        "b. Apelate întotdeauna cand se transmit datele dintr-o pagina php intr-o alta pagina php",
+        "c. Apelate întotdeauna cand se începe lucrul cu bazele de date",
+        "d. Apelate întotdeauna cand se incepe crearea tabelelor html"
+      ],
       "answer": "c"
     },
     {
       "question": "Proprietatea onreadystatechange a obiectului XMLHttpRequest:",
-      "options": {
-        "a": "Nu determina care eveniment va fi apelat la schimbarea stării “readyState”",
-        "b": "Determina care eveniment va fi apelat la schimbarea stării “readyState”",
-        "c": "Returnează răspunsul primit de la server în format XML"
-      },
+      "options": [
+        "a. Nu determina care eveniment va fi apelat la schimbarea stării “readyState”",
+        "b. Determina care eveniment va fi apelat la schimbarea stării “readyState”",
+        "c. Returnează răspunsul primit de la server în format XML"
+      ],
       "answer": "b"
     },
     {
       "question": "Web 3.0 se caracterizeaza prin:",
-      "options": {
-        "a": "Citire-scriere-executare",
-        "b": "Faptul ca permite sa se realizeze iterație printer toate elementele unui tablou din cadrul unei pagini web",
-        "c": "Conectat, deschis si intelligent, fara tehnologie semantic web, baze de date distribuite, procesarea limbajului natural, machine learning, machine reasoning and autonomous agents",
-        "d": "Exploatarea bazelor de date și comunicari sincrone între server și client"
-      },
+      "options": [
+        "a. Citire-scriere-executare",
+        "b. Faptul ca permite sa se realizeze iterație printer toate elementele unui tablou din cadrul unei pagini web",
+        "c. Conectat, deschis si intelligent, fara tehnologie semantic web, baze de date distribuite, procesarea limbajului natural, machine learning, machine reasoning and autonomous agents",
+        "d. Exploatarea bazelor de date și comunicari sincrone între server și client"
+      ],
       "answer": "c"
     },
     {
       "question": "Tehnologiile folosite de Web 2.0:",
-      "options": {
-        "a": "Sunt cele ADO, DAO, JavaScript, Dotecom, XML",
-        "b": "Sunt Application Program Interfaces; Asynchronous JavaScript and XML, Content syndication",
-        "c": "Sunt cele specific dotcom-urilor",
-        "d": "Sunt cele specific programării orientate obiect"
-      },
+      "options": [
+        "a. Sunt cele ADO, DAO, JavaScript, Dotecom, XML",
+        "b. Sunt Application Program Interfaces; Asynchronous JavaScript and XML, Content syndication",
+        "c. Sunt cele specific dotcom-urilor",
+        "d. Sunt cele specific programării orientate obiect"
+      ],
       "answer": "b"
     },
     {
       "question": "Ce afișează pe ecran următoarea secvența de cod:\n\n<?php echo \"<table border=\\\"1\\\">; for($i=1;$i<=5;$i++) {echo \"<tr>\"; For($j=1;$j<=5;$j++) {echo \"<ul>\"; Echo($i+$j); Echo \"</td>\";} Echo \"</tr>\";} Echo \"</table>\";?>",
-      "options": {
-        "a": "Prima valoare a tabelului și a 5,25, etc",
-        "b": "Afișează valori în ordine crescătoare pe prima linie si coloana cu valori din 1 în 1, linia 2 și coloanal 2 cu valori din 1 in 1 etc",
-        "c": "Afișează un tabel pe prima linie si coloana cu valori din 1 in 1 linia 2 și coloanal 2 cu valori din 2 în 2 etc",
-        "d": "Afișează elementele unui tablou"
-      },
+      "options": [
+        "a. Prima valoare a tabelului și a 5,25, etc",
+        "b. Afișează valori în ordine crescătoare pe prima linie si coloana cu valori din 1 în 1, linia 2 și coloanal 2 cu valori din 1 in 1 etc",
+        "c. Afișează un tabel pe prima linie si coloana cu valori din 1 in 1 linia 2 și coloanal 2 cu valori din 2 în 2 etc",
+        "d. Afișează elementele unui tablou"
+      ],
       "answer": "c"
     },
     {
       "question": "Modelul bazat pe elemente vide cu atribute (recomandat in documente data-heavy)",
-      "options": {
-        "a": "<Produs ID=\"PI\">Ipod<Pret>300 RON</Pret></Produs>",
-        "b": "<Produs ID=\"PI\" Pret=\"300 RON\" Denumire=\"Ipod\"/>",
-        "c": "<Produs>PI+Ipod+300 RON</Produs>",
-        "d": "<Produs><Denumire>Ipod</Denumire?<Identificator> PI</Identificator><Pret>300 RON</Preț></Produs>"
-      },
+      "options": [
+        "a. <Produs ID=\"PI\">Ipod<Pret>300 RON</Pret></Produs>",
+        "b. <Produs ID=\"PI\" Pret=\"300 RON\" Denumire=\"Ipod\"/>",
+        "c. <Produs>PI+Ipod+300 RON</Produs>",
+        "d. <Produs><Denumire>Ipod</Denumire?<Identificator> PI</Identificator><Pret>300 RON</Preț></Produs>"
+      ],
       "answer": "b"
     },
     {
       "question": "Codul sursă următor are rolul\n<select name=\"produs[]\" multiple>\n<option value=\"casetofon\"> Casetofon</option>\n<option value=\"CD\">CD</option>\n<option value=\"video\">Video</option></select>",
-      "options": {
-        "a": "De a opri execuția întregului script PHP",
-        "b": "De a transmite la server o valoare selectata",
-        "c": "De a transmite un sir de valori selectate",
-        "d": "De a verifica ce date se transmit sub forma de sir la serve-ul web"
-      },
+      "options": [
+        "a. De a opri execuția întregului script PHP",
+        "b. De a transmite la server o valoare selectata",
+        "c. De a transmite un sir de valori selectate",
+        "d. De a verifica ce date se transmit sub forma de sir la serve-ul web"
+      ],
       "answer": "b"
     },
     {
       "question": "Următoarea linie de cod:<form action=””>….</form>",
-      "options": {
-        "a": "Se transmit datele de un formular la server",
-        "b": "Se transmit datele între doua pagini web",
-        "c": "Se pot crea sesiuni pentru a transmite date de la o pagina web la alta",
-        "d": "Se transmit datele spre aceeași pagina"
-      },
+      "options": [
+        "a. Se transmit datele de un formular la server",
+        "b. Se transmit datele între doua pagini web",
+        "c. Se pot crea sesiuni pentru a transmite date de la o pagina web la alta",
+        "d. Se transmit datele spre aceeași pagina"
+      ],
       "answer": "d"
     },
     {
       "question": "Cum putem accesa datele trimise prin URL cu metoda POST?",
-      "options": {
-        "a": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $POST. un camp de formular numit „, var\" in formular la clic pe link-ul din pagina, se poate accesa valoarea astfel: $GET[\"var1\")",
-        "b": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $GET atașat unui link",
-        "c": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $POST. un camp de formular numit „var\" in formular la clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $POST[\"var\"];"
-      },
+      "options": [
+        "a. Pentru a accesa datele trimise în acest fel, se utilizează cu array $POST. un camp de formular numit „, var\" in formular la clic pe link-ul din pagina, se poate accesa valoarea astfel: $GET[\"var1\")",
+        "b. Pentru a accesa datele trimise în acest fel, se utilizează cu array $GET atașat unui link",
+        "c. Pentru a accesa datele trimise în acest fel, se utilizează cu array $POST. un camp de formular numit „var\" in formular la clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $POST[\"var\"];"
+      ],
       "answer": "c"
     },
     {
       "question": "Care va fi rezultatul acestui script?\n\n$a ='1';\n$b = &$a;\n$b=\"2$b\";\necho $a.\",\".$b;",
-      "options": {
-        "a": "20; 21",
-        "b": "1; 2",
-        "c": "21; 21",
-        "d": "21; 0"
-      },
+      "options": ["a. 20; 21", "b. 1; 2", "c. 21; 21", "d. 21; 0"],
       "answer": "c"
     },
     {
       "question": "Care este diferenta dintre mysqli_fetch_object() si mysqli_fetch_array()?",
-      "options": {
-        "a": "Nu exista diferente intre mysqli_fetch_object() si mysqli_fetch_array()",
-        "b": "Functia mysqli_fetch_object() colectează înregistrare care se potriveste in timp ce mysqli_fetch_array() colectează toate înregistrările care nu se potrivesc dintr-un tabel intr-un array.",
-        "c": "Functia mysqli_fetch_object() colectează prima înregistrare care se potriveste; mysqli_fetch_array() colectează toate înregistrările din tabel care se potrivesc intr-un array",
-        "d": "Returnează numărul de rânduri dintr-un set de rezultate"
-      },
+      "options": [
+        "a. Nu exista diferente intre mysqli_fetch_object() si mysqli_fetch_array()",
+        "b. Functia mysqli_fetch_object() colectează înregistrare care se potriveste in timp ce mysqli_fetch_array() colectează toate înregistrările care nu se potrivesc dintr-un tabel intr-un array.",
+        "c. Functia mysqli_fetch_object() colectează prima înregistrare care se potriveste; mysqli_fetch_array() colectează toate înregistrările din tabel care se potrivesc intr-un array",
+        "d. Returnează numărul de rânduri dintr-un set de rezultate"
+      ],
       "answer": "c"
     },
     {
-      "question": "Ce este seed in Laravel?",
-      "options": {
-        "a": "Laravel oferă un instrument pentru a include automat controller, in baza de date a controller.",
-        "b": "Laravel oferă un instrument pentru a include automat formulare, in bazele de formulare.",
-        "c": "Un generator de rapoarte in Laravel foarte controversat",
-        "d": "Laravel oferă un instrument pentru a include automat dummy data, in baza de date."
-      },
+      "question": "Ce este seed în Laravel?",
+      "options": [
+        "a. Laravel oferă un instrument pentru a include automat controller, în baza de date a controller.",
+        "b. Laravel oferă un instrument pentru a include automat formulare, în bazele de formulare.",
+        "c. Un generator de rapoarte în Laravel foarte controversat",
+        "d. Laravel oferă un instrument pentru a include automat dummy data, în baza de date."
+      ],
       "answer": "d"
     },
     {
-      "question": "In PHP, obiectele sunt trecute prin valoare sau prin referinta?",
-      "options": {
-        "a": "prin formular",
-        "b": "prin valoare",
-        "c": "prin link",
-        "d": "prin referinta"
-      },
+      "question": "În PHP, obiectele sunt trecute prin valoare sau prin referință?",
+      "options": [
+        "a. prin formular",
+        "b. prin valoare",
+        "c. prin link",
+        "d. prin referință"
+      ],
       "answer": "d"
     },
     {
-      "question": "In PHP, obiectele sunt transmise prin valoare sau prin referinta?",
-      "options": {
-        "a": "prin formular",
-        "b": "prin valoare",
-        "c": "prin link",
-        "d": "prin referinta"
-      },
+      "question": "În PHP, obiectele sunt transmise prin valoare sau prin referință?",
+      "options": [
+        "a. prin formular",
+        "b. prin valoare",
+        "c. prin link",
+        "d. prin referință"
+      ],
       "answer": "b"
     },
     {
       "question": "Care este definiția unei sesiuni?",
-      "options": {
-        "a": "O sesiune este un obiect logic care ne permite să păstrăm temporar datele colectate de pe mai multe pagini PHP",
-        "b": "O sesiune este o procedura stocată care ne permite să păstrăm temporare datele colectate pe mai multe pagini PHP",
-        "c": "O sesiune este un obiect logic care ne permite să păstrăm permanent datele colectate de pe mai multe pagini PHP",
-        "d": "O sesiune este un obiect logic care ne permite să păstrăm în tabelul coș a bazei de date datele colectate de pe mai multe pagini PHP"
-      },
+      "options": [
+        "a. O sesiune este un obiect logic care ne permite să păstrăm temporar datele colectate de pe mai multe pagini PHP",
+        "b. O sesiune este o procedură stocată care ne permite să păstrăm temporare datele colectate pe mai multe pagini PHP",
+        "c. O sesiune este un obiect logic care ne permite să păstrăm permanent datele colectate de pe mai multe pagini PHP",
+        "d. O sesiune este un obiect logic care ne permite să păstrăm în tabelul coș a bazei de date datele colectate de pe mai multe pagini PHP"
+      ],
       "answer": "a"
     },
     {
-      "question": "Ce este Ajax in PHP?",
-      "options": {
-        "a": "Este un constructor de interogari de baze de date care oferă o interfață convenabila și mai rapidă pentru a crea si rula interogari de baze de date.",
-        "b": "Ajax înseamnă JavaScript sincron și XML este o tehnica de dezvoltare web care este utilizata pentru a crea aplicații web sincrone.",
-        "c": "Ajax înseamnă JavaScript asincron și XML este o tehnica de dezvoltare web care este utilizata pentru a crea aplicații web asincrone.",
-        "d": "Este folosit pentru a încărca mai multe fișiere de vizualizare sablon; utilizatorul poate încărca, de asemenea, mai multe fișiere într-o singura vizualizare."
-      },
+      "question": "Ce este Ajax în PHP?",
+      "options": [
+        "a. Este un constructor de interogări de baze de date care oferă o interfață convenabilă și mai rapidă pentru a crea și rula interogări de baze de date.",
+        "b. Ajax înseamnă JavaScript sincron și XML este o tehnică de dezvoltare web care este utilizată pentru a crea aplicații web sincrone.",
+        "c. Ajax înseamnă JavaScript asincron și XML este o tehnică de dezvoltare web care este utilizată pentru a crea aplicații web asincrone.",
+        "d. Este folosit pentru a încărca mai multe fișiere de vizualizare sablon; utilizatorul poate încărca, de asemenea, mai multe fișiere într-o singură vizualizare."
+      ],
       "answer": "c"
     },
     {
       "question": "Cum se cunoaște numărul de rânduri returnate în setul de rezultate?",
-      "options": {
-        "a": "Functia mysqli_fetch_object() (sau $result -> fetch_object())) returnează numărul de rânduri dintr-un set de rezultate.",
-        "b": "Functia mysqli_fetch_assoc() (sau $mysqli_result -> fetch_assoc() )returnează numărul de rânduri dintr-un set de rezultate.",
-        "c": "Functia mysqli_num_rows() returnează numărul de rânduri dintr-un set de rezultate"
-      },
+      "options": [
+        "a. Funcția mysqli_fetch_object() (sau $result -> fetch_object())) returnează numărul de rânduri dintr-un set de rezultate.",
+        "b. Funcția mysqli_fetch_assoc() (sau $mysqli_result -> fetch_assoc() )returnează numărul de rânduri dintr-un set de rezultate.",
+        "c. Funcția mysqli_num_rows() returnează numărul de rânduri dintr-un set de rezultate"
+      ],
       "answer": "c"
     },
     {
-      "question": "Cum se poate trimite un antet HTTP către client, in PHP?",
-      "options": {
-        "a": "Functia header() este utilizata pentru a include un fișier în fișierul curent",
-        "b": "Functia header() este utilizata pentru a facilita comunicarea dintre session si cookie",
-        "c": "Functia header() este utilizata pentru a trimite antetul HTTP brut către un client înainte ca orice ieșire sa fie trimisa",
-        "d": "Functia header() este utilizata pentru a trimite antetul HTTP brut către un client indiferent de momentul de trimitere"
-      },
+      "question": "Cum se poate trimite un antet HTTP către client, în PHP?",
+      "options": [
+        "a. Funcția header() este utilizată pentru a include un fișier în fișierul curent",
+        "b. Funcția header() este utilizată pentru a facilita comunicarea dintre session și cookie",
+        "c. Funcția header() este utilizată pentru a trimite antetul HTTP brut către un client înainte ca orice ieșire să fie trimisă",
+        "d. Funcția header() este utilizată pentru a trimite antetul HTTP brut către un client indiferent de momentul de trimitere"
+      ],
       "answer": "c"
     },
     {
       "question": "Cum putem accesa datele trimise prin URL cu metoda GET?",
-      "options": {
-        "a": "Printr-un formular ce este conectat la baza de date din MySql",
-        "b": "Pentru a accesa datele trimise în acest fel, se utilizeaza array $ _POST.",
-        "c": "Ne conectam la MySql prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];",
-        "d": "Pentru a accesa datele trimise prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_ GET[\"var\"];"
-      },
+      "options": [
+        "a. Printr-un formular ce este conectat la baza de date din MySql",
+        "b. Pentru a accesa datele trimise în acest fel, se utilizează array $_POST.",
+        "c. Ne conectăm la MySql prin metoda GET, folosim array $_GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];",
+        "d. Pentru a accesa datele trimise prin metoda GET, folosim array $_GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];"
+      ],
       "answer": "c"
     },
     {
       "question": "Ce înseamnă domeniul variabilelor?",
-      "options": {
-        "a": "$_ENV este o matrice asociativă de variabile trimise către scriptul PHP curent prin metoda mediului",
-        "b": "Domeniul unei variabile este contextul în care nu este definite. In cea mai mare parte, toate variabilele PHP au un număr mare de domenii de aplicare. Acest scop unic se întinde pe fișiere include is required.",
-        "c": "Domeniul unei variabile este contextul în care este definită. In cea mai mare parte, toate variabilele PHP au un singur domeniu de aplicare. Acest scop unic se întinde pe fișiere include is required.",
-        "d": "$_SERVER este o matrice care include informatii create de serverul web, cum ar fi cai, anteturi și locații de script."
-      },
+      "options": [
+        "a. $_ENV este o matrice asociativă de variabile trimise către scriptul PHP curent prin metoda mediului",
+        "b. Domeniul unei variabile este contextul în care nu este definită. În cea mai mare parte, toate variabilele PHP au un număr mare de domenii de aplicare. Acest scop unic se întinde pe fișiere include is required.",
+        "c. Domeniul unei variabile este contextul în care este definită. În cea mai mare parte, toate variabilele PHP au un singur domeniu de aplicare. Acest scop unic se întinde pe fișiere include is required.",
+        "d. $_SERVER este o matrice care include informații create de serverul web, cum ar fi cai, anteturi și locații de script."
+      ],
       "answer": "c"
     },
     {
-      "question": "Ce se intelege, in Laravel prin Route?",
-      "options": {
-        "a": "Este un manager de pachete la nivel de aplicație pentru PHP. Oferă un format standard pentru gestionarea dependențelor și bibliotecilor de software PHP.",
-        "b": "O ruta este practic un punct final specificat de un URI (Uniform Resource Identifier); Acționează ca un indicator în aplicația Laravel. Cel mai frecvent, o ruta indică pur și simplu o metoda pe un controler și dictează, de asemenea, ce metode HTTP sunt capabile să atingă acel URI.",
-        "c": "Este un instrument de linie de comanda al Laravel. Oferă comenzi care ajuta sa se construiasca aplicația Laravel fără probleme.",
-        "d": "Este o interfata grafica prietenoasa."
-      },
+      "question": "Ce se înțelege, în Laravel, prin Route?",
+      "options": [
+        "a. Este un manager de pachete la nivel de aplicație pentru PHP. Oferă un format standard pentru gestionarea dependențelor și bibliotecilor de software PHP.",
+        "b. O rută este practic un punct final specificat de un URI (Uniform Resource Identifier); Acționează ca un indicator în aplicația Laravel. Cel mai frecvent, o rută indică pur și simplu o metodă pe un controler și dictează, de asemenea, ce metode HTTP sunt capabile să atingă acel URI.",
+        "c. Este un instrument de linie de comandă al Laravel. Oferă comenzi care ajută să se construiască aplicația Laravel fără probleme.",
+        "d. Este o interfață grafică prietenoasă."
+      ],
       "answer": "b"
     },
     {
-      "question": "Care este diferenta dintre bucla For si Foreach in limbajul de scripting php?",
-      "options": {
-        "a": "Foreach nu exista prin limbajul de scripting php",
-        "b": "Bucla For si bucla Foreach este utilizata pentru citirea elementelor matrice sau a setului de rezultate MySQL unde num arul de iteratii poate fi necunoscut.",
-        "c": "Bucla For si bucla Foreach este utilizata pentru iterarea unui număr predefinit de ori.",
-        "d": "Bucla For este utilizata în principal pentru iterarea unui număr predefinit de ori și bucla Foreach este utilizata pentru citirea elementelor matrice sau a setului de rezultate MySQL unde numarul de iteratii poate fi necunoscut."
-      },
+      "question": "Care este diferența dintre bucla For și Foreach în limbajul de scripting PHP?",
+      "options": [
+        "a. Foreach nu există în limbajul de scripting php",
+        "b. Bucla For și bucla Foreach este utilizată pentru citirea elementelor matricei sau a setului de rezultate MySQL unde numărul de iterații poate fi necunoscut.",
+        "c. Bucla For și bucla Foreach este utilizată pentru iterarea unui număr predefinit de ori.",
+        "d. Bucla For este utilizată în principal pentru iterarea unui număr predefinit de ori și bucla Foreach este utilizată pentru citirea elementelor matricei sau a setului de rezultate MySQL unde numărul de iterații poate fi necunoscut."
+      ],
       "answer": "d"
     },
     {
-      "question": "Cum pot interactiona PHP si HTML?",
-      "options": {
-        "a": "HTML Si PHP sunt doua limbaje diferite",
-        "b": "Se poate genera cod HTML din scripturi PHP si sa se transmita informatii de la HTML la PHP.",
-        "c": "Nu se pot transmite informații de la HTML la PHP dar se poate genera cod HTML din script PHP",
-        "d": "Nu se poate genera cod HTML din scripturi PHP"
-      },
+      "question": "Cum pot interacționa PHP și HTML?",
+      "options": [
+        "a. HTML și PHP sunt două limbaje diferite",
+        "b. Se poate genera cod HTML din scripturi PHP și să se transmită informații de la HTML la PHP.",
+        "c. Nu se pot transmite informații de la HTML la PHP, dar se poate genera cod HTML din script PHP",
+        "d. Nu se poate genera cod HTML din scripturi PHP"
+      ],
       "answer": "b"
     },
     {
       "question": "Cum putem accesa datele trimise prin URL cu metoda POST?",
-      "options": {
-        "a": "Pentru a accesa datele trimise în acest fel, se utilizeaza cu array $ _POST. un camp de formular numit “var\" in formular la clic pe link-ul din pagina, se poate accesa valoarea astfel: $_GET [\"var1\"];",
-        "b": "Pentru a accesa datele trimise în acest fel, se utilizează cu array $_GET atașat unui link",
-        "c": "Nu se poate utiliza pentru a transmite mesaje",
-        "d": "Pentru a accesa datele trimise în acest fel, se utilizeaza cu array $_POST. un camp de formular numit „var\" in formular la clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $_POST [\"var\"];"
-      },
+      "options": [
+        "a. Pentru a accesa datele trimise în acest fel, se utilizează cu array $_POST. Un camp de formular numit “var\" în formular. La clic pe link-ul din pagina, se poate accesa valoarea astfel: $_GET [\"var1\"];",
+        "b. Pentru a accesa datele trimise în acest fel, se utilizează cu array $_GET atașat unui link.",
+        "c. Nu se poate utiliza pentru a transmite mesaje",
+        "d. Pentru a accesa datele trimise în acest fel, se utilizează cu array $_POST. Un camp de formular numit „var\" în formular. La clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $_POST [\"var\"];"
+      ],
       "answer": "d"
     },
     {
       "question": "Ce este PDO?",
-      "options": {
-        "a": "PHP Data Objects este o extensie JS care utilizează o interfata de consistentă pentru accesarea bazei de date.Folosind PDO, un dezvoltator poate accesa doar MySql",
-        "b": "PHP Data Objects este o extensie PHP care se utilizează ca un formular ce permite la click pe submit să acceseze baza de date atasata.",
-        "c": "PHP Data Objects este o extensie Laravel care utilizează o interfata de consistent pentru accesarea bazei de date.Folosind PDO, un dezvoltator nu poate trece cu usurinta de la un server de baze de date la altul",
-        "d": "PHP Data Objects este o extensie PHP care utilizează o interfata de consistentă pentru accesarea bazei de date.Folosind PDO, un dezvoltator poate trece cu usurinta de la un server de baze de date la altul"
-      },
+      "options": [
+        "a. PHP Data Objects este o extensie JS care utilizează o interfata de consistentă pentru accesarea bazei de date. Folosind PDO, un dezvoltator poate accesa doar MySql",
+        "b. PHP Data Objects este o extensie PHP care se utilizează ca un formular ce permite la click pe submit să acceseze baza de date atașată.",
+        "c. PHP Data Objects este o extensie Laravel care utilizează o interfata de consistent pentru accesarea bazei de date. Folosind PDO, un dezvoltator nu poate trece cu ușurință de la un server de baze de date la altul",
+        "d. PHP Data Objects este o extensie PHP care utilizează o interfata de consistentă pentru accesarea bazei de date. Folosind PDO, un dezvoltator poate trece cu ușurință de la un server de baze de date la altul"
+      ],
       "answer": "d"
     },
     {
-      "question": "Cum functioneaza PHP?",
-      "options": {
-        "a": "PHP funcționează cu un client de web care livreaza pagini in cod curat php",
-        "b": "PHP este asincron și permite încărcarea doar a bucăți de cod care suporta modificarea la un moment de timp",
-        "c": "PHP funcționează cu un server web, este software-ul care livrează pagini web către lume. Solicitarea unui fișier php îl determina pe serverul web sa ruleze PHP și să trimită înapoi la browser cod curat HTML",
-        "d": "PHP nu știe sa interacționeze cu serverul MySql"
-      },
+      "question": "Cum funcționează PHP?",
+      "options": [
+        "a. PHP funcționează cu un client de web care livrează pagini in cod curat php",
+        "b. PHP este asincron și permite încărcarea doar a bucăți de cod care suporta modificarea la un moment de timp",
+        "c. PHP funcționează cu un server web, este software-ul care livrează pagini web către lume. Solicitarea unui fișier php îl determina pe serverul web sa ruleze PHP și să trimită înapoi la browser cod curat HTML",
+        "d. PHP nu știe să interacționeze cu serverul MySql"
+      ],
       "answer": "c"
     },
     {
       "question": "Ce efect are comanda PHP artisan make:controller ex --resource?",
-      "options": {
-        "a": "Aceasta comanda va genera un Model la resource /view ex.blade.php, modelul va contine o metoda pentru fiecare dintre operațiunile de resurse disponibile; se poate înregistra o ruta a resurselor care indica controlerul",
-        "b": "Route::resource(‘ex', ex::class);",
-        "c": "Aceasta comanda va genera un controler la app / Http / Controllers / ex.php. controlerul va contine o metoda pentru fiecare dintre operațiunile de resurse disponibile; se înregistra o ruta la resursele care indica controlerul",
-        "d": "Route::resource('ex', ex::class);",
-        "e": "Nu are nici un efect",
-        "f": "Aceasta comanda va genera un View la resource /view ex.blade.php, view-ul va contine o metoda pentru fiecare dintre operațiunile de resurse disponibile. Se poate înregistra o ruta a resurselor care indica controlerul",
-        "g": "Route::resource('ex', ex::class)"
-      },
-      "answer": "c, d"
+      "options": [
+        "a. Aceasta comanda va genera un Model la resource /view ex.blade.php, modelul va contine o metoda pentru fiecare dintre operatiunile de resurse disponibile; se poate inregistra o ruta a resurselor care indica controlerul",
+        "b. Route: :resource(‘ex', ex: : class);",
+        "c. Aceasta comanda va genera un controler la app / Http / Controllers / ex.php. controlerul va contine o metoda pentru fiecare dintre operatiunile de resurse disponibile; se inregistra o ruta la resursele care indica controlerul",
+        "d. Route: :resource('ex', ex: :class);",
+        "e. Nu are nici un efect",
+        "f. Aceasta comanda va genera un View la resource /view ex.blade.php, view-ul va contine o metoda pentru fiecare dintre operatiunile de resurse disponibile. Se poate inregistra o ruta a resurselor care indica controlerul"
+      ],
+      "answer": ["c", "d"]
     },
     {
       "question": "Ce este un \"array\"?",
-      "options": {
-        "a": "este o structura de date care contine un grup de elemente de tipuri diferite",
-        "b": "este o variabila ce reține o singura valoare la un moment dat și păstrează o singura valoare la un moment dat",
-        "c": "este o structura de date care contine un grup de elemente. In general, aceste elemente sunt toate de același tip de date, cum ar fi un număr întreg sau un șir.",
-        "d": "este un fisier ce contine date temporare"
-      },
+      "options": [
+        "a. Este o structură de date care conține un grup de elemente de tipuri diferite",
+        "b. Este o variabilă ce reține o singură valoare la un moment dat și păstrează o singură valoare la un moment dat",
+        "c. Este o structură de date care conține un grup de elemente. În general, aceste elemente sunt toate de același tip de date, cum ar fi un număr întreg sau un șir.",
+        "d. Este un fișier ce conține date temporare"
+      ],
       "answer": "c"
     },
     {
-      "question": "Cum verific daca o anumita variabila este goala?",
-      "options": {
-        "a": "cu functia empty() se verifica dacă o variabila are sau nu o valoare",
-        "b": "cu functia isset() este o matrice care include informații create de serverul web, cum ar fi cai, anteturi și locații de script.",
-        "c": "se verifica cu functia isset() dacă valoarea primită ca parametru este un antet",
-        "d": "functia empty() este o matrice care include informații create de serverul web, cum ar fi cai, anteturi și locații de script."
-      },
+      "question": "Cum verific dacă o anumită variabilă este goală?",
+      "options": [
+        "a. Cu funcția empty() se verifică dacă o variabilă are sau nu o valoare",
+        "b. Cu funcția isset() este o matrice care include informații create de serverul web, cum ar fi căi, antete și locații de script.",
+        "c. Se verifică cu funcția isset() dacă valoarea primită ca parametru este un antet",
+        "d. Funcția empty() este o matrice care include informații create de serverul web, cum ar fi căi, antete și locații de script."
+      ],
       "answer": "a"
     },
     {
       "question": "Ce înseamnă $_SERVER?",
-      "options": {
-        "a": "$_SERVER este o matrice asociativă a variabilelor trimise scriptului curent utilizand cookieurile HTTP.",
-        "b": "$_SERVER este o matrice asociativa care include referinte la toate variabilele care sunt definite în prezent în domeniul global al scriptului",
-        "c": "$_SERVER este o matrice care include informatii create de serverul web, cum ar fi cai, anteturi și locații de script.",
-        "d": "$_SERVER este o matrice asociativa compusa din element trimise catre scriptul curent prin metoda HTTP POST"
-      },
+      "options": [
+        "a. $_SERVER este o matrice asociativă a variabilelor trimise scriptului curent utilizând cookieurile HTTP.",
+        "b. $_SERVER este o matrice asociativă care include referințe la toate variabilele care sunt definite în prezent în domeniul global al scriptului",
+        "c. $_SERVER este o matrice care include informații create de serverul web, cum ar fi căi, antete și locații de script.",
+        "d. $_SERVER este o matrice asociativă compusă din elemente trimise către scriptul curent prin metoda HTTP POST"
+      ],
       "answer": "c"
     },
     {
       "question": "Ce este MVC?",
-      "options": {
-        "a": "reprezinta un sablon de proiectare a aplicatiilor care nu pot interactiona cu o baza de date",
-        "b": "reprezinta un sablon de proiectare a aplicatiilor, ce implica reunirea fizica a codului sursa.",
-        "c": "o aplicație compusă din bucăți mai mici care sunt reutilizabile, centralizate, accesibile, și se potrivesc împreuna cu blocuri expune un API abstract care le leaga. Cu totul organizat, ordonat în obiecte cu responsabilități specifice, costul de schimbare este în mod normal redus semnificativ, ceea ce este de fapt idea de la care s-a plecat.Nu se scrie codul de la zero ci se reutilizeaza și se adaugă cel de care este nevoie.",
-        "d": "aplicatie simpla creata dintr-o singura clasa organizata, ordonanța în obiecte cu responsabilități specifice, costul de schimbare este în mod normal ridicat semnificativ, ceea ce este de fapt idea de la care s-a plecat. Se scrie codul de la zero ci se reutilizeaza și se adaugă cel de care este nevoie."
-      },
+      "options": [
+        "a. Reprezintă un șablon de proiectare a aplicațiilor care nu pot interacționa cu o bază de date",
+        "b. Reprezintă un șablon de proiectare a aplicațiilor, ce implică reunirea fizică a codului sursă.",
+        "c. O aplicație compusă din bucăți mai mici care sunt reutilizabile, centralizate, accesibile, și se potrivesc împreună cu blocuri expune un API abstract care le leagă. Cu totul organizat, ordonat în obiecte cu responsabilități specifice, costul de schimbare este în mod normal redus semnificativ, ceea ce este de fapt idea de la care s-a plecat. Nu se scrie codul de la zero ci se reutilizează și se adaugă cel de care este nevoie.",
+        "d. Aplicație simplă creată dintr-o singură clasă organizată, ordonată în obiecte cu responsabilități specifice, costul de schimbare este în mod normal ridicat semnificativ, ceea ce este de fapt idea de la care s-a plecat. Se scrie codul de la zero ci se reutilizează și se adaugă cel de care este nevoie."
+      ],
       "answer": "c"
     },
     {
-      "question": "Ce se intelege prin Prepared Statements?",
-      "options": {
-        "a": "Au rol important în preluarea datelor obtinute de la utilizatorul unui website",
-        "b": "Instrucțiune necompilata a unei declarații SQL care poate fi executată de mai multe ori doar prin transmiterea datelor la server",
-        "c": "Este o precompilare a unei declarații SQL care poate fi executată de mai multe ori doar prin trimiterea datelor la server",
-        "d": "Nu se pot executa cu instrucțiuni SQL ci numai cu ORM"
-      },
+      "question": "Ce se înțelege prin Prepared Statements?",
+      "options": [
+        "a. Au rol important în preluarea datelor obținute de la utilizatorul unui website",
+        "b. Instrucțiune necompilată a unei declarații SQL care poate fi executată de mai multe ori doar prin transmiterea datelor la server",
+        "c. Este o precompilare a unei declarații SQL care poate fi executată de mai multe ori doar prin trimiterea datelor la server",
+        "d. Nu se pot executa cu instrucțiuni SQL ci numai cu ORM"
+      ],
       "answer": "c"
     },
     {
       "question": "Ce rol are $conn->query în codul sursa următor?\n$sql = \"INSERT INTO tabel(camp1, camp2, camp3) VALUES ('v1', 'v2', 'v3')\";\nif ($conn->query($sql) === TRUE){\n    echo \"Mesaj1\";\n} else {\n    echo \"Mesaj2 \" . $sql . \"<br>\" . $conn->error; }\n$conn-> close(); ?>",
-      "options": {
-        "a": "Are rol de a executa instrucțiunea sql CORECTA",
-        "b": "Are rol de a se conecta la MySql",
-        "c": "Are rol de a afișa pe ecran un mesaj",
-        "d": "Are rol de a afișa un table pe ecran"
-      },
+      "options": [
+        "a. Are rol de a executa instrucțiunea sql CORECTA",
+        "b. Are rol de a se conecta la MySql",
+        "c. Are rol de a afișa pe ecran un mesaj",
+        "d. Are rol de a afișa un table pe ecran"
+      ],
       "answer": "b"
     },
     {
       "question": "Ce este varchar in MySql?",
-      "options": {
-        "a": "Valorile din coloanele VARCHAR sunt șiruri de lungime variabila. Lungimea poate fi specificata ca valoare de la 0 la 65.535. Lungimea maxima efectiva a unui VARCHAR este conditionata de dimensiunea maxima a randului (65.535 octeti, care este partajată între toate coloanele) și de setul de caractere utilizat.",
-        "b": "Valorile din coloanele VARCHAR sunt șiruri de lungime fixă. Lungimea nu poate fi specificata ca valoare de la 0 la 65.535. Lungimea maxima efectiva a unui VARCHAR nu este conditionata de dimensiunea maxima a randului (65.535 octeti, care este partajată între toate coloanele) și de setul de caractere utilizat.",
-        "c": "Ne returnează valoarea variabilei primite ca parametru",
-        "d": "Ne returnează un mesaj de eroare în PHP când codul sursa nu se poate conecta la baza de date"
-      },
+      "options": [
+        "a. Valorile din coloanele VARCHAR sunt șiruri de lungime variabila. Lungimea poate fi specificata ca valoare de la 0 la 65.535. Lungimea maxima efectiva a unui VARCHAR este conditionata de dimensiunea maxima a randului (65.535 octeti, care este partajată între toate coloanele) și de setul de caractere utilizat.",
+        "b. Valorile din coloanele VARCHAR sunt șiruri de lungime fixă. Lungimea nu poate fi specificata ca valoare de la 0 la 65.535. Lungimea maxima efectiva a unui VARCHAR nu este conditionata de dimensiunea maxima a randului (65.535 octeti, care este partajată între toate coloanele) și de setul de caractere utilizat.",
+        "c. Ne returnează valoarea variabilei primite ca parametru",
+        "d. Ne returnează un mesaj de eroare în PHP când codul sursa nu se poate conecta la baza de date"
+      ],
       "answer": "b"
     },
     {
       "question": "Ce este Eloquent?",
-      "options": {
-        "a": "funcționează ca o interfață între Model și View",
-        "b": "defineste interfata grafica pentru înregistrările active",
-        "c": "este un ORM utilizat in Laravel; oferă implementarea simpla a inregistrarilor active, care lucrează cu baza de date; fiecare tabel de baze de date are modelul sau care interacționează cu tabelul",
-        "d": "motor de gestiune a rutelor"
-      },
+      "options": [
+        "a. funcționează ca o interfață între Model și View",
+        "b. defineste interfata grafica pentru înregistrările active",
+        "c. este un ORM utilizat in Laravel; oferă implementarea simpla a inregistrarilor active, care lucrează cu baza de date; fiecare tabel de baze de date are modelul sau care interacționează cu tabelul",
+        "d. motor de gestiune a rutelor"
+      ],
       "answer": "c"
     },
     {
       "question": "Explicați ce face următorul cod sursa\n<?php\n$servername = \"localhost\",\n$username = \"username\";\n$password = \"password\";\n$dbname = \"numeDB\";\nconn= mysqli_connect($servername, $username, $password,$dbname)\nmysqli _select_ db($database, \"DATABASE_NAME\") ;",
-      "options": {
-        "a": "Crearea conexiunii la PHP și selectarea tabelei",
-        "b": "Crearea conexiunii permanentă și selectarea indecsilor unei tabele",
-        "c": "Crearea conexiunii la MySql si selectarea bazei de date",
-        "d": "Selectarea inregistrarilor din tabelele bazei de date"
-      },
+      "options": [
+        "a. Crearea conexiunii la PHP și selectarea tabelei",
+        "b. Crearea conexiunii permanentă și selectarea indecsilor unei tabele",
+        "c. Crearea conexiunii la MySql si selectarea bazei de date",
+        "d. Selectarea inregistrarilor din tabelele bazei de date"
+      ],
       "answer": "c"
     },
     {
       "question": "După ce codul de mai jos este executat\n<?php\nfor($row=1;$row<=8;$row++){\n    for($s=1;$s<=$row;$s++)\n    {\n        echo \"*\";\n    }\n    Echo \" <br>\";\n}\n?>",
-      "options": {
-        "a": "Eroare",
-        "b": "Afișează 8 linii cu 2 stelute pe fiecare linie",
-        "c": "Afișează 8 linii: pe prima linie 1 steluta; pe a 2a linie 2 stelute, pe a 3a linie 3 stelute, ...., pe a 8a linie 8 stelute",
-        "d": "Afișează 8 linii cu o steluta pe fiecare linie"
-      },
+      "options": [
+        "a. Eroare",
+        "b. Afișează 8 linii cu 2 stelute pe fiecare linie",
+        "c. Afișează 8 linii: pe prima linie 1 steluta; pe a 2a linie 2 stelute, pe a 3a linie 3 stelute, ...., pe a 8a linie 8 stelute",
+        "d. Afișează 8 linii cu o steluta pe fiecare linie"
+      ],
       "answer": "c"
     },
     {
-      "question": "Explicați rolul lui @yield din codul următor:",
-      "options": {
-        "a": "Directiva @yield este utilizata pentru a afișa conținutul unei secțiuni date",
-        "b": "nu are niciun rol",
-        "c": "directive @yield, după cum sugerează și numele, defineste o secțiune de conținut",
-        "d": "directive @yield are acelasi rol cu directive @if"
-      },
+      "question": "Cod sursa:\n\n<?php\n$username='localhost',\n$username='username',\n$password='password'\n.\n. R:creare conexiune si verificarea ei afisand mesaje corespunzatoare\nExplicati rolul lui @yield din codul urmator\n<html>\n<head>\n<title>App Name - @yield(‘title’)</title>\n</head>\n<body>\n@section(‘sidebar’)\nThis is the master sidebar.\n@show\n<div class=”container”>\n@yield(‘content’)\n</div>\n</body>\n</html>",
+      "options": [
+        "a. Directiva @yield este utilizata pentru a afisa continutul unei sectiuni date",
+        "b. nu are niciun rol",
+        "c. directive @yield, dupa cum sugereaza si numele, defineste o sectiune de continut",
+        "d. directive @yield are acelasi rol cu directive @if"
+      ],
       "answer": "a"
     },
     {
-      "question": "Functia array() permite:",
-      "options": [],
-      "answer": "Functia array() permite omiterea parametrului opțional numit indice, existent în sintaxa acestuia."
-    },
-    {
-      "question": "Rolul sesiunilor este:",
-      "options": [],
-      "answer": "Rolul sesiunilor este de a reține informațiile care trebuie transmise de la o pagină la alta într-o aplicație PHP."
-    },
-    {
-      "question": "Model ViewController:",
-      "options": [],
-      "answer": "Model ViewController: Controller-ul este aceea entitate care preia datele de la model, eventual face anumite prelucrări asupra lor și le trimite View-ului."
-    },
-    {
-      "question": "Caracteristicile CMS sunt:",
-      "options": {
-        "a": "Instrument software instalat pe un server compus dintr-o serie de instrucțiuni scrise într-un limbaj de programare conectate la o baza de date … și care permite extragerea de informații din baza de date și prezentarea ei sub forma de conținut",
-        "b": "Limbaj de programare destinat implementării de pagini web; System de gestiune a bazelor de date;",
-        "c": "Instrument software instalat pe un client compus dintr-o serie de baze de date într-un limbaj de programare conectate la o baza de date … și care permite extragerea de informații din baza de date și prezentarea ei sub forma de conținut"
-      },
-      "answer": "a"
-    },
-    {
-      "question": "Care dintre următoarele afirmații este corectă despre constante vs variabile în PHP?",
-      "options": {
-        "a": "Odată ce constantele au fost setate, este posibil să nu fie redefinite sau nedefinite.",
-        "b": "Constantele pot fi definite și accesate oriunde fără a ține cont de regulile de acoperire a variabilelor.",
-        "c": "Niciuna dintre cele de mai sus.",
-        "d": "Ambele cele de mai sus."
-      },
-      "answer": "d"
-    },
-    {
-      "question": "Fragmentarea care NU are la baza operatorul de proiecție este fragmentare [EABD?]",
-      "options": {
-        "a": "Orizontală partiționată vertical",
-        "b": "Vertical partiționată orizontal",
-        "c": "Orizontala",
-        "d": "Derivata"
-      },
+      "question": "Functiile mysql_select() si mysql_connect_db() trebuie:",
+      "options": [
+        "a. Apelate intodeauna cand se termina lucrul cu bazele de date.",
+        "b. Afișează 8 linii cu 2 stelute pe fiecare linie",
+        "c. Afișează 8 linii: pe prima linie 1 steluta; pe a 2a linie 2 stelute, pe a 3a linie 3 stelute, ...., pe a 8a linie 8 stelute",
+        "d. Afișează 8 linii cu o steluta pe fiecare linie"
+      ],
       "answer": "c"
-    },
-    {
-      "question": "PHP $_REQUEST",
-      "options": [],
-      "answer": "Poate fi folosită pentru a obține valorile din mai multe formulare."
-    },
-    {
-      "question": "Care este rolul următoarei instrucțiuni?\n$db->query( \"SELECT * FROM table_name WHERE field = value\" ) -> first ()",
-      "options": [],
-      "answer": "Efectuarea interogărilor SELECT obține primul rând și returnează obiectul."
-    },
-    {
-      "question": "Serverul web are rolul de a servi fișiere stocate în rădăcina lui",
-      "options": [],
-      "answer": "Corect"
-    },
-    {
-      "question": "Ce afișează codul sursă următor:\n<?php\n$favcolor = \"red\";\nswitch ($favcolor) {\ncase \"rosu\":\necho \"Culoarea preferată este roșu!\";\nbreak;\ncase \"albastru\":\necho \"Culoarea preferată este albastru!\";\nbreak;\ncase \"verde\":\necho \"Culoarea preferată este verde!\";\nbreak;\ndefault: echo \"Culoarea preferată este alta!\";\n}?>",
-      "options": [],
-      "answer": "Culoarea preferată este alta"
-    },
-    {
-      "question": "Care este modul corect de a adăuga 1 la variabila $count?",
-      "options": [],
-      "answer": "$count += 1;"
-    },
-    {
-      "question": "Care este modul corect de a termina o instrucțiune PHP?",
-      "options": [],
-      "answer": ";"
-    },
-    {
-      "question": "Care este un mod corect de a adăuga un comentariu în PHP?",
-      "options": [],
-      "answer": "/*...*/"
-    },
-    {
-      "question": "Ce metodă este responsabilă pentru trimiterea întrebării la baza de date din MySQL?",
-      "options": [],
-      "answer": "query()"
-    },
-    {
-      "question": "Ce variabilă super globală conține informații despre anteturi, căi și locații script?",
-      "options": [],
-      "answer": "$_SERVER"
-    },
-    {
-      "question": "Cum creați un cookie în PHP?",
-      "options": [],
-      "answer": "setcookie();"
-    },
-    {
-      "question": "Cum obțineți informații dintr-un formular care este trimis utilizând metoda:",
-      "options": [],
-      "answer": "$_GET;"
-    },
-    {
-      "question": "În PHP puteți utiliza atât apostrof cât și ghilimele duble pentru șiruri:",
-      "options": [],
-      "answer": "True"
-    },
-    {
-      "question": "Funcțiile die() și exit() au același rol în cadrul unui script?",
-      "options": [],
-      "answer": "Da"
-    },
-    {
-      "question": "Care dintre aceste variabile are un nume ilegal?",
-      "options": [],
-      "answer": "$var-max"
-    },
-    {
-      "question": "Cum se scrie \"Salut lume!\" în PHP:",
-      "options": [],
-      "answer": "echo \"Salut lume\";"
-    },
-    {
-      "question": "Cum creați un șir în PHP?",
-      "options": [],
-      "answer": "$masini=array(\"Dacia\",\"Aro\",\"Trabant\");"
-    },
-    {
-      "question": "Ce valoare afișează următorul script:\n$nume='123';\n$$nume='456';\necho $nume.\" <br/> \";\necho ${'123'},\" <br/>",
-      "options": [],
-      "answer": "Afișează 123 456"
-    },
-    {
-      "question": "118. Cod sursa:\n\n<?php\n$username='localhost',\n$username='username',\n$password='password'\n.\n. R:creare conexiune si verificarea ei afisand mesaje corespunzatoare\nExplicati rolul lui @yield din codul urmator\n<html>\n<head>\n<title>App Name - @yield(‘title’)</title>\n</head>\n<body>\n@section(‘sidebar’)\nThis is the master sidebar.\n@show\n<div class=”container”>\n@yield(‘content’)\n</div>\n</body>\n</html>",
-      "options": {
-        "a": "Directiva @yield este utilizata pentru a afisa continutul unei sectiuni date",
-        "b": "nu are niciun rol",
-        "c": "directive @yield, dupa cum sugereaza si numele, defineste o sectiune de continut",
-        "d": "directive @yield are acelasi rol cu directive @if"
-      },
-      "answer": "a"
     }
   ]
 }
