@@ -111,7 +111,7 @@
       "answer": "c"
     },
     {
-      "question": "Ce afișează pe ecran: $x=array(10,12, 30, 10, 89, 90); Foreach($x as $y) Echo “Valoarea curenta este $y”;",
+      "question": "Ce afișează pe ecran: $x=array(10,12, 30, 10, 89, 90); i.Foreach($x as $y) ii. Echo “Valoarea curenta este $y”;",
       "options": [
         "a. Prima valoare a tabloului",
         "b. Indicii tabloului și valorile lor",
@@ -293,7 +293,7 @@
         "c. Memorarea datelor fără limita de timp",
         "d. A modifica datele atât timp cât o filă sau fereastra a browser-ului rămâne deschisă."
       ],
-      "answer": "b"
+      "answer": "c"
     },
     {
       "question": "O funcție în php este:",
@@ -327,10 +327,10 @@
     {
       "question": "PHP permite scrierea de coduri sursa cu rolul:",
       "options": [
-        "a. De a trimite de la browser spre server-ul web atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului",
-        "b. De trimite de la serverul WEB spre browser atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului",
-        "c. De a nu trimite de la browser spre serverul WEB atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului",
-        "d. De a trimite de la browser spre serverul WEB atât a informațiilor standard conținute în antetul SMTP al cererii cât și informații atât printr-un formular cât și ca șir de cereri adăugate la sfârșitul URL-ului"
+        "a. De a trimite de la browser spre server-ul web atat a informatiilor standard continute in antetul HTTP al cererii cat si informatii atat printr-un formular <FORM> cat si ca sir de cereri adaugate la sfarsitul URL-ului",
+        "b. De trimite de la serverul WEB spre browser atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular <FORM> cât și ca șir de cereri adăugate la sfârșitul URL-ului",
+        "c. De a nu trimite de la browser spre serverul WEB atât a informațiilor standard conținute în antetul HTTP al cererii cât și informații atât printr-un formular <FORM> cât și ca șir de cereri adăugate la sfârșitul URL-ului",
+        "d. De a trimite de la browser spre serverul WEB atât a informațiilor standard conținute în antetul SMTP al cererii cât și informații atât printr-un formular <FORM> cât și ca șir de cereri adăugate la sfârșitul URL-ului"
       ],
       "answer": "a"
     },
@@ -385,7 +385,7 @@
       "answer": "b"
     },
     {
-      "question": "Ce returnează următorul cod?\n‘$valoare’)?",
+      "question": "Ce returnează următorul cod?\\n<? $fructe=array(\"mere\",\"pere\")\\nWhile(list($index,$value=……)\\n{echo ‘$index’ -> ‘$valoare’);?>)?",
       "options": [
         "a. Mere pere",
         "b. 0->mere 1->pere",
@@ -405,7 +405,7 @@
       "answer": "a"
     },
     {
-      "question": "Ce face următorul cod PHP?\n<?php if(isset($_SESSION['var_sesiune'])) echo 'true'; else echo 'false'; ?>",
+      "question": "Ce face următorul cod PHP?\\n<?php if(isset($_SESSION['var_sesiune']))\\n echo 'true'; \\nelse echo 'false'; ?>",
       "options": [
         "a. Se tipărește true dacă var_sesiune sesiune a fost ștearsă",
         "b. Se atribuie o valoare lui var_sesiune",
@@ -485,7 +485,7 @@
       "answer": "c"
     },
     {
-      "question": "Dacă într-o pagină PHP aveți secvența de cod ... legătură de transmitere a informației spre o a doua pagină numită rezultat2.php:",
+      "question": "Dacă într-o pagină PHP aveți secvența de cod <a href=\"rezultat2.php?media<?php echo $media ?>\">legatura</a> De transmitere a informației spre o a doua pagină numită rezultat2.php",
       "options": [
         "a. Datele din pagina rezultat2.php se vor prelua în mod obligatoriu cu variabila superglobală $_POST",
         "b. Datele din pagina rezultat2.php se vor prelua în mod automat cu variabila superglobală $_POST",
@@ -547,7 +547,7 @@
         "c. Se specifică baza de date care se va accesa și se execută instrucțiunea select",
         "d. Se deschide o conexiune cu serverul web și apoi se folosește comanda insert"
       ],
-      "answer": "a"
+      "answer": "b"
     },
     {
       "question": "Conectarea cu succes la baza de date permite:",
@@ -605,7 +605,7 @@
         "b. De a verifica câte date se află memorate într-un tablou superglobal $_SESSION",
         "c. De a verifica dacă o variabilă este vidă sau nu"
       ],
-      "answer": "b"
+      "answer": "c"
     },
     {
       "question": "Un fișier PHP poate să conțină un formular care să transmită informația chiar către fișierul PHP care-l conține:",
@@ -655,7 +655,7 @@
         "c. Activare comportament",
         "d. Echilibrare comportament"
       ],
-      "answer": "d"
+      "answer": "a"
     },
     {
       "question": "Comportamentul Ajax.InPlaceEditor(marcator,url,optiuni) permite:",
