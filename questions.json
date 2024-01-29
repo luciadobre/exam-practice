@@ -744,7 +744,7 @@
       "answer": "a"
     },
     {
-      "question": "Ce face următorul script PHP:",
+      "question": "Ce face urmatorul script PHP:<?php\\n$n = 100;\\n$rez = 1;\\n\\nfor ($i = 1; $i <= $n; $i++) {\\n    if ($i % 2 == 0) {\\n        $rez = $rez * $i;\\n    }\\n}\\n\\necho \"Rezultatul este: $rez\";\\n?>",
       "options": {
         "a": "Produsul numerelor între 1 și 100",
         "b": "Calculeaza produsul a 10 numere introduce de la tastatura",
@@ -813,7 +813,7 @@
       "answer": "b"
     },
     {
-      "question": "Codul sursa următor are rolul",
+      "question": "Codul sursă următor are rolul\n<select name=\"produs[]\" multiple>\n<option value=\"casetofon\"> Casetofon</option>\n<option value=\"CD\">CD</option>\n<option value=\"video\">Video</option></select>",
       "options": {
         "a": "De a opri execuția întregului script PHP",
         "b": "De a transmite la server o valoare selectata",
@@ -823,7 +823,7 @@
       "answer": "b"
     },
     {
-      "question": "Următoarea linie de cod:",
+      "question": "Următoarea linie de cod:<form action=””>….</form>",
       "options": {
         "a": "Se transmit datele de un formular la server",
         "b": "Se transmit datele între doua pagini web",
@@ -936,7 +936,7 @@
         "a": "Printr-un formular ce este conectat la baza de date din MySql",
         "b": "Pentru a accesa datele trimise în acest fel, se utilizeaza array $ _POST.",
         "c": "Ne conectam la MySql prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];",
-        "d": "Pentru a accesa datele trimise prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_ GET[\"var\"]; CORECTA"
+        "d": "Pentru a accesa datele trimise prin metoda GET, folosim array $ _GET astfel: www.url.com?var=value $variable = $_ GET[\"var\"];"
       },
       "answer": "c"
     },
@@ -968,7 +968,7 @@
         "c": "Bucla For si bucla Foreach este utilizata pentru iterarea unui număr predefinit de ori.",
         "d": "Bucla For este utilizata în principal pentru iterarea unui număr predefinit de ori și bucla Foreach este utilizata pentru citirea elementelor matrice sau a setului de rezultate MySQL unde numarul de iteratii poate fi necunoscut."
       },
-      "answer": "b"
+      "answer": "d"
     },
     {
       "question": "Cum pot interactiona PHP si HTML?",
@@ -988,7 +988,7 @@
         "c": "Nu se poate utiliza pentru a transmite mesaje",
         "d": "Pentru a accesa datele trimise în acest fel, se utilizeaza cu array $_POST. un camp de formular numit „var\" in formular la clic pe trimitere la formularul de postare, se poate accesa valoarea astfel: $_POST [\"var\"];"
       },
-      "answer": "b"
+      "answer": "d"
     },
     {
       "question": "Ce este PDO?",
