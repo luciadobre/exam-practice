@@ -933,7 +933,7 @@
         "c. Ne conectăm la MySql prin metoda GET, folosim array $_GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];",
         "d. Pentru a accesa datele trimise prin metoda GET, folosim array $_GET astfel: www.url.com?var=value $variable = $_GET[\"var\"];"
       ],
-      "answer": "c"
+      "answer": "d"
     },
     {
       "question": "Ce înseamnă domeniul variabilelor?",
