@@ -877,16 +877,6 @@
       "answer": "d"
     },
     {
-      "question": "În PHP, obiectele sunt transmise prin valoare sau prin referință?",
-      "options": [
-        "a. prin formular",
-        "b. prin valoare",
-        "c. prin link",
-        "d. prin referință"
-      ],
-      "answer": "b"
-    },
-    {
       "question": "Care este definiția unei sesiuni?",
       "options": [
         "a. O sesiune este un obiect logic care ne permite să păstrăm temporar datele colectate de pe mai multe pagini PHP",
