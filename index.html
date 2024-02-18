@@ -90,14 +90,14 @@
 
             function loadQuestion() {
               const question = questions[currentQuestionIndex];
-              questionElement.textContent = question.question;
+              questionElement.innerHTML = question.question;
 
               optionsElement.innerHTML = "";
               answerElement.innerHTML = "";
 
               question.options.forEach((option) => {
                 const li = document.createElement("li");
-                li.textContent = option;
+                li.innerHTML = option;
                 optionsElement.appendChild(li);
               });
 

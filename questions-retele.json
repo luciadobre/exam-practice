@@ -1,0 +1,376 @@
+{
+  "questions": [
+    {
+      "question": "Ce reprezinta latimea de banda intr-o retea de calculatoare?",
+      "options": [
+        "a. Nici un raspuns nu este corect",
+        "b. Viteza cu care este transmis un pachet de date intre sursa si destinatie",
+        "c. Cantitatea de informatie care poate fi transferata intr-un interval de timp",
+        "d. Viteza maxima cu care poate circula un pachet de date, fara a se produce coliziuni",
+        "e. Distanta in metri intre sursa si destinatie"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care este rezultatul comenzii ipconfig/all",
+      "options": [
+        "a. Afisarea adresei IP a calculatorului gazda",
+        "b. Afisarea adresei IP a calculatorului 'gateway'",
+        "c. Afisarea adresei MAC a calculatorului gazda"
+      ],
+      "answer": "a,b,c"
+    },
+    {
+      "question": "Serviciul de transfer de fisiere se bazeaza pe",
+      "options": [
+        "a. Toate celelalte variante",
+        "b. Limbajul de marcare HTML",
+        "c. Protocolul HTTP",
+        "d. Protocolul FTP"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Care dintre nivelurile modelului ISO/OSI defineste adresarea logica",
+      "options": [
+        "a. Legatura de date",
+        "b. Transport",
+        "c. Sesiune",
+        "d. Retea",
+        "e. Fizic"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Antetul IP contine",
+      "options": [
+        "a. DHCP",
+        "b. Destination Port",
+        "c. Source Port",
+        "d. DOS",
+        "e. DNS",
+        "f. TOS",
+        "g. TTL"
+      ],
+      "answer": "b, c"
+    },
+    {
+      "question": "Securitatea in retelele fara fir NU se poate asigura prin",
+      "options": ["a. DNS", "b. WPA2", "c. WEP", "d. WPA"],
+      "answer": "a"
+    },
+    {
+      "question": "Printre topologiile fizice se regasesc",
+      "options": [
+        "a. Topologia bridge",
+        "b. Topologia magistrala",
+        "c. Topologia IP",
+        "d. Topologia ring",
+        "e. Topologia stea"
+      ],
+      "answer": "b,d,e"
+    },
+    {
+      "question": "HUB-ul trimite pachetele primite pe un port, spre toate celelalte porturi",
+      "options": ["a. True", "b. False"],
+      "answer": "a"
+    },
+    {
+      "question": "Care este rolul DNS-ului intr-o retea de calculatoare?",
+      "options": [
+        "a. Realizeaza asocierea intre un URL si adresa IP corespunzatoare",
+        "b. Partajeaza resurse pentru utilizatorii retelei",
+        "c. Asociaza denumiri unice fiecarei gazde dintr-o retea de calculatoare",
+        "d. Nu exista acest concept",
+        "e. Contine lista IP-urilor pentru routerele direct conectate la retea"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "172.20.0.255",
+      "options": [
+        "a. Nu este ip valid",
+        "b. Este un ip utilizat doar pentru masini virtuale",
+        "c. Este un ip de clasa A",
+        "d. Este un ip public",
+        "e. Este un ip privat"
+      ],
+      "answer": "c,e"
+    },
+    {
+      "question": "Care din urmatoarele URL-uri sunt scrise in forma corecta?",
+      "options": [
+        "a. http://11.11.11.11.1/hello.php",
+        "b. http://www.yahoo.com",
+        "c. http://10.11.11.2/index.html"
+      ],
+      "answer": "b, c"
+    },
+    {
+      "question": "Adresele de clasa B sunt folosite pentru retele de pana la",
+      "options": [
+        "a. 2 097 152 de calculatoare",
+        "b. 255 de calculatoare",
+        "c. 254 de calculatoare",
+        "d. 16 777 214 de calculatoare",
+        "e. 65534 de calculatoare"
+      ],
+      "answer": "e"
+    },
+    {
+      "question": "Dupa tipologia de transmisie retele de calculatoare se impart in",
+      "options": [
+        "a. Retele cu difuzare si retele client-server",
+        "b. Retele intranet si retele extranet",
+        "c. Retele cu difuzare si retele punct la punct",
+        "d. Retele private si retele publice"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Pentru o retea de 83 de calculatoare masca de retea este",
+      "options": [
+        "a. 255.255.255.128",
+        "b. 192.168.0.1",
+        "c. 127.0.0.1",
+        "d. 255.255.254.0",
+        "e. 255.255.248.0",
+        "f. 255.255.255.0",
+        "g. 255.255.0.0"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "UDP este un protocol neorientat pe conexiune",
+      "options": ["a. True", "b. False"],
+      "answer": "a"
+    },
+    {
+      "question": "Protocolul utilizat pentru determinarea adresei MAC a unei masini pe baza IP-ului este",
+      "options": ["a. DNS", "b. ICMP", "c. IP", "d. ARP"],
+      "answer": "d"
+    },
+    {
+      "question": "La configurarea manula a IP-urilor intr-o retea locala este obligatoriu de configurat",
+      "options": [
+        "a. NETMASK",
+        "b. Routing Name",
+        "c. DNS",
+        "d. Secondary DNS",
+        "e. GATEWAY",
+        "f. DHCP",
+        "g. IP"
+      ],
+      "answer": "a,e,g"
+    },
+    {
+      "question": "Transformati din baza 10 in baza 2 nr 9",
+      "options": ["a. 1001", "b. F", "c. 9", "d. 1010", "e. 1100"],
+      "answer": "a"
+    },
+    {
+      "question": "Ce reprezinta HTTP",
+      "options": [
+        "a. Un protocol specific fiecarei placi de retea a unui sistem",
+        "b. Un protocol pentru consultarea serverului de mail",
+        "c. Un protocol de transfer fisiere",
+        "d. Un protocol specific serviciului web",
+        "e. Un serviciu web"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Ce reprezinta TTL",
+      "options": [
+        "a. Timpul cat poate exista un pachet IP, inainte de a fi distrus",
+        "b. Nici un raspuns nu este corect",
+        "c. Timpul mediu, necesar parcurgerii de catre un pachet IP a distantei dintre doua rutere",
+        "d. Timpul maxim in care un pachet IP trebuie sa parcurga calea catre destinatie",
+        "e. Timpul optim, necesar transmiterii unui pachet IP catre destinatie"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Switch-ul sau comutatorul",
+      "options": [
+        "a. Este un echipament ce leaga mai multe IP-uri intre ele",
+        "b. Este un echipament ce leaga mai multe calculatoare intre ele",
+        "c. Este un echipament ce leaga mai multe retele intre ele",
+        "d. Nu Este un echipament ce se utilizeaza in retele de calculatoare",
+        "e. Este un echipament ce leaga mai multe sisteme de operare intre ele",
+        "f. Este un echipament ce leaga mai multe masini virtuale intre ele"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "IP-ul 192.168.325.255",
+      "options": [
+        "a. Nu este un ip valid",
+        "b. Este un IP din clasa A",
+        "c. Este un IP din clasa B",
+        "d. Se foloseste doar in retele locale",
+        "e. Se foloseste in retele private",
+        "f. Este de fapt o masca de retea",
+        "g. Este un ip de tipul IPv4",
+        "h. Este un ip din clasa C",
+        "i. Este un IP de tipul IPv6",
+        "j. Se foloseste in intranet"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Care din urmatoarele elemente reprezinta protocoale ale nivelului aplicatie",
+      "options": ["a. HTTP", "b. IPX", "c. IP"],
+      "answer": "a"
+    },
+    {
+      "question": "Este posibil pentru un router sa functioneze ca si switch, conectand 7 calculatoare?",
+      "options": [
+        "a. Nu este posibil",
+        "b. Da, insa doar daca are si capacitati wi-fi",
+        "c. Da, insa doar daca are numarul potrivit de interfete",
+        "d. Da, este posibil, indiferent de componenta hardware",
+        "e. Da, insa doar daca calculatoarele primesc IP-uri automat"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Modelul ISO/OSI contine nivelurile",
+      "options": [
+        "a. Fizic",
+        "b. IP",
+        "c. Retea",
+        "d. Internet",
+        "e. Sesiune",
+        "f. Legatura de date",
+        "g. Transport",
+        "h. Aplicatie",
+        "i. Prezentare",
+        "j. IPv4",
+        "k. TCP"
+      ],
+      "answer": "a, c, e f, g, h"
+    },
+    {
+      "question": "RSA",
+      "options": [
+        "a. Este primul algoritm de criptare realizat",
+        "b. Este o criptare simetrica",
+        "c. Este o criptare asimetrica"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Protocolul UDP este",
+      "options": [
+        "a. Sigur",
+        "b. Lent",
+        "c. Rapid",
+        "d. Orientat conexiune",
+        "e. Nesigur"
+      ],
+      "answer": "c, e"
+    },
+    {
+      "question": "Calculati in baza 2 101+101",
+      "options": ["a. 1010", "b. 1100", "c. F0F", "d. 202"],
+      "answer": "a"
+    },
+    {
+      "question": "Transformati din baza 16 in baza 10 nr A0",
+      "options": ["a. 160", "b. 100", "c. 10", "d. B0", "e. 11"],
+      "answer": "a"
+    },
+    {
+      "question": "TCP este un protocol neorientat pe conexiune",
+      "options": ["a. False", "b. True"],
+      "answer": "a"
+    },
+    {
+      "question": "Care din urmatoarele afirmatii este falsa",
+      "options": [
+        "a. MD5 este cel mai sigur protoc existent pe piata",
+        "b. Rezultatul functiei MD5 se stocheaza pe 16 octeti",
+        "c. MD5 este un protocol de asigurare a integritatii mesajelor"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Modelul TCP/IP are urmatoarele nivele",
+      "options": [
+        "a. Toate variantele",
+        "b. Nivelul legatura de date si nivelul acces la retea",
+        "c. Nivelul transport, nivelul sesiune si nivelul prezentare",
+        "d. Nivelul aplicatie, nivelul transport si nivelul internet"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Urmatoarele afirmatii sunt adevarate",
+      "options": [
+        "a. Retelele MAN nu fac parte din categoria retelelor metropolitan sau care deservesc un oras",
+        "b. Retelele PAN conecteaza orase, regiuni sau tari si au o extindere planetara",
+        "c. Retelele LAN sunt localizate intr-o singura cladire sau pe o distanta de cativa km"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Care dintre urmatoarele NU reprezinta un tip de atac",
+      "options": [
+        "a. Man in the middle",
+        "b. Firewall",
+        "c. Denial of service"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "In cadrul modelului ISO/OSI, bitii se regasesc in",
+      "options": [
+        "a. Nivelul internet",
+        "b. Nivelul TCP",
+        "c. Nivelul IP",
+        "d. Nivelul fizic",
+        "e. Nivelul retea"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "Alocarea automata a IP-urilor in retea se face utilizand",
+      "options": [
+        "a. TCP",
+        "b. SSH",
+        "c. DHCP",
+        "d. IP",
+        "e. Apache",
+        "f. UDP",
+        "g. DNS",
+        "h. FTP"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "Protocolul SMTP este un protocol pentru",
+      "options": [
+        "a. Posta electronica",
+        "b. Nume de domenii",
+        "c. Prelucrarea accesului unui calculator de la distanta",
+        "d. Transferul fisierelor"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Comanda netstat in linia de comanda afiseaza",
+      "options": [
+        "a. Nu exista aceasta comanda",
+        "b. Afiseaza sistemul de operare instalat pe calculator",
+        "c. Conexiunile TCP/IP si diverse statistici"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "HUB-ul trimite pachetele primite pe un port, spre toate celelalte porturi",
+      "options": ["a. True", "b. False"],
+      "answer": "a"
+    }
+  ]
+}
